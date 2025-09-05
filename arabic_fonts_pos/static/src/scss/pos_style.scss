@@ -1,0 +1,75 @@
+$body-font-size: .9rem;
+$body-font: NotoNaskhArabic;
+
+body  {
+    font-family: $body-font !important;
+    font-size: $body-font-size;
+}
+
+.pos .loader , .popover, .pos a.button,
+.pos textarea, .ui-dialog, .modal-dialog, .pos .modal-dialog .popup,
+.align-items-center.gap-2 span{
+    font-family: $body-font;
+}
+
+span.total, span.tax, .total, .product-price.price, .ms-auto,
+.fs-3 span, .o_rtl .accordion.position-relative.disabled span,
+.pos-receipt .pos-receipt-right-align, .align-items-center.gap-2 span{
+    unicode-bidi: plaintext;
+}
+
+.o_rtl .d-flex.align-items-center.justify-content-between.text-muted.border-start.ps-2 span{
+    unicode-bidi: plaintext;
+    text-align: right;
+    width: 7%;
+}
+
+.o_rtl .name-amount.d-flex.justify-content-between.w-100 span {
+    unicode-bidi: plaintext;
+    text-align: right;
+}
+
+.o_rtl button.accordion-header.dropdown-item span {
+    unicode-bidi: plaintext;
+    text-align: right;
+    width: 7.2%;
+}
+
+.amount, .payment-amount {
+    unicode-bidi: plaintext !important;
+}
+
+.o_rtl .col.end.p-2 div {
+    unicode-bidi: plaintext;
+    text-align: left;
+}
+.o_rtl .price.fw-bolder {
+    margin-right: 10px;
+    direction: rtl;
+}
+
+.o_rtl .payment-amount.px-3 {
+    padding-right: 4px !important;
+}
+
+.o_rtl .product-name.d-inline-block.flex-grow-1.fw-bolder.pe-1.text-truncate {
+    margin-left: 5px;
+}
+
+.o_rtl .price-tag {
+    direction: rtl;
+}
+
+.control-button {
+    font-size: small;
+}
+
+.fw-bold {
+    font-weight: 600 !important;
+    text-align: center;
+}
+
+span.text-wrap-categ.text-center.fs-5 {
+    margin-right: 3px;
+    margin-left: -3px;
+}

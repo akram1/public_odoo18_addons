@@ -1,0 +1,87 @@
+id,name,code,sequence,value1,value2,value3,cat_type,category_id
+partner_role_publisher,Publisher,,1,,,,tag,partner_role
+partner_role_author,Author,,2,,,,tag,partner_role
+partner_role_vendor,Vendor,,3,,,,tag,partner_role
+partner_role_visitor,Visitor,,4,,,,tag,partner_role
+partner_role_employee,Employee,,5,,,,tag,partner_role
+partner_role_customer,Customer,,6,,,,tag,partner_role
+partner_role_library,Library Visitor,,7,,,,tag,partner_role
+partner_role_museum,Museum Visitor,,8,,,,tag,partner_role
+partner_role_lab,Lab Beneficiary,,9,,,,tag,partner_role
+partner_role_license,License Operator,,10,,,,tag,partner_role
+partner_role_study,Study Beneficiary,,12,,,,tag,partner_role
+,,,,,,,,
+partner_ethnicity_1,Arab,arab,1,,,,tag,partner_ethnicity
+partner_ethnicity_2,Amerindian,am_indian,2,,,,tag,partner_ethnicity
+partner_ethnicity_3,Australaisa,aus_asian,3,,,,tag,partner_ethnicity
+partner_ethnicity_4,African,african,4,,,,tag,partner_ethnicity
+partner_ethnicity_5,Central Asia,c_asia,5,,,,tag,partner_ethnicity
+partner_ethnicity_6,East Asia,e_asia,6,,,,tag,partner_ethnicity
+partner_ethnicity_7,European,european,7,,,,tag,partner_ethnicity
+partner_ethnicity_8,Indian,indian,8,,,,tag,partner_ethnicity
+partner_ethnicity_9,Inuit,inuit,9,,,,tag,partner_ethnicity
+partner_ethnicity_10,Malagasy,malagasy,10,,,,tag,partner_ethnicity
+partner_ethnicity_11,Mestizo,mestizo,11,,,,tag,partner_ethnicity
+partner_ethnicity_12,Mulatto,mulatto,12,,,,tag,partner_ethnicity
+partner_ethnicity_13,Multi-race,multirace,13,,,,tag,partner_ethnicity
+,,,,,,,,
+partner_medical_aid_1,Eye Glasses,glasses,1,,,,tag,partner_medical_aid
+partner_medical_aid_2,Hearing Aids,hearing_aid,2,,,,tag,partner_medical_aid
+partner_medical_aid_3,Medical Crutch,medical_crutch,3,,,,tag,partner_medical_aid
+partner_medical_aid_4,Medical Chair,medical_chair,4,,,,tag,partner_medical_aid
+,,,,,,,,
+partner_marital_1,Single,single,1,,,,tag,partner_marital
+partner_marital_2,Married,married,2,,,,tag,partner_marital
+partner_marital_3,Divorced,divorced,3,,,,tag,partner_marital
+partner_marital_4,Widower,widower,4,,,,tag,partner_marital
+,,,,,,,,
+partner_blood_group_1,A+,A+,1,,,,tag,partner_blood_group
+partner_blood_group_2,A-,A-,2,,,,tag,partner_blood_group
+partner_blood_group_3,B+,B+,3,,,,tag,partner_blood_group
+partner_blood_group_4,B-,B-,4,,,,tag,partner_blood_group
+partner_blood_group_5,AB+,AB+,5,,,,tag,partner_blood_group
+partner_blood_group_6,AB-,AB-,6,,,,tag,partner_blood_group
+partner_blood_group_7,O+,O+,7,,,,tag,partner_blood_group
+partner_blood_group_8,O-,O-,8,,,,tag,partner_blood_group
+,,,,,,,,
+partner_religion_1,Islam,islam,1,,,,tag,partner_eligion
+partner_religion_2,Bahaee Faith,bahaee,2,,,,tag,partner_eligion
+partner_religion_3,Buddhism,buddhism,3,,,,tag,partner_eligion
+partner_religion_4,Caodaism,caodaism,4,,,,tag,partner_eligion
+partner_religion_5,Cheondoism,cheondoism,5,,,,tag,partner_eligion
+partner_religion_6,Christianity,christianity,6,,,,tag,partner_eligion
+partner_religion_7,Folk Religion,folk,7,,,,tag,partner_eligion
+partner_religion_8,Hinduism,hinduism,8,,,,tag,partner_eligion
+partner_religion_9,Hoahaoism,hoahaoism,9,,,,tag,partner_eligion
+partner_religion_10,Jainism,jainism,10,,,,tag,partner_eligion
+partner_religion_11,Judaism,judaism,11,,,,tag,partner_eligion
+partner_religion_12,Korean Shamanism,k_shamanism,12,,,,tag,partner_eligion
+partner_religion_13,Shinto,shinto,13,,,,tag,partner_eligion
+partner_religion_14,Sikhism,sikhism,14,,,,tag,partner_eligion
+partner_religion_15,Taoism,taoism,15,,,,tag,partner_eligion
+partner_religion_16,Tenriism,tenriism,16,,,,tag,partner_eligion
+,,,,,,,,
+partner_person_sex_male,Male,male,1,,,,tag,partner_sex
+partner_person_sex_female,Female,female,2,,,,tag,partner_sex
+,,,,,,,,
+partner_hair_color_amber,Amber,amber,1,,,,tag,employe_hair_color
+partner_hair_color_black,Black,black,2,,,,tag,employe_hair_color
+partner_hair_color_blond,Blond,blond,4,,,,tag,employe_hair_color
+partner_hair_color_blue,Blue,blue,5,,,,tag,employe_hair_color
+partner_hair_color_cyan,Cyan,cyan,10,,,,tag,employe_hair_color
+partner_hair_color_gray,Gray,gray,28,,,,tag,employe_hair_color
+partner_hair_color_green,Green,green,47,,,,tag,employe_hair_color
+partner_hair_color_hazel,Hazel,hazel,52,,,,tag,employe_hair_color
+partner_hair_color_orange,Orange,orange,94,,,,tag,employe_hair_color
+partner_hair_color_purple,Purple,purple,114,,,,tag,employe_hair_color
+partner_hair_color_pink,Pink,pink,112,,,,tag,employe_hair_color
+partner_hair_color_red,Red,red,115,,,,tag,employe_hair_color
+partner_hair_color_white,White,white,,,,,tag,employe_hair_color
+partner_hair_color_yellow,Yellow,yellow,125,,,,tag,employe_hair_color
+partner_hair_color_brown,Brown,brown,127,,,,tag,employe_hair_color
+,,,,,,,,
+partner_eye_black,Black,black,2,,,,tag,employe_eye_color
+partner_eye_blue,Blue,blue,5,,,,tag,employe_eye_color
+partner_eye_gray,Gray,gray,28,,,,tag,employe_eye_color
+partner_eye_green,Green,green,47,,,,tag,employe_eye_color
+partner_eye_brown,Brown,brown,127,,,,tag,employe_eye_color

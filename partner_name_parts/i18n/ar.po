@@ -1,0 +1,504 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* partner_person
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-12 21:24+0000\n"
+"PO-Revision-Date: 2020-08-13 00:28+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"Language: ar\n"
+"X-Generator: Poedit 2.3.1\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#. module: partner_person
+#: model:ir.model.fields.selection,name:partner_person.selection__res_partner__blood_group__ab+
+msgid "AB+"
+msgstr "AB+"
+
+#. module: partner_person
+#: model:ir.model.fields.selection,name:partner_person.selection__res_partner__blood_group__ab-
+msgid "AB-"
+msgstr "AB-"
+
+#. module: partner_person
+#: model:ir.model.fields,field_description:partner_person.field_res_partner__age_days
+#: model:ir.model.fields,field_description:partner_person.field_res_users__age_days
+msgid "Age days"
+msgstr "العمر يوم"
+
+#. module: partner_person
+#: model:ir.model.fields,field_description:partner_person.field_res_partner__age_months
+#: model:ir.model.fields,field_description:partner_person.field_res_users__age_months
+msgid "Age months"
+msgstr "العمر شهر"
+
+#. module: partner_person
+#: model:ir.model.fields,field_description:partner_person.field_res_partner__age_years
+#: model:ir.model.fields,field_description:partner_person.field_res_users__age_years
+msgid "Age years"
+msgstr "العمر سنة"
+
+#. module: partner_person
+#: model:ir.model.fields.selection,name:partner_person.selection__res_partner__eye_color__amber
+msgid "Amber"
+msgstr "عنبر"
+
+#. module: partner_person
+#: model:ir.model.fields.selection,name:partner_person.selection__res_partner__ethnicity__am_indian
+msgid "Amerindian"
+msgstr "هنود امريكيين"
+
+#. module: partner_person
+#: model:ir.model.fields.selection,name:partner_person.selection__res_partner__ethnicity__arab
+msgid "Arab"
+msgstr "عربي"
+
+#. module: partner_person
+#: model:ir.model.fields.selection,name:partner_person.selection__res_partner__ethnicity__aus_asian
+msgid "Australaisa"
+msgstr "أستراليا"
+
+#. module: partner_person
+#: model:ir.model.fields.selection,name:partner_person.selection__res_partner__religion__baha
+msgid "Bahá'í Faith"
+msgstr "البهائية"
+
+#. module: partner_person
+#: model:ir.model.fields,field_description:partner_person.field_res_partner__birth_date
+#: model:ir.model.fields,field_description:partner_person.field_res_users__birth_date
+msgid "Birth Date"
+msgstr "تاريخ الميلاد"
+
+#. module: partner_person
+#: code:addons/partner_person/models/res_partner.py:0
+#, python-format
+msgid "Birth Date can't be greater than current date!"
+msgstr "لا يمكن أن يكون تاريخ الميلاد أكبر من التاريخ الحالي !"
+
+#. module: partner_person
+#: code:addons/partner_person/models/res_partner.py:0
+#, python-format
+msgid "Birth Date can't be greater than death date!"
+msgstr "لا يمكن أن يكون تاريخ الميلاد أكبر من تاريخ الوفاة !"
+
+#. module: partner_person
+#: model_terms:ir.ui.view,arch_db:partner_person.personal_information
+msgid "Birth Information"
+msgstr "بيانات الميلاد"
+
+#. module: partner_person
+#: model:ir.model.fields.selection,name:partner_person.selection__res_partner__ethnicity__black
+#: model:ir.model.fields.selection,name:partner_person.selection__res_partner__eye_color__black
+#: model:ir.model.fields.selection,name:partner_person.selection__res_partner__hair_color__black
+msgid "Black"
+msgstr "أسود"
+
+#. module: partner_person
+#: model:ir.model.fields,field_description:partner_person.field_res_partner__blood_group
+#: model:ir.model.fields,field_description:partner_person.field_res_users__blood_group
+msgid "Blood Group"
+msgstr "فصيلة الدم"
+
+#. module: partner_person
+#: model:ir.model.fields.selection,name:partner_person.selection__res_partner__eye_color__blue
+msgid "Blue"
+msgstr "أزرق"
+
+#. module: partner_person
+#: model:ir.model.fields.selection,name:partner_person.selection__res_partner__eye_color__brown
+msgid "Brown"
+msgstr "بني"
+
+#. module: partner_person
+#: model:ir.model.fields.selection,name:partner_person.selection__res_partner__religion__buddhism
+msgid "Buddhism"
+msgstr "البوذية"
+
+#. module: partner_person
+#: model:ir.model.fields.selection,name:partner_person.selection__res_partner__religion__caodaism
+msgid "Caodaism"
+msgstr "الكاودية"
+
+#. module: partner_person
+#: model:ir.model.fields.selection,name:partner_person.selection__res_partner__ethnicity__c_asia
+msgid "Centeral Asia"
+msgstr "آسيا الوسطى"
+
+#. module: partner_person
+#: model:ir.model.fields.selection,name:partner_person.selection__res_partner__religion__cheondoism
+msgid "Cheondoism"
+msgstr "تشوندو"
+
+#. module: partner_person
+#: model:ir.model.fields.selection,name:partner_person.selection__res_partner__religion__christianity
+msgid "Christianity"
+msgstr "المسيحية"
+
+#. module: partner_person
+#: model:ir.model.fields,field_description:partner_person.field_res_partner__city_birth
+#: model:ir.model.fields,field_description:partner_person.field_res_users__city_birth
+msgid "City/Town"
+msgstr "المدينة"
+
+#. module: partner_person
+#: model:ir.model,name:partner_person.model_res_partner
+msgid "Contact"
+msgstr "جهة الاتصال"
+
+#. module: partner_person
+#: model:ir.model.fields,field_description:partner_person.field_res_partner__country_birth
+#: model:ir.model.fields,field_description:partner_person.field_res_users__country_birth
+msgid "Country"
+msgstr "الدولة"
+
+#. module: partner_person
+#: model:ir.model.fields.selection,name:partner_person.selection__res_partner__hair_color__dark_blond
+msgid "Dark Blond"
+msgstr "أصفر غامق"
+
+#. module: partner_person
+#: model:ir.model.fields.selection,name:partner_person.selection__res_partner__hair_color__dark_brown
+msgid "Dark Brown"
+msgstr "بني غامق"
+
+#. module: partner_person
+#: model:ir.model.fields,field_description:partner_person.field_res_partner__death_date
+#: model:ir.model.fields,field_description:partner_person.field_res_users__death_date
+msgid "Death Date"
+msgstr "تاريخ الوفاة"
+
+#. module: partner_person
+#: code:addons/partner_person/models/res_partner.py:0
+#, python-format
+msgid "Death Date can't be greater than current date!"
+msgstr "لا يمكن أن يكون تاريخ الوفاة أكبر من التاريخ الحالي !"
+
+#. module: partner_person
+#: model_terms:ir.ui.view,arch_db:partner_person.personal_information
+msgid "Descriptions"
+msgstr "الاوصاف"
+
+#. module: partner_person
+#: model:ir.model.fields,field_description:partner_person.field_res_partner__district_birth
+#: model:ir.model.fields,field_description:partner_person.field_res_users__district_birth
+msgid "District"
+msgstr "المديرية"
+
+#. module: partner_person
+#: model:ir.model.fields.selection,name:partner_person.selection__res_partner__marital__divorced
+msgid "Divorced"
+msgstr "مطلّق"
+
+#. module: partner_person
+#: model:ir.model.fields.selection,name:partner_person.selection__res_partner__ethnicity__e_asia
+msgid "East Asia"
+msgstr "شرق اسيا"
+
+#. module: partner_person
+#: model:ir.model.fields,field_description:partner_person.field_res_partner__emergency_contact
+#: model:ir.model.fields,field_description:partner_person.field_res_users__emergency_contact
+msgid "Emergency Contact"
+msgstr "جهة الاتصال في حالة الطوارئ"
+
+#. module: partner_person
+#: model:ir.model.fields,field_description:partner_person.field_res_partner__emergency_phone
+#: model:ir.model.fields,field_description:partner_person.field_res_users__emergency_phone
+msgid "Emergency Phone"
+msgstr "هاتف الطوارئ"
+
+#. module: partner_person
+#: model:ir.model.fields,field_description:partner_person.field_res_partner__ethnicity
+#: model:ir.model.fields,field_description:partner_person.field_res_users__ethnicity
+msgid "Ethnicity"
+msgstr "الأصل العرقي"
+
+#. module: partner_person
+#: model:ir.model.fields.selection,name:partner_person.selection__res_partner__ethnicity__european
+msgid "European"
+msgstr "أوروبية"
+
+#. module: partner_person
+#: model_terms:ir.ui.view,arch_db:partner_person.personal_information
+msgid "Extra Contact"
+msgstr "تواصل اضافي"
+
+#. module: partner_person
+#: model:ir.model.fields,field_description:partner_person.field_res_partner__eye_color
+#: model:ir.model.fields,field_description:partner_person.field_res_users__eye_color
+msgid "Eye Color"
+msgstr "لون العيون"
+
+#. module: partner_person
+#: model:ir.model.fields,field_description:partner_person.field_res_partner__eye_glasses
+#: model:ir.model.fields,field_description:partner_person.field_res_users__eye_glasses
+msgid "Eye Glasses?"
+msgstr "يرتدي نظارات؟"
+
+#. module: partner_person
+#: model:ir.model.fields,field_description:partner_person.field_res_partner__father
+#: model:ir.model.fields,field_description:partner_person.field_res_users__father
+msgid "Father"
+msgstr "الاب"
+
+#. module: partner_person
+#: model:ir.model.fields.selection,name:partner_person.selection__res_partner__gender__female
+msgid "Female"
+msgstr "أنثى"
+
+#. module: partner_person
+#: model:ir.model.fields.selection,name:partner_person.selection__res_partner__religion__folk
+msgid "Folk religion"
+msgstr "دين شعبي"
+
+#. module: partner_person
+#: model:ir.model.fields,field_description:partner_person.field_res_partner__gender
+#: model:ir.model.fields,field_description:partner_person.field_res_users__gender
+msgid "Gender"
+msgstr "الجنس"
+
+#. module: partner_person
+#: model:ir.model.fields.selection,name:partner_person.selection__res_partner__eye_color__gray
+msgid "Gray"
+msgstr "رمادي"
+
+#. module: partner_person
+#: model:ir.model.fields.selection,name:partner_person.selection__res_partner__hair_color__gray_white
+msgid "Gray and White"
+msgstr "رمادي ابيض"
+
+#. module: partner_person
+#: model:ir.model.fields.selection,name:partner_person.selection__res_partner__eye_color__green
+msgid "Green"
+msgstr "أخضر"
+
+#. module: partner_person
+#: model:ir.model.fields,field_description:partner_person.field_res_partner__hair_color
+#: model:ir.model.fields,field_description:partner_person.field_res_users__hair_color
+msgid "Hair Color"
+msgstr "لون الشعر"
+
+#. module: partner_person
+#: model:ir.model.fields.selection,name:partner_person.selection__res_partner__eye_color__hazel
+msgid "Hazel"
+msgstr "بني فاتح"
+
+#. module: partner_person
+#: model:ir.model.fields,field_description:partner_person.field_res_partner__hearing_aids
+#: model:ir.model.fields,field_description:partner_person.field_res_users__hearing_aids
+msgid "Hearing Aids?"
+msgstr "يرتدي سماعات؟"
+
+#. module: partner_person
+#: model:ir.model.fields,field_description:partner_person.field_res_partner__height
+#: model:ir.model.fields,field_description:partner_person.field_res_users__height
+msgid "Height"
+msgstr "الارتفاع"
+
+#. module: partner_person
+#: model:ir.model.fields,help:partner_person.field_res_partner__height
+#: model:ir.model.fields,help:partner_person.field_res_users__height
+msgid "Height in cm"
+msgstr "الارتفاع سم"
+
+#. module: partner_person
+#: model:ir.model.fields.selection,name:partner_person.selection__res_partner__religion__hinduism
+msgid "Hinduism"
+msgstr "الهندوسية"
+
+#. module: partner_person
+#: model:ir.model.fields.selection,name:partner_person.selection__res_partner__religion__hoahaoism
+msgid "Hoahaoism"
+msgstr "الهاوهاوية"
+
+#. module: partner_person
+#: model:ir.model.fields.selection,name:partner_person.selection__res_partner__ethnicity__indian
+msgid "Indian"
+msgstr "هندي"
+
+#. module: partner_person
+#: model:ir.model.fields.selection,name:partner_person.selection__res_partner__ethnicity__inuit
+msgid "Inuit"
+msgstr "اسكيمو"
+
+#. module: partner_person
+#: model:ir.model.fields.selection,name:partner_person.selection__res_partner__religion__islam
+msgid "Islam"
+msgstr "الاسلام"
+
+#. module: partner_person
+#: model:ir.model.fields.selection,name:partner_person.selection__res_partner__religion__jainism
+msgid "Jainism"
+msgstr "اليانية"
+
+#. module: partner_person
+#: model:ir.model.fields.selection,name:partner_person.selection__res_partner__religion__judaism
+msgid "Judaism"
+msgstr "اليهودية"
+
+#. module: partner_person
+#: model:ir.model.fields.selection,name:partner_person.selection__res_partner__religion__k_shamanism
+msgid "Korean shamanism"
+msgstr "الشامانية الكورية"
+
+#. module: partner_person
+#: model:ir.model.fields.selection,name:partner_person.selection__res_partner__hair_color__light_blond
+msgid "Light Blond"
+msgstr "اصفر فاح"
+
+#. module: partner_person
+#: model:ir.model.fields.selection,name:partner_person.selection__res_partner__hair_color__light_brown
+msgid "Light Brown"
+msgstr "بني فاتح"
+
+#. module: partner_person
+#: model:ir.model.fields.selection,name:partner_person.selection__res_partner__ethnicity__malagasy
+msgid "Malagasy"
+msgstr "مدغشقر"
+
+#. module: partner_person
+#: model:ir.model.fields.selection,name:partner_person.selection__res_partner__gender__male
+msgid "Male"
+msgstr "ذكر"
+
+#. module: partner_person
+#: model:ir.model.fields,field_description:partner_person.field_res_partner__marital
+#: model:ir.model.fields,field_description:partner_person.field_res_users__marital
+msgid "Marital Status"
+msgstr "الحالة الاجتماعية"
+
+#. module: partner_person
+#: model:ir.model.fields.selection,name:partner_person.selection__res_partner__marital__married
+msgid "Married"
+msgstr "متزوج"
+
+#. module: partner_person
+#: model:ir.model.fields.selection,name:partner_person.selection__res_partner__ethnicity__mestizo
+msgid "Mestizo"
+msgstr "لاتيني امريكي"
+
+#. module: partner_person
+#: model:ir.model.fields,field_description:partner_person.field_res_partner__mother
+#: model:ir.model.fields,field_description:partner_person.field_res_users__mother
+msgid "Mother"
+msgstr "الام"
+
+#. module: partner_person
+#: model:ir.model.fields.selection,name:partner_person.selection__res_partner__ethnicity__mulatto
+msgid "Mulatto"
+msgstr "مولاتو"
+
+#. module: partner_person
+#: model:ir.model.fields.selection,name:partner_person.selection__res_partner__ethnicity__multirace
+msgid "Multirace"
+msgstr "متعدد الاعراق"
+
+#. module: partner_person
+#: model:ir.model.fields,field_description:partner_person.field_res_partner__nationality
+#: model:ir.model.fields,field_description:partner_person.field_res_users__nationality
+msgid "Nationality"
+msgstr "الجنسية"
+
+#. module: partner_person
+#: model:ir.model.fields.selection,name:partner_person.selection__res_partner__hair_color__no_hair
+msgid "No Hair"
+msgstr "أصلع"
+
+#. module: partner_person
+#: model_terms:ir.ui.view,arch_db:partner_person.personal_information
+msgid "Personal Information"
+msgstr "بيانات شخصية"
+
+#. module: partner_person
+#: model:ir.model.fields.selection,name:partner_person.selection__res_partner__hair_color__red
+msgid "Red"
+msgstr "أحمر"
+
+#. module: partner_person
+#: model:ir.model.fields.selection,name:partner_person.selection__res_partner__eye_color__red_violet
+msgid "Red and Violet"
+msgstr "احمر بنفسجي"
+
+#. module: partner_person
+#: model:ir.model.fields,field_description:partner_person.field_res_partner__religion
+#: model:ir.model.fields,field_description:partner_person.field_res_users__religion
+msgid "Religion"
+msgstr "الديانة"
+
+#. module: partner_person
+#: model:ir.model.fields.selection,name:partner_person.selection__res_partner__religion__shinto
+msgid "Shinto"
+msgstr "شينتو"
+
+#. module: partner_person
+#: model:ir.model.fields.selection,name:partner_person.selection__res_partner__religion__sikhism
+msgid "Sikhism"
+msgstr "السيخية"
+
+#. module: partner_person
+#: model:ir.model.fields.selection,name:partner_person.selection__res_partner__marital__single
+msgid "Single"
+msgstr "أعزب"
+
+#. module: partner_person
+#: model:ir.model.fields,field_description:partner_person.field_res_partner__sms
+#: model:ir.model.fields,field_description:partner_person.field_res_users__sms
+msgid "Sms"
+msgstr "رقم رسائل قصيرة"
+
+#. module: partner_person
+#: model_terms:ir.ui.view,arch_db:partner_person.personal_information
+msgid "Social"
+msgstr "بيانات اجتماعية"
+
+#. module: partner_person
+#: model:ir.model.fields,field_description:partner_person.field_res_partner__state_birth
+#: model:ir.model.fields,field_description:partner_person.field_res_users__state_birth
+msgid "State"
+msgstr "الحالة"
+
+#. module: partner_person
+#: model:ir.model.fields.selection,name:partner_person.selection__res_partner__religion__taoism
+msgid "Taoism"
+msgstr "التاوية"
+
+#. module: partner_person
+#: model:ir.model.fields.selection,name:partner_person.selection__res_partner__religion__tenriism
+msgid "Tenriism"
+msgstr "التنرية"
+
+#. module: partner_person
+#: model:ir.model.fields,field_description:partner_person.field_res_partner__weight
+#: model:ir.model.fields,field_description:partner_person.field_res_users__weight
+msgid "Weight"
+msgstr "الوزن"
+
+#. module: partner_person
+#: model:ir.model.fields,help:partner_person.field_res_partner__weight
+#: model:ir.model.fields,help:partner_person.field_res_users__weight
+msgid "Weight in kg"
+msgstr "الوزن كجم"
+
+#. module: partner_person
+#: model:ir.model.fields,field_description:partner_person.field_res_partner__whatsapp
+#: model:ir.model.fields,field_description:partner_person.field_res_users__whatsapp
+msgid "Whatsapp"
+msgstr "رقم واتسآب"
+
+#. module: partner_person
+#: model:ir.model.fields.selection,name:partner_person.selection__res_partner__marital__widower
+msgid "Widower"
+msgstr "أرمل"
+
+#. module: partner_person
+#: model:ir.model.fields,field_description:partner_person.field_res_partner__zone_birth
+#: model:ir.model.fields,field_description:partner_person.field_res_users__zone_birth
+msgid "Zone"
+msgstr "العزلة"

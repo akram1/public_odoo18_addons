@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<odoo>
+    <data noupdate="1">
+        <record id="partner_role" model="tag.category">
+            <field name="name">Role</field>
+            <field name="code">partner_role</field>
+            <field name="sequence">1</field>
+            <field name="cat_type">tag</field>
+            <field name="single_tag">0</field>
+            <field name="model_id" ref="base.model_res_partner" />
+        </record>
+        <record id="partner_sex" model="tag.category">
+            <field name="name">Sex</field>
+            <field name="code">partner_sex</field>
+            <field name="sequence">2</field>
+            <field name="cat_type">tag</field>
+            <field name="single_tag">1</field>
+            <field name="model_id" ref="base.model_res_partner" />
+        </record>
+        <record id="partner_eye_color" model="tag.category">
+            <field name="name">Eye Color</field>
+            <field name="code">partner_eye_color</field>
+            <field name="sequence">3</field>
+            <field name="cat_type">tag</field>
+            <field name="single_tag">1</field>
+            <field name="model_id" ref="base.model_res_partner" />
+        </record>
+        <record id="partner_hair_color" model="tag.category">
+            <field name="name">Hair Color</field>
+            <field name="code">partner_hair_color</field>
+            <field name="sequence">4</field>
+            <field name="cat_type">tag</field>
+            <field name="single_tag">1</field>
+            <field name="model_id" ref="base.model_res_partner" />
+        </record>
+        <record id="partner_religion" model="tag.category">
+            <field name="name">Religion</field>
+            <field name="code">partner_religion</field>
+            <field name="sequence">5</field>
+            <field name="cat_type">tag</field>
+            <field name="single_tag">1</field>
+            <field name="model_id" ref="base.model_res_partner" />
+        </record>
+        <record id="partner_ethnicity" model="tag.category">
+            <field name="name">Ethnicity</field>
+            <field name="code">partner_ethnicity</field>
+            <field name="sequence">6</field>
+            <field name="cat_type">tag</field>
+            <field name="single_tag">1</field>
+            <field name="model_id" ref="base.model_res_partner" />
+        </record>
+        <record id="partner_medical_aid" model="tag.category">
+            <field name="name">Medical Aid</field>
+            <field name="code">partner_medical_aid</field>
+            <field name="sequence">7</field>
+            <field name="cat_type">tag</field>
+            <field name="single_tag">0</field>
+            <field name="model_id" ref="base.model_res_partner" />
+        </record>
+        <record id="partner_blood_group" model="tag.category">
+            <field name="name">Blood Group</field>
+            <field name="code">partner_blood_group</field>
+            <field name="sequence">8</field>
+            <field name="cat_type">tag</field>
+            <field name="single_tag">1</field>
+            <field name="model_id" ref="base.model_res_partner" />
+        </record>
+            <record id="partner_marital" model="tag.category">
+            <field name="name">Marital Status</field>
+            <field name="code">partner_marital</field>
+            <field name="sequence">9</field>
+            <field name="cat_type">tag</field>
+            <field name="single_tag">1</field>
+            <field name="model_id" ref="base.model_res_partner" />
+        </record>
+
+    </data>
+</odoo>

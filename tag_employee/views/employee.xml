@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_employee_form" model="ir.ui.view">
+        <field name="name">hr.employee.form</field>
+        <field name="model">hr.employee</field>
+        <field name="inherit_id" ref="hr.view_employee_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//header/button" position="before">
+                <field name="state"  widget="statusbar" options="{'clickable': '1'}" />
+            </xpath>
+            <field name="category_ids" position="replace"/>
+            <xpath expr="//notebook/page/div/div/group" position="before">
+                <group string="Tags">
+                    <field name="fld_tags"
+                           options="{'color_field': 'color', 'no_create': True}"
+                           context="{'search_default_group_by_category': 1,
+                                     'default_model_name': 'hr.employee'}"
+                           widget="many2many_tags"
+                           placeholder="Tags..."/>
+                </group>
+            </xpath>
+        </field>
+    </record>
+
+    <record id="view_employee_list" model="ir.ui.view">
+        <field name="name">hr.employee.list</field>
+        <field name="model">hr.employee</field>
+        <field name="inherit_id" ref="hr.view_employee_tree"/>
+        <field name="arch" type="xml">
+            <field name="category_ids" position="replace">
+                <field name="fld_tags"
+                        options="{'color_field': 'color'}"
+                        widget="many2many_tags"
+                        placeholder="Tags..."/>
+            </field>
+        </field>
+    </record>
+
+    <record id="view_employee_filter" model="ir.ui.view">
+        <field name="name">hr.employee.search</field>
+        <field name="model">hr.employee</field>
+        <field name="inherit_id" ref="hr.view_employee_filter"/>
+        <field name="arch" type="xml">
+            <field name="category_ids" position="replace">
+                <field name="fld_tags"
+                       options="{'color_field': 'color'}"/>
+                <field name="search_tags"/>
+                <field name="search_no_tags"/>
+            </field>
+        </field>
+    </record>
+
+    <record id="hr_kanban_view_employees" model="ir.ui.view">
+        <field name="name">hr.employee.kanban</field>
+        <field name="model">hr.employee</field>
+        <field name="inherit_id" ref="hr.hr_kanban_view_employees"/>
+        <field name="arch" type="xml">
+            <field name="category_ids" position="replace">
+                    <field name="fld_tags"
+                           options="{'color_field': 'color'}"
+                           widget="many2many_tags"
+                           placeholder="Tags..."/>
+            </field>
+        </field>
+    </record>
+</odoo>

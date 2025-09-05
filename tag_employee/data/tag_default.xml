@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record model="tag.category" id="employee_state">
+        <field name="default_tag" ref="tag_employee.employee_state_1" />
+    </record>
+</odoo>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_tag_category_search" model="ir.ui.view">
+        <field name="name">tag.category.search</field>
+        <field name="model">tag.category</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="model_id"/>
+                <field name="name"/>
+                <field name="code"/>
+                <field name="cat_type"/>
+                <field name="parent_cat"/>
+                <group expand="0" string="Group By...">
+                    <filter name="group_by_model" string="Model"
+                            domain="[]" context="{'group_by':'model_id'}"/>
+                </group>
+            </search>
+        </field>
+    </record>
+
+    <record id="view_tag_category_list" model="ir.ui.view">
+        <field name="name">tag.category.list</field>
+        <field name="model">tag.category</field>
+        <field name="arch" type="xml">
+            <list>
+                <field name="sequence" widget="handle"/>
+                <field name="model_id" widget="selection"/>
+                <field name="name"/>
+                <field name="code"/>
+                <field name="parent_cat"/>
+                <field name="cat_type"/>
+                <field name="single_tag"/>
+                <field name="required"/>
+                <field name="log_change"/>
+                <field name="tags_count" string="Tags #"/>
+                <button name="action_show_tags" type="object" string="Show Tags" icon="fa-search"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="view_tag_category_form" model="ir.ui.view">
+        <field name="name">tag.category.form</field>
+        <field name="model">tag.category</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <div class="oe_button_box" name="button_box">
+                        <button name="action_show_tags"
+                                type="object" icon="fa-bars"
+                                class="oe_stat_button">
+                            <field name="tags_count" string="Tags" widget="statinfo"/>
+                        </button>
+                        <button name="toggle_active" type="object" groups="base.group_user"
+                                class="oe_stat_button" icon="fa-archive">
+                            <field name="active" widget="boolean_button"
+                                   options='{"terminology": "archive"}'/>
+                        </button>
+                    </div>
+                    <div class="oe_title">
+                        <h1>
+                            <field name="name" placeholder="Category name"/>
+                        </h1>
+                    </div>
+                    <group col="2">
+                        <group>
+                            <field name="cat_type"/>
+                            <field name="model_id" widget="selection"/>
+                            <field name="sequence"  readonly="1"/>
+                        </group>
+                        <group>
+                            <field name="color"/>
+                            <field name="default_tag" options="{'no_open': True, 'no_create': True}"/>
+                            <field name="parent_cat"/>
+                        </group>
+                    </group>
+                    <notebook colspan="4">
+                        <page string="Notes">
+                            <group>
+                                <group>
+                                    <field name="description" />
+                                </group>
+                            </group>
+                        </page>
+                        <page string="Control">
+                            <div id="warning_control" class="o_row">
+                                **** Fields in this page have no real effect. To activate these features,
+                                please install Tag Advanced ****
+                            </div>
+                            <group>
+                                <group>
+                                    <field name="code" placeholder="Category code"/>
+                                    <field name="required"/>
+                                </group>
+                                <group>
+                                    <field name="single_tag"/>
+                                    <field name="log_change"/>
+                                </group>
+                            </group>
+                        </page>
+                   </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="action_tag_caegories_view" model="ir.actions.act_window">
+        <field name="name">Categories</field>
+        <field name="res_model">tag.category</field>
+        <field name="view_mode">list,form</field>
+        <field name="context">{'group_by': ['model_id']}</field>
+        <field name="view_id" ref="view_tag_category_list"/>
+        <field name="help" type="html">
+        	<p class="o_view_nocontent_smiling_face">
+                Add new category
+              </p><p>
+                Category is the container of tags. Category is related to a model.
+            </p>
+        </field>
+    </record>
+
+</odoo>

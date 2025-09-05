@@ -1,0 +1,1401 @@
+<?xml version="1.0"?>
+<odoo>
+    <record id="employee_role_accountant" model="tag.tag">
+        <field name="name">Accountant</field>
+        <field name="sequence">1</field>
+        <field name="fld_cat" ref="employee_role"/>
+    </record>
+    <record id="employee_role_administrative" model="tag.tag">
+        <field name="name">Administrative</field>
+        <field name="sequence">2</field>
+        <field name="fld_cat" ref="employee_role"/>
+    </record>
+    <record id="employee_role_carpenter" model="tag.tag">
+        <field name="name">Carpenter</field>
+        <field name="sequence">3</field>
+        <field name="fld_cat" ref="employee_role"/>
+    </record>
+    <record id="employee_role_chairman" model="tag.tag">
+        <field name="name">Chairman</field>
+        <field name="sequence">4</field>
+        <field name="fld_cat" ref="employee_role"/>
+    </record>
+    <record id="employee_role_chemical_engineer" model="tag.tag">
+        <field name="name">Chemical Engineer</field>
+        <field name="sequence">5</field>
+        <field name="fld_cat" ref="employee_role"/>
+    </record>
+    <record id="employee_role_civil_engineer" model="tag.tag">
+        <field name="name">Civil Engineer</field>
+        <field name="sequence">6</field>
+        <field name="fld_cat" ref="employee_role"/>
+    </record>
+    <record id="employee_role_doctor" model="tag.tag">
+        <field name="name">Doctor</field>
+        <field name="sequence">7</field>
+        <field name="fld_cat" ref="employee_role"/>
+    </record>
+    <record id="employee_role_driver" model="tag.tag">
+        <field name="name">Driver</field>
+        <field name="sequence">8</field>
+        <field name="fld_cat" ref="employee_role"/>
+    </record>
+    <record id="employee_role_electrician" model="tag.tag">
+        <field name="name">Electrician</field>
+        <field name="sequence">9</field>
+        <field name="fld_cat" ref="employee_role"/>
+    </record>
+    <record id="employee_role_engineer" model="tag.tag">
+        <field name="name">Engineer</field>
+        <field name="sequence">10</field>
+        <field name="fld_cat" ref="employee_role"/>
+    </record>
+    <record id="employee_role_farmer" model="tag.tag">
+        <field name="name">Farmer</field>
+        <field name="sequence">12</field>
+        <field name="fld_cat" ref="employee_role"/>
+    </record>
+    <record id="employee_role_gardener" model="tag.tag">
+        <field name="name">Gardener</field>
+        <field name="sequence">13</field>
+        <field name="fld_cat" ref="employee_role"/>
+    </record>
+    <record id="employee_role_director" model="tag.tag">
+        <field name="name">General Director</field>
+        <field name="sequence">14</field>
+        <field name="fld_cat" ref="employee_role"/>
+    </record>
+    <record id="employee_role_geologist" model="tag.tag">
+        <field name="name">Geologist</field>
+        <field name="sequence">15</field>
+        <field name="fld_cat" ref="employee_role"/>
+    </record>
+    <record id="employee_role_leader_geol" model="tag.tag">
+        <field name="name">Geologist Team Leader</field>
+        <field name="sequence">16</field>
+        <field name="fld_cat" ref="employee_role"/>
+    </record>
+    <record id="employee_role_guard" model="tag.tag">
+        <field name="name">Guard</field>
+        <field name="sequence">17</field>
+        <field name="fld_cat" ref="employee_role"/>
+    </record>
+    <record id="employee_role_lab_specialist" model="tag.tag">
+        <field name="name">Lab Specialist</field>
+        <field name="sequence">18</field>
+        <field name="fld_cat" ref="employee_role"/>
+    </record>
+    <record id="employee_role_librarian" model="tag.tag">
+        <field name="name">Librarian</field>
+        <field name="sequence">20</field>
+        <field name="fld_cat" ref="employee_role"/>
+    </record>
+    <record id="employee_role_manager" model="tag.tag">
+        <field name="name">Manager</field>
+        <field name="sequence">21</field>
+        <field name="fld_cat" ref="employee_role"/>
+    </record>
+    <record id="employee_role_nurse" model="tag.tag">
+        <field name="name">Nurse</field>
+        <field name="sequence">22</field>
+        <field name="fld_cat" ref="employee_role"/>
+    </record>
+    <record id="employee_role_pharmacist" model="tag.tag">
+        <field name="name">Pharmacist</field>
+        <field name="sequence">23</field>
+        <field name="fld_cat" ref="employee_role"/>
+    </record>
+    <record id="employee_role_president" model="tag.tag">
+        <field name="name">President</field>
+        <field name="sequence">24</field>
+        <field name="fld_cat" ref="employee_role"/>
+    </record>
+    <record id="employee_role_programmer" model="tag.tag">
+        <field name="name">Programmer</field>
+        <field name="sequence">25</field>
+        <field name="fld_cat" ref="employee_role"/>
+    </record>
+    <record id="employee_role_representative" model="tag.tag">
+        <field name="name">Representative</field>
+        <field name="sequence">26</field>
+        <field name="fld_cat" ref="employee_role"/>
+    </record>
+    <record id="employee_role_secretary" model="tag.tag">
+        <field name="name">Secretary</field>
+        <field name="sequence">27</field>
+        <field name="fld_cat" ref="employee_role"/>
+    </record>
+    <record id="employee_role_service_assoc" model="tag.tag">
+        <field name="name">Service Associate</field>
+        <field name="sequence">28</field>
+        <field name="fld_cat" ref="employee_role"/>
+    </record>
+    <record id="employee_role_specialist" model="tag.tag">
+        <field name="name">Specialist</field>
+        <field name="sequence">29</field>
+        <field name="fld_cat" ref="employee_role"/>
+    </record>
+    <record id="employee_role_spe_geol" model="tag.tag">
+        <field name="name">Specialist Geologist</field>
+        <field name="sequence">30</field>
+        <field name="fld_cat" ref="employee_role"/>
+    </record>
+    <record id="employee_role_supervisor" model="tag.tag">
+        <field name="name">Supervisor</field>
+        <field name="sequence">31</field>
+        <field name="fld_cat" ref="employee_role"/>
+    </record>
+    <record id="employee_role_teacher" model="tag.tag">
+        <field name="name">Teacher</field>
+        <field name="sequence">32</field>
+        <field name="fld_cat" ref="employee_role"/>
+    </record>
+    <record id="employee_role_technician" model="tag.tag">
+        <field name="name">Technician</field>
+        <field name="sequence">33</field>
+        <field name="fld_cat" ref="employee_role"/>
+    </record>
+    <record id="employee_role_tech_geol" model="tag.tag">
+        <field name="name">Technician Geologist</field>
+        <field name="sequence">34</field>
+        <field name="fld_cat" ref="employee_role"/>
+    </record>
+    <record id="employee_role_vise_president" model="tag.tag">
+        <field name="name">Vise President</field>
+        <field name="sequence">35</field>
+        <field name="fld_cat" ref="employee_role"/>
+    </record>
+    <record id="employee_role_general_manager" model="tag.tag">
+        <field name="name">General Manager</field>
+        <field name="sequence">36</field>
+        <field name="fld_cat" ref="employee_role"/>
+    </record>
+    <record id="employee_role_head_division" model="tag.tag">
+        <field name="name">Head of Division</field>
+        <field name="sequence">37</field>
+        <field name="fld_cat" ref="employee_role"/>
+    </record>
+    <record id="employee_role_clerk" model="tag.tag">
+        <field name="name">Clerk</field>
+        <field name="sequence">38</field>
+        <field name="fld_cat" ref="employee_role"/>
+    </record>
+    <record id="employee_role_deputy" model="tag.tag">
+        <field name="name">Deputy</field>
+        <field name="sequence">39</field>
+        <field name="fld_cat" ref="employee_role"/>
+    </record>
+    <record id="employee_role_minister" model="tag.tag">
+        <field name="name">Minister</field>
+        <field name="sequence">40</field>
+        <field name="fld_cat" ref="employee_role"/>
+    </record>
+    <record id="employee_role_craftsman" model="tag.tag">
+        <field name="name">Craftsman</field>
+        <field name="sequence">41</field>
+        <field name="fld_cat" ref="employee_role"/>
+    </record>
+    <record id="employee_role_guide" model="tag.tag">
+        <field name="name">Museum Guid</field>
+        <field name="sequence">42</field>
+        <field name="fld_cat" ref="employee_role"/>
+    </record>
+    <record id="employee_hiring_decision_1" model="tag.tag">
+        <field name="name">Board</field>
+        <field name="sequence">1</field>
+        <field name="fld_cat" ref="employee_hiring_decision"/>
+    </record>
+    <record id="employee_hiring_decision_2" model="tag.tag">
+        <field name="name">Ministerial</field>
+        <field name="sequence">2</field>
+        <field name="fld_cat" ref="employee_hiring_decision"/>
+    </record>
+    <record id="employee_hiring_decision_3" model="tag.tag">
+        <field name="name">Council of Ministers</field>
+        <field name="sequence">3</field>
+        <field name="fld_cat" ref="employee_hiring_decision"/>
+    </record>
+    <record id="employee_hiring_decision_4" model="tag.tag">
+        <field name="name">Supreme Revolutionary Committee</field>
+        <field name="sequence">4</field>
+        <field name="fld_cat" ref="employee_hiring_decision"/>
+    </record>
+    <record id="employee_hiring_decision_5" model="tag.tag">
+        <field name="name">Committee</field>
+        <field name="sequence">5</field>
+        <field name="fld_cat" ref="employee_hiring_decision"/>
+    </record>
+    <record id="employee_hiring_decision_6" model="tag.tag">
+        <field name="name">Authority</field>
+        <field name="sequence">6</field>
+        <field name="fld_cat" ref="employee_hiring_decision"/>
+    </record>
+    <record id="employee_qualification_1" model="tag.tag">
+        <field name="name">PhD</field>
+        <field name="sequence">1</field>
+        <field name="fld_cat" ref="employee_qualification"/>
+    </record>
+    <record id="employee_qualification_2" model="tag.tag">
+        <field name="name">Master</field>
+        <field name="sequence">2</field>
+        <field name="fld_cat" ref="employee_qualification"/>
+    </record>
+    <record id="employee_qualification_3" model="tag.tag">
+        <field name="name">Bachelor</field>
+        <field name="sequence">3</field>
+        <field name="fld_cat" ref="employee_qualification"/>
+    </record>
+    <record id="employee_qualification_4" model="tag.tag">
+        <field name="name">Lisans</field>
+        <field name="sequence">4</field>
+        <field name="fld_cat" ref="employee_qualification"/>
+    </record>
+    <record id="employee_qualification_5" model="tag.tag">
+        <field name="name">Diploma Post High School</field>
+        <field name="sequence">5</field>
+        <field name="fld_cat" ref="employee_qualification"/>
+    </record>
+    <record id="employee_qualification_6" model="tag.tag">
+        <field name="name">Diploma Post Mid-school</field>
+        <field name="sequence">6</field>
+        <field name="fld_cat" ref="employee_qualification"/>
+    </record>
+    <record id="employee_qualification_7" model="tag.tag">
+        <field name="name">High Diploma</field>
+        <field name="sequence">7</field>
+        <field name="fld_cat" ref="employee_qualification"/>
+    </record>
+    <record id="employee_qualification_8" model="tag.tag">
+        <field name="name">Diploma</field>
+        <field name="sequence">8</field>
+        <field name="fld_cat" ref="employee_qualification"/>
+    </record>
+    <record id="employee_qualification_9" model="tag.tag">
+        <field name="name">High School</field>
+        <field name="sequence">9</field>
+        <field name="fld_cat" ref="employee_qualification"/>
+    </record>
+    <record id="employee_qualification_10" model="tag.tag">
+        <field name="name">Technical high school</field>
+        <field name="sequence">10</field>
+        <field name="fld_cat" ref="employee_qualification"/>
+    </record>
+    <record id="employee_qualification_11" model="tag.tag">
+        <field name="name">Mid School</field>
+        <field name="sequence">11</field>
+        <field name="fld_cat" ref="employee_qualification"/>
+    </record>
+    <record id="employee_qualification_12" model="tag.tag">
+        <field name="name">Elementary</field>
+        <field name="sequence">12</field>
+        <field name="fld_cat" ref="employee_qualification"/>
+    </record>
+    <record id="employee_qualification_13" model="tag.tag">
+        <field name="name">Literate</field>
+        <field name="sequence">13</field>
+        <field name="fld_cat" ref="employee_qualification"/>
+    </record>
+    <record id="employee_qualification_14" model="tag.tag">
+        <field name="name">Illiterate</field>
+        <field name="sequence">14</field>
+        <field name="fld_cat" ref="employee_qualification"/>
+    </record>
+    <record id="employee_specialization_1" model="tag.tag">
+        <field name="name">Accounting</field>
+        <field name="sequence">1</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_2" model="tag.tag">
+        <field name="name">Accounting and Finance</field>
+        <field name="sequence">2</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_3" model="tag.tag">
+        <field name="name">Advanced Geology</field>
+        <field name="sequence">3</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_4" model="tag.tag">
+        <field name="name">Aerial Survey Engineering</field>
+        <field name="sequence">4</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_5" model="tag.tag">
+        <field name="name">Analytical Chemistry</field>
+        <field name="sequence">5</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_6" model="tag.tag">
+        <field name="name">Applied Science</field>
+        <field name="sequence">6</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_7" model="tag.tag">
+        <field name="name">Arabic Language and Translation</field>
+        <field name="sequence">7</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_8" model="tag.tag">
+        <field name="name">Arabic Studies</field>
+        <field name="sequence">8</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_9" model="tag.tag">
+        <field name="name">Auto Mechanics</field>
+        <field name="sequence">9</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_10" model="tag.tag">
+        <field name="name">Automotive Technician</field>
+        <field name="sequence">10</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_11" model="tag.tag">
+        <field name="name">Biochemistry</field>
+        <field name="sequence">11</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_13" model="tag.tag">
+        <field name="name">Biological Chemistry</field>
+        <field name="sequence">13</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_14" model="tag.tag">
+        <field name="name">Biology</field>
+        <field name="sequence">14</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_15" model="tag.tag">
+        <field name="name">Biology and Chemistry</field>
+        <field name="sequence">15</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_16" model="tag.tag">
+        <field name="name">Business Administration</field>
+        <field name="sequence">16</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_17" model="tag.tag">
+        <field name="name">Chemical Engineering</field>
+        <field name="sequence">17</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_18" model="tag.tag">
+        <field name="name">Chemical Geology</field>
+        <field name="sequence">18</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_19" model="tag.tag">
+        <field name="name">Chemistry</field>
+        <field name="sequence">19</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_20" model="tag.tag">
+        <field name="name">Chemistry and Animal Science</field>
+        <field name="sequence">20</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_22" model="tag.tag">
+        <field name="name">Chemistry Biology Science</field>
+        <field name="sequence">22</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_23" model="tag.tag">
+        <field name="name">Chemistry Physics</field>
+        <field name="sequence">23</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_24" model="tag.tag">
+        <field name="name">Civil Engineering</field>
+        <field name="sequence">24</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_25" model="tag.tag">
+        <field name="name">Computer Architecture</field>
+        <field name="sequence">25</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_26" model="tag.tag">
+        <field name="name">Computer Engineering</field>
+        <field name="sequence">26</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_27" model="tag.tag">
+        <field name="name">Computer Information Systems</field>
+        <field name="sequence">27</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_28" model="tag.tag">
+        <field name="name">Computer Science</field>
+        <field name="sequence">28</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_29" model="tag.tag">
+        <field name="name">Construction Engineering</field>
+        <field name="sequence">29</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_31" model="tag.tag">
+        <field name="name">Development Management</field>
+        <field name="sequence">31</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_32" model="tag.tag">
+        <field name="name">Earth and Environment Geophysics</field>
+        <field name="sequence">32</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_34" model="tag.tag">
+        <field name="name">Earth Geology and Environment</field>
+        <field name="sequence">34</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_35" model="tag.tag">
+        <field name="name">Earth Science</field>
+        <field name="sequence">35</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_36" model="tag.tag">
+        <field name="name">Earth Science and Environment</field>
+        <field name="sequence">36</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_37" model="tag.tag">
+        <field name="name">Earth Science and Geophysics</field>
+        <field name="sequence">37</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_38" model="tag.tag">
+        <field name="name">Earth Science and Marine Environment</field>
+        <field name="sequence">38</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_39" model="tag.tag">
+        <field name="name">Earth Science Geology</field>
+        <field name="sequence">39</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_40" model="tag.tag">
+        <field name="name">Earth Science Geology and Physics</field>
+        <field name="sequence">40</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_43" model="tag.tag">
+        <field name="name">Economic Geology</field>
+        <field name="sequence">43</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_44" model="tag.tag">
+        <field name="name">Economic Geology and Mineral</field>
+        <field name="sequence">44</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_45" model="tag.tag">
+        <field name="name">Economic Geology and Rocks</field>
+        <field name="sequence">45</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_46" model="tag.tag">
+        <field name="name">Economy Policy</field>
+        <field name="sequence">46</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_47" model="tag.tag">
+        <field name="name">Electrical Engineering</field>
+        <field name="sequence">47</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_48" model="tag.tag">
+        <field name="name">Electricity</field>
+        <field name="sequence">48</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_49" model="tag.tag">
+        <field name="name">Electronic and Industrial Control</field>
+        <field name="sequence">48</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_50" model="tag.tag">
+        <field name="name">English Language </field>
+        <field name="sequence">50</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_51" model="tag.tag">
+        <field name="name">English Language and Translation</field>
+        <field name="sequence">51</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_52" model="tag.tag">
+        <field name="name">English Language Etiquette</field>
+        <field name="sequence">52</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_53" model="tag.tag">
+        <field name="name">English Studies</field>
+        <field name="sequence">53</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_55" model="tag.tag">
+        <field name="name">Environmental Engineering</field>
+        <field name="sequence">55</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_56" model="tag.tag">
+        <field name="name">Environmental Science</field>
+        <field name="sequence">56</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_57" model="tag.tag">
+        <field name="name">Financial Management</field>
+        <field name="sequence">57</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_58" model="tag.tag">
+        <field name="name">Furniture Carpentry</field>
+        <field name="sequence">58</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_59" model="tag.tag">
+        <field name="name">Geochemistry</field>
+        <field name="sequence">59</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_60" model="tag.tag">
+        <field name="name">Geography</field>
+        <field name="sequence">60</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_61" model="tag.tag">
+        <field name="name">Geological Engineering</field>
+        <field name="sequence">61</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_62" model="tag.tag">
+        <field name="name">Geology</field>
+        <field name="sequence">62</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_63" model="tag.tag">
+        <field name="name">Geology and Geophysics</field>
+        <field name="sequence">63</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_64" model="tag.tag">
+        <field name="name">Geophysical Engineering</field>
+        <field name="sequence">64</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_65" model="tag.tag">
+        <field name="name">Geophysics</field>
+        <field name="sequence">65</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_66" model="tag.tag">
+        <field name="name">Geophysics and Hydrology</field>
+        <field name="sequence">66</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_67" model="tag.tag">
+        <field name="name">Geo-science Chemistry</field>
+        <field name="sequence">67</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_68" model="tag.tag">
+        <field name="name">Geo-science Physics</field>
+        <field name="sequence">68</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_69" model="tag.tag">
+        <field name="name">History</field>
+        <field name="sequence">69</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_70" model="tag.tag">
+        <field name="name">Holy Quran</field>
+        <field name="sequence">70</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_71" model="tag.tag">
+        <field name="name">Home Economics</field>
+        <field name="sequence">71</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_72" model="tag.tag">
+        <field name="name">Industrial</field>
+        <field name="sequence">72</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_73" model="tag.tag">
+        <field name="name">Industrial Electronic Control</field>
+        <field name="sequence">73</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_74" model="tag.tag">
+        <field name="name">Industrial Engineering</field>
+        <field name="sequence">74</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_75" model="tag.tag">
+        <field name="name">Information Systems</field>
+        <field name="sequence">75</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_76" model="tag.tag">
+        <field name="name">Information Technology</field>
+        <field name="sequence">76</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_77" model="tag.tag">
+        <field name="name">Islamic Studies</field>
+        <field name="sequence">77</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_78" model="tag.tag">
+        <field name="name">Life Science Chemistry</field>
+        <field name="sequence">78</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_79" model="tag.tag">
+        <field name="name">Literary</field>
+        <field name="sequence">79</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_80" model="tag.tag">
+        <field name="name">Management Information Systems</field>
+        <field name="sequence">80</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_82" model="tag.tag">
+        <field name="name">Map Engineering</field>
+        <field name="sequence">82</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_83" model="tag.tag">
+        <field name="name">Marine Geology</field>
+        <field name="sequence">83</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_84" model="tag.tag">
+        <field name="name">Marketing</field>
+        <field name="sequence">84</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_85" model="tag.tag">
+        <field name="name">Mathematics</field>
+        <field name="sequence">85</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_86" model="tag.tag">
+        <field name="name">Mechanical Engineering</field>
+        <field name="sequence">86</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_87" model="tag.tag">
+        <field name="name">Mechanics</field>
+        <field name="sequence">87</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_89" model="tag.tag">
+        <field name="name">Mineral Science</field>
+        <field name="sequence">89</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_90" model="tag.tag">
+        <field name="name">General Medicine</field>
+        <field name="sequence">90</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_91" model="tag.tag">
+        <field name="name">Minerals, Rocks and Ores Deposits</field>
+        <field name="sequence">91</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_92" model="tag.tag">
+        <field name="name">Mining Engineering</field>
+        <field name="sequence">92</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_93" model="tag.tag">
+        <field name="name">Natural Science</field>
+        <field name="sequence">93</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_94" model="tag.tag">
+        <field name="name">Office Management</field>
+        <field name="sequence">94</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_95" model="tag.tag">
+        <field name="name">Oil and Gas Engineering</field>
+        <field name="sequence">95</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_96" model="tag.tag">
+        <field name="name">Oil and Water</field>
+        <field name="sequence">96</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_97" model="tag.tag">
+        <field name="name">Oil Geo-sciences</field>
+        <field name="sequence">97</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_98" model="tag.tag">
+        <field name="name">Petroleum and Water Geology</field>
+        <field name="sequence">98</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_99" model="tag.tag">
+        <field name="name">Petroleum Engineering</field>
+        <field name="sequence">99</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_100" model="tag.tag">
+        <field name="name">Petroleum Geology</field>
+        <field name="sequence">100</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_101" model="tag.tag">
+        <field name="name">Physical Engineering</field>
+        <field name="sequence">101</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_102" model="tag.tag">
+        <field name="name">Physics</field>
+        <field name="sequence">102</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_103" model="tag.tag">
+        <field name="name">Physics and Mathematics</field>
+        <field name="sequence">103</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_104" model="tag.tag">
+        <field name="name">Politics</field>
+        <field name="sequence">104</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_105" model="tag.tag">
+        <field name="name">Programming</field>
+        <field name="sequence">105</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_106" model="tag.tag">
+        <field name="name">Prospecting Geology</field>
+        <field name="sequence">106</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_107" model="tag.tag">
+        <field name="name">Public Law</field>
+        <field name="sequence">107</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_108" model="tag.tag">
+        <field name="name">Public Relations</field>
+        <field name="sequence">108</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_109" model="tag.tag">
+        <field name="name">Public Relations and Advertising</field>
+        <field name="sequence">109</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_110" model="tag.tag">
+        <field name="name">Scientific</field>
+        <field name="sequence">110</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_111" model="tag.tag">
+        <field name="name">Sharia Law</field>
+        <field name="sequence">111</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_112" model="tag.tag">
+        <field name="name">Science</field>
+        <field name="sequence">112</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_113" model="tag.tag">
+        <field name="name">Social Studies</field>
+        <field name="sequence">113</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_114" model="tag.tag">
+        <field name="name">Statistics</field>
+        <field name="sequence">114</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_115" model="tag.tag">
+        <field name="name">Stratigraphy and Oil Sciences</field>
+        <field name="sequence">115</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_116" model="tag.tag">
+        <field name="name">Stratigraphy and Petroleum Geology</field>
+        <field name="sequence">116</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_117" model="tag.tag">
+        <field name="name">Thermal Engineering</field>
+        <field name="sequence">117</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_118" model="tag.tag">
+        <field name="name">Turning Mechanics</field>
+        <field name="sequence">118</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_119" model="tag.tag">
+        <field name="name">Water and Environmental Engineering</field>
+        <field name="sequence">119</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_specialization_120" model="tag.tag">
+        <field name="name">Water Engineering and Management</field>
+        <field name="sequence">120</field>
+        <field name="fld_cat" ref="employee_specialization"/>
+    </record>
+    <record id="employee_state_1" model="tag.tag">
+        <field name="name">At Work</field>
+        <field name="code">at_work</field>
+        <field name="sequence">1</field>
+        <field name="fld_cat" ref="employee_state"/>
+    </record>
+    <record id="employee_state_3" model="tag.tag">
+        <field name="name">On Vacation</field>
+        <field name="code">on_vacation</field>
+        <field name="sequence">3</field>
+        <field name="fld_cat" ref="employee_state"/>
+    </record>
+    <record id="employee_state_4" model="tag.tag">
+        <field name="name">Unpaid Leave</field>
+        <field name="code">unpaid_leave</field>
+        <field name="sequence">4</field>
+        <field name="fld_cat" ref="employee_state"/>
+    </record>
+    <record id="employee_state_5" model="tag.tag">
+        <field name="name">Seconded Employee</field>
+        <field name="code">seconded</field>
+        <field name="sequence">5</field>
+        <field name="fld_cat" ref="employee_state"/>
+    </record>
+    <record id="employee_state_6" model="tag.tag">
+        <field name="name">Delegated</field>
+        <field name="code">delegated</field>
+        <field name="sequence">6</field>
+        <field name="fld_cat" ref="employee_state"/>
+    </record>
+    <record id="employee_state_7" model="tag.tag">
+        <field name="name">Study Permit</field>
+        <field name="code">study_permit</field>
+        <field name="sequence">7</field>
+        <field name="fld_cat" ref="employee_state"/>
+    </record>
+    <record id="employee_state_8" model="tag.tag">
+        <field name="name">Sick Condition</field>
+        <field name="code">sick_condition</field>
+        <field name="sequence">8</field>
+        <field name="fld_cat" ref="employee_state"/>
+    </record>
+    <record id="employee_state_9" model="tag.tag">
+        <field name="name">Battlefront</field>
+        <field name="code">battlefront</field>
+        <field name="sequence">9</field>
+        <field name="fld_cat" ref="employee_state"/>
+    </record>
+    <record id="employee_state_10" model="tag.tag">
+        <field name="name">Terminated</field>
+        <field name="code">terminated</field>
+        <field name="sequence">10</field>
+        <field name="fld_cat" ref="employee_state"/>
+    </record>
+    <record id="employee_state_11" model="tag.tag">
+        <field name="name">Retired</field>
+        <field name="code">retired</field>
+        <field name="sequence">11</field>
+        <field name="fld_cat" ref="employee_state"/>
+    </record>
+    <record id="employee_state_12" model="tag.tag">
+        <field name="name">Deceased</field>
+        <field name="code">deceased</field>
+        <field name="sequence">12</field>
+        <field name="fld_cat" ref="employee_state"/>
+    </record>
+    <record id="employee_degree_1" model="tag.tag">
+        <field name="name">Degree 1</field>
+        <field name="sequence">1</field>
+        <field name="fld_cat" ref="employee_degree"/>
+    </record>
+    <record id="employee_degree_2" model="tag.tag">
+        <field name="name">Degree 2</field>
+        <field name="sequence">2</field>
+        <field name="fld_cat" ref="employee_degree"/>
+    </record>
+    <record id="employee_degree_3" model="tag.tag">
+        <field name="name">Degree 3</field>
+        <field name="sequence">3</field>
+        <field name="fld_cat" ref="employee_degree"/>
+    </record>
+    <record id="employee_degree_4" model="tag.tag">
+        <field name="name">Degree 4</field>
+        <field name="sequence">4</field>
+        <field name="fld_cat" ref="employee_degree"/>
+    </record>
+    <record id="employee_degree_5" model="tag.tag">
+        <field name="name">Degree 5</field>
+        <field name="sequence">5</field>
+        <field name="fld_cat" ref="employee_degree"/>
+    </record>
+    <record id="employee_degree_6" model="tag.tag">
+        <field name="name">Degree 6</field>
+        <field name="sequence">6</field>
+        <field name="fld_cat" ref="employee_degree"/>
+    </record>
+    <record id="employee_degree_7" model="tag.tag">
+        <field name="name">Degree 7</field>
+        <field name="sequence">7</field>
+        <field name="fld_cat" ref="employee_degree"/>
+    </record>
+    <record id="employee_degree_8" model="tag.tag">
+        <field name="name">Degree 8</field>
+        <field name="sequence">8</field>
+        <field name="fld_cat" ref="employee_degree"/>
+    </record>
+    <record id="employee_degree_9" model="tag.tag">
+        <field name="name">Degree 9</field>
+        <field name="sequence">9</field>
+        <field name="fld_cat" ref="employee_degree"/>
+    </record>
+    <record id="employee_degree_10" model="tag.tag">
+        <field name="name">Degree 10</field>
+        <field name="sequence">10</field>
+        <field name="fld_cat" ref="employee_degree"/>
+    </record>
+    <record id="employee_degree_11" model="tag.tag">
+        <field name="name">Degree 11</field>
+        <field name="sequence">11</field>
+        <field name="fld_cat" ref="employee_degree"/>
+    </record>
+    <record id="employee_degree_12" model="tag.tag">
+        <field name="name">Degree 12</field>
+        <field name="sequence">12</field>
+        <field name="fld_cat" ref="employee_degree"/>
+    </record>
+    <record id="employee_degree_13" model="tag.tag">
+        <field name="name">Degree 13</field>
+        <field name="sequence">13</field>
+        <field name="fld_cat" ref="employee_degree"/>
+    </record>
+    <record id="employee_degree_14" model="tag.tag">
+        <field name="name">Degree 14</field>
+        <field name="sequence">14</field>
+        <field name="fld_cat" ref="employee_degree"/>
+    </record>
+    <record id="employee_degree_15" model="tag.tag">
+        <field name="name">Degree 15</field>
+        <field name="sequence">15</field>
+        <field name="fld_cat" ref="employee_degree"/>
+    </record>
+    <record id="employee_degree_16" model="tag.tag">
+        <field name="name">Degree 16</field>
+        <field name="sequence">16</field>
+        <field name="fld_cat" ref="employee_degree"/>
+    </record>
+    <record id="employee_degree_17" model="tag.tag">
+        <field name="name">Degree 17</field>
+        <field name="sequence">17</field>
+        <field name="fld_cat" ref="employee_degree"/>
+    </record>
+    <record id="employee_degree_18" model="tag.tag">
+        <field name="name">Degree 18</field>
+        <field name="sequence">18</field>
+        <field name="fld_cat" ref="employee_degree"/>
+    </record>
+    <record id="employee_degree_19" model="tag.tag">
+        <field name="name">Degree 19</field>
+        <field name="sequence">19</field>
+        <field name="fld_cat" ref="employee_degree"/>
+    </record>
+    <record id="employee_degree_20" model="tag.tag">
+        <field name="name">Degree 20</field>
+        <field name="sequence">20</field>
+        <field name="fld_cat" ref="employee_degree"/>
+    </record>
+    <record id="employee_level_1" model="tag.tag">
+        <field name="name">Level 1</field>
+        <field name="sequence">1</field>
+        <field name="fld_cat" ref="employee_level"/>
+    </record>
+    <record id="employee_level_2" model="tag.tag">
+        <field name="name">Level 2</field>
+        <field name="sequence">2</field>
+        <field name="fld_cat" ref="employee_level"/>
+    </record>
+    <record id="employee_level_3" model="tag.tag">
+        <field name="name">Level 3</field>
+        <field name="sequence">3</field>
+        <field name="fld_cat" ref="employee_level"/>
+    </record>
+    <record id="employee_level_4" model="tag.tag">
+        <field name="name">Level 4</field>
+        <field name="sequence">4</field>
+        <field name="fld_cat" ref="employee_level"/>
+    </record>
+    <record id="employee_level_5" model="tag.tag">
+        <field name="name">Level 5</field>
+        <field name="sequence">5</field>
+        <field name="fld_cat" ref="employee_level"/>
+    </record>
+    <record id="employee_level_6" model="tag.tag">
+        <field name="name">Level 6</field>
+        <field name="sequence">6</field>
+        <field name="fld_cat" ref="employee_level"/>
+    </record>
+    <record id="employee_ethnicity_1" model="tag.tag">
+        <field name="name">Arab</field>
+        <field name="code">arab</field>
+        <field name="sequence">1</field>
+        <field name="fld_cat" ref="employee_ethnicity"/>
+    </record>
+    <record id="employee_ethnicity_2" model="tag.tag">
+        <field name="name">Amerindian</field>
+        <field name="code">am_indian</field>
+        <field name="sequence">2</field>
+        <field name="fld_cat" ref="employee_ethnicity"/>
+    </record>
+    <record id="employee_ethnicity_3" model="tag.tag">
+        <field name="name">Australaisa</field>
+        <field name="code">aus_asian</field>
+        <field name="sequence">3</field>
+        <field name="fld_cat" ref="employee_ethnicity"/>
+    </record>
+    <record id="employee_ethnicity_4" model="tag.tag">
+        <field name="name">African</field>
+        <field name="code">african</field>
+        <field name="sequence">4</field>
+        <field name="fld_cat" ref="employee_ethnicity"/>
+    </record>
+    <record id="employee_ethnicity_5" model="tag.tag">
+        <field name="name">Central Asia</field>
+        <field name="code">c_asia</field>
+        <field name="sequence">5</field>
+        <field name="fld_cat" ref="employee_ethnicity"/>
+    </record>
+    <record id="employee_ethnicity_6" model="tag.tag">
+        <field name="name">East Asia</field>
+        <field name="code">e_asia</field>
+        <field name="sequence">6</field>
+        <field name="fld_cat" ref="employee_ethnicity"/>
+    </record>
+    <record id="employee_ethnicity_7" model="tag.tag">
+        <field name="name">European</field>
+        <field name="code">european</field>
+        <field name="sequence">7</field>
+        <field name="fld_cat" ref="employee_ethnicity"/>
+    </record>
+    <record id="employee_ethnicity_8" model="tag.tag">
+        <field name="name">Indian</field>
+        <field name="code">indian</field>
+        <field name="sequence">8</field>
+        <field name="fld_cat" ref="employee_ethnicity"/>
+    </record>
+    <record id="employee_ethnicity_9" model="tag.tag">
+        <field name="name">Inuit</field>
+        <field name="code">inuit</field>
+        <field name="sequence">9</field>
+        <field name="fld_cat" ref="employee_ethnicity"/>
+    </record>
+    <record id="employee_ethnicity_10" model="tag.tag">
+        <field name="name">Malagasy</field>
+        <field name="code">malagasy</field>
+        <field name="sequence">10</field>
+        <field name="fld_cat" ref="employee_ethnicity"/>
+    </record>
+    <record id="employee_ethnicity_11" model="tag.tag">
+        <field name="name">Mestizo</field>
+        <field name="code">mestizo</field>
+        <field name="sequence">11</field>
+        <field name="fld_cat" ref="employee_ethnicity"/>
+    </record>
+    <record id="employee_ethnicity_12" model="tag.tag">
+        <field name="name">Mulatto</field>
+        <field name="code">mulatto</field>
+        <field name="sequence">12</field>
+        <field name="fld_cat" ref="employee_ethnicity"/>
+    </record>
+    <record id="employee_ethnicity_13" model="tag.tag">
+        <field name="name">Multi-race</field>
+        <field name="code">multirace</field>
+        <field name="sequence">13</field>
+        <field name="fld_cat" ref="employee_ethnicity"/>
+    </record>
+    <record id="employee_medical_aid_1" model="tag.tag">
+        <field name="name">Eye Glasses</field>
+        <field name="code">glasses</field>
+        <field name="sequence">1</field>
+        <field name="fld_cat" ref="employee_medical_aid"/>
+    </record>
+    <record id="employee_medical_aid_2" model="tag.tag">
+        <field name="name">Hearing Aids</field>
+        <field name="code">hearing_aid</field>
+        <field name="sequence">2</field>
+        <field name="fld_cat" ref="employee_medical_aid"/>
+    </record>
+    <record id="employee_medical_aid_3" model="tag.tag">
+        <field name="name">Medical Crutch</field>
+        <field name="code">medical_crutch</field>
+        <field name="sequence">3</field>
+        <field name="fld_cat" ref="employee_medical_aid"/>
+    </record>
+    <record id="employee_medical_aid_4" model="tag.tag">
+        <field name="name">Medical Chair</field>
+        <field name="code">medical_chair</field>
+        <field name="sequence">4</field>
+        <field name="fld_cat" ref="employee_medical_aid"/>
+    </record>
+    <record id="employee_marital_1" model="tag.tag">
+        <field name="name">Single</field>
+        <field name="code">single</field>
+        <field name="sequence">1</field>
+        <field name="fld_cat" ref="employee_marital"/>
+    </record>
+    <record id="employee_marital_2" model="tag.tag">
+        <field name="name">Married</field>
+        <field name="code">married</field>
+        <field name="sequence">2</field>
+        <field name="fld_cat" ref="employee_marital"/>
+    </record>
+    <record id="employee_marital_3" model="tag.tag">
+        <field name="name">Divorced</field>
+        <field name="code">divorced</field>
+        <field name="sequence">3</field>
+        <field name="fld_cat" ref="employee_marital"/>
+    </record>
+    <record id="employee_marital_4" model="tag.tag">
+        <field name="name">Widower</field>
+        <field name="code">widower</field>
+        <field name="sequence">4</field>
+        <field name="fld_cat" ref="employee_marital"/>
+    </record>
+    <record id="employee_blood_group_1" model="tag.tag">
+        <field name="name">A+</field>
+        <field name="code">A+</field>
+        <field name="sequence">1</field>
+        <field name="fld_cat" ref="employee_blood_group"/>
+    </record>
+    <record id="employee_blood_group_2" model="tag.tag">
+        <field name="name">A-</field>
+        <field name="code">A-</field>
+        <field name="sequence">2</field>
+        <field name="fld_cat" ref="employee_blood_group"/>
+    </record>
+    <record id="employee_blood_group_3" model="tag.tag">
+        <field name="name">B+</field>
+        <field name="code">B+</field>
+        <field name="sequence">3</field>
+        <field name="fld_cat" ref="employee_blood_group"/>
+    </record>
+    <record id="employee_blood_group_4" model="tag.tag">
+        <field name="name">B-</field>
+        <field name="code">B-</field>
+        <field name="sequence">4</field>
+        <field name="fld_cat" ref="employee_blood_group"/>
+    </record>
+    <record id="employee_blood_group_5" model="tag.tag">
+        <field name="name">AB+</field>
+        <field name="code">AB+</field>
+        <field name="sequence">5</field>
+        <field name="fld_cat" ref="employee_blood_group"/>
+    </record>
+    <record id="employee_blood_group_6" model="tag.tag">
+        <field name="name">AB-</field>
+        <field name="code">AB-</field>
+        <field name="sequence">6</field>
+        <field name="fld_cat" ref="employee_blood_group"/>
+    </record>
+    <record id="employee_blood_group_7" model="tag.tag">
+        <field name="name">O+</field>
+        <field name="code">O+</field>
+        <field name="sequence">7</field>
+        <field name="fld_cat" ref="employee_blood_group"/>
+    </record>
+    <record id="employee_blood_group_8" model="tag.tag">
+        <field name="name">O-</field>
+        <field name="code">O-</field>
+        <field name="sequence">8</field>
+        <field name="fld_cat" ref="employee_blood_group"/>
+    </record>
+    <record id="employee_religion_1" model="tag.tag">
+        <field name="name">Islam</field>
+        <field name="code">islam</field>
+        <field name="sequence">1</field>
+        <field name="fld_cat" ref="employee_religion"/>
+    </record>
+    <record id="employee_religion_2" model="tag.tag">
+        <field name="name">Bahaee Faith</field>
+        <field name="code">bahaee</field>
+        <field name="sequence">2</field>
+        <field name="fld_cat" ref="employee_religion"/>
+    </record>
+    <record id="employee_religion_3" model="tag.tag">
+        <field name="name">Buddhism</field>
+        <field name="code">buddhism</field>
+        <field name="sequence">3</field>
+        <field name="fld_cat" ref="employee_religion"/>
+    </record>
+    <record id="employee_religion_4" model="tag.tag">
+        <field name="name">Caodaism</field>
+        <field name="code">caodaism</field>
+        <field name="sequence">4</field>
+        <field name="fld_cat" ref="employee_religion"/>
+    </record>
+    <record id="employee_religion_5" model="tag.tag">
+        <field name="name">Cheondoism</field>
+        <field name="code">cheondoism</field>
+        <field name="sequence">5</field>
+        <field name="fld_cat" ref="employee_religion"/>
+    </record>
+    <record id="employee_religion_6" model="tag.tag">
+        <field name="name">Christianity</field>
+        <field name="code">christianity</field>
+        <field name="sequence">6</field>
+        <field name="fld_cat" ref="employee_religion"/>
+    </record>
+    <record id="employee_religion_7" model="tag.tag">
+        <field name="name">Folk Religion</field>
+        <field name="code">folk</field>
+        <field name="sequence">7</field>
+        <field name="fld_cat" ref="employee_religion"/>
+    </record>
+    <record id="employee_religion_8" model="tag.tag">
+        <field name="name">Hinduism</field>
+        <field name="code">hinduism</field>
+        <field name="sequence">8</field>
+        <field name="fld_cat" ref="employee_religion"/>
+    </record>
+    <record id="employee_religion_9" model="tag.tag">
+        <field name="name">Hoahaoism</field>
+        <field name="code">hoahaoism</field>
+        <field name="sequence">9</field>
+        <field name="fld_cat" ref="employee_religion"/>
+    </record>
+    <record id="employee_religion_10" model="tag.tag">
+        <field name="name">Jainism</field>
+        <field name="code">jainism</field>
+        <field name="sequence">10</field>
+        <field name="fld_cat" ref="employee_religion"/>
+    </record>
+    <record id="employee_religion_11" model="tag.tag">
+        <field name="name">Judaism</field>
+        <field name="code">judaism</field>
+        <field name="sequence">11</field>
+        <field name="fld_cat" ref="employee_religion"/>
+    </record>
+    <record id="employee_religion_12" model="tag.tag">
+        <field name="name">Korean Shamanism</field>
+        <field name="code">k_shamanism</field>
+        <field name="sequence">12</field>
+        <field name="fld_cat" ref="employee_religion"/>
+    </record>
+    <record id="employee_religion_13" model="tag.tag">
+        <field name="name">Shinto</field>
+        <field name="code">shinto</field>
+        <field name="sequence">13</field>
+        <field name="fld_cat" ref="employee_religion"/>
+    </record>
+    <record id="employee_religion_14" model="tag.tag">
+        <field name="name">Sikhism</field>
+        <field name="code">sikhism</field>
+        <field name="sequence">14</field>
+        <field name="fld_cat" ref="employee_religion"/>
+    </record>
+    <record id="employee_religion_15" model="tag.tag">
+        <field name="name">Taoism</field>
+        <field name="code">taoism</field>
+        <field name="sequence">15</field>
+        <field name="fld_cat" ref="employee_religion"/>
+    </record>
+    <record id="employee_religion_16" model="tag.tag">
+        <field name="name">Tenriism</field>
+        <field name="code">tenriism</field>
+        <field name="sequence">16</field>
+        <field name="fld_cat" ref="employee_religion"/>
+    </record>
+    <record id="employee_person_sex_male" model="tag.tag">
+        <field name="name">Male</field>
+        <field name="code">male</field>
+        <field name="sequence">1</field>
+        <field name="fld_cat" ref="employee_sex"/>
+    </record>
+    <record id="employee_person_sex_female" model="tag.tag">
+        <field name="name">Female</field>
+        <field name="code">female</field>
+        <field name="sequence">2</field>
+        <field name="fld_cat" ref="employee_sex"/>
+    </record>
+    <record id="employee_hair_color_black" model="tag.tag">
+        <field name="name">Black Hair</field>
+        <field name="sequence">1</field>
+        <field name="fld_cat" ref="employee_hair_color"/>
+    </record>
+    <record id="employee_hair_color_hazel" model="tag.tag">
+        <field name="name">Hazel</field>
+        <field name="sequence">2</field>
+        <field name="fld_cat" ref="employee_hair_color"/>
+    </record>
+    <record id="employee_hair_color_blond" model="tag.tag">
+        <field name="name">Blond Hair</field>
+        <field name="sequence">3</field>
+        <field name="fld_cat" ref="employee_hair_color"/>
+    </record>
+    <record id="employee_hair_color_red" model="tag.tag">
+        <field name="name">Red Hair</field>
+        <field name="sequence">4</field>
+        <field name="fld_cat" ref="employee_hair_color"/>
+    </record>
+    <record id="employee_hair_color_brown" model="tag.tag">
+        <field name="name">Brown Hair</field>
+        <field name="sequence">5</field>
+        <field name="fld_cat" ref="employee_hair_color"/>
+    </record>
+    <record id="employee_hair_color_gray" model="tag.tag">
+        <field name="name">Gray Hair</field>
+        <field name="sequence">6</field>
+        <field name="fld_cat" ref="employee_hair_color"/>
+    </record>
+    <record id="employee_hair_color_white" model="tag.tag">
+        <field name="name">White Hair</field>
+        <field name="sequence">7</field>
+        <field name="fld_cat" ref="employee_hair_color"/>
+    </record>
+    <record id="employee_eye_black" model="tag.tag">
+        <field name="name">Black Eyes</field>
+        <field name="sequence">1</field>
+        <field name="fld_cat" ref="employee_eye_color"/>
+    </record>
+    <record id="employee_eye_brown" model="tag.tag">
+        <field name="name">Brown Eyes</field>
+        <field name="sequence">2</field>
+        <field name="fld_cat" ref="employee_eye_color"/>
+    </record>
+    <record id="employee_hair_color_amber" model="tag.tag">
+        <field name="name">Amber Hair</field>
+        <field name="sequence">3</field>
+        <field name="fld_cat" ref="employee_hair_color"/>
+    </record>
+    <record id="employee_eye_blue" model="tag.tag">
+        <field name="name">Blue Eyes</field>
+        <field name="sequence">4</field>
+        <field name="fld_cat" ref="employee_eye_color"/>
+    </record>
+    <record id="employee_eye_gray" model="tag.tag">
+        <field name="name">Gray Eyes</field>
+        <field name="sequence">5</field>
+        <field name="fld_cat" ref="employee_eye_color"/>
+    </record>
+    <record id="employee_eye_green" model="tag.tag">
+        <field name="name">Green Eyes</field>
+        <field name="sequence">6</field>
+        <field name="fld_cat" ref="employee_eye_color"/>
+    </record>
+</odoo>

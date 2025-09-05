@@ -1,0 +1,84 @@
+$body-font-size: 1.0rem;
+$body-font: NotoNaskhArabic;
+
+body {
+    font-family: $body-font !important;
+    font-size: $body-font-size;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	font-family: $body-font !important;
+
+}
+p, a:not(.fa){
+	font-family: $body-font !important;
+}
+#oe_main_menu_navbar,.nav-link {
+	font-family: $body-font !important;
+}
+.o_account_reports_body,.o_account_report_column_value,
+.o_account_report_line,.o_account_reports_page table > tbody > tr > td.number {
+	font-family: $body-font !important;
+}
+
+
+a.nav-link.active {
+    font-weight: bold;
+}
+
+i.o_button_icon, .o_field_widget.o_field_monetary.oe_inline {
+    margin-right: 5px;
+}
+
+button.btn.btn-secondary.o_arrow_button.o_arrow_button_current,
+button.btn.btn-secondary.o_arrow_button.o_arrow_button_current.o_last {
+    border-right: var(--body-color);
+}
+
+.o_rtl .o_purchase_dashboard .g-col-lg-6.py-2.bg-100 {
+    direction: rtl;
+}
+
+.o_kanban_renderer .oe_kanban_card .oe_kanban_details ul, .o_search_panel,
+.o_kanban_renderer .o_kanban_record .oe_kanban_details ul {
+    font-size: $body-font-size - 0.07rem;
+}
+
+.badge.bg-danger.o_kanban_inline_block {
+    color: white;
+}
+
+.dropdown-toggle {
+    font-size: $body-font-size;
+}
+.badge {
+    font-size: smaller;
+}
+
+.o-dropdown.dropup > .o-dropdown--menu, .o-dropdown.dropdown > .o-dropdown--menu, .o-dropdown.dropstart > .o-dropdown--menu, .o-dropdown.dropend > .o-dropdown--menu {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.o-app-menu-item__name, .o_main_navbar .o_nav_entry {
+    font-size: $body-font-size + 0.05rem;
+}
+
+.form-control, .o_form_view, a.fw-bold.text-truncate, .o_form_view .o_form_label {
+    font-size: $body-font-size - 0.05rem;
+}
+
+.o_content .o_form_editable .o_horizontal_separator,
+.modal-content .o_form_editable .o_horizontal_separator {
+    font-size: $body-font-size;
+}
+
+.o_base_settings_view .o_form_renderer .o_setting_container .settings_tab .tab {
+    font-size: $body-font-size;
+}
+
+.o-form-buttonbox .o_pie_text, .fs-6,
+.o-form-buttonbox .oe_stat_button .o_stat_info .o_stat_text,
+.o-form-buttonbox .oe_stat_button > span .o_stat_text,
+.o-form-buttonbox .oe_stat_button .o_field_statinfo .o_stat_text {
+    font-size: $body-font-size - 0.07rem !important;
+}

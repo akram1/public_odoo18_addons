@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- Country -->
+	<record id="view_country_tree" model="ir.ui.view">
+		<field name="name">res.country.tree</field>
+		<field name="model">res.country</field>
+        <field name="inherit_id" ref="base.view_country_tree"/>
+		<field name="arch" type="xml">
+            <list>
+                <field name="state_count"/>
+                <field name="district_count"/>
+                <field name="zone_count"/>
+                <field name="city_count"/>
+            </list>
+		</field>
+	</record>
+
+	<record id="view_country_form" model="ir.ui.view">
+		<field name="name">res.country.form</field>
+		<field name="model">res.country</field>
+        <field name="inherit_id" ref="base.view_country_form"/>
+		<field name="arch" type="xml">
+            <group name="main_group">
+                <group>
+                    <field name="state_count"/>
+                    <field name="district_count"/>
+                    <field name="zone_count"/>
+                    <field name="city_count"/>
+                </group>
+            </group>
+		</field>
+	</record>
+
+    <!-- State -->
+	<record id="view_country_state_form" model="ir.ui.view">
+		<field name="name">res.country.state.form</field>
+		<field name="model">res.country.state</field>
+        <field name="inherit_id" ref="base.view_country_state_form"/>
+		<field name="arch" type="xml">
+            <field name="code" position="after">
+                <field name="color" widget="color_picker"/>
+                <field name="district_count"/>
+                <field name="zone_count"/>
+                <field name="city_count"/>
+            </field>
+			<group position="after">
+                <field name="districts" nolabel="True">
+                    <list editable="bottom">
+                        <field name="name"/>
+                    </list>
+                </field>
+			</group>
+		</field>
+	</record>
+
+	<record id="view_country_state_tree" model="ir.ui.view">
+		<field name="name">res.country.state.tree</field>
+		<field name="model">res.country.state</field>
+        <field name="inherit_id" ref="base.view_country_state_tree"/>
+		<field name="arch" type="xml">
+            <list position="replace">
+                <list string="States">
+                    <field name="name"/>
+                    <field name="code"/>
+                    <field name="country_id" options="{'no_create': True, 'no_open': True}"/>
+                    <field name="color" widget="color_picker"/>
+                    <field name="district_count"/>
+                    <field name="zone_count"/>
+                    <field name="city_count"/>
+                </list>
+            </list>
+		</field>
+	</record>
+
+    <!-- District -->
+    <record id="view_district_tree" model="ir.ui.view">
+        <field name="name">res.district.tree</field>
+        <field name="model">res.district</field>
+        <field name="arch" type="xml">
+            <list string="Districts">
+                <field name="name"/>
+                <field name="country_id"/>
+                <field name="state_id"/>
+                <field name="zone_count"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="view_district_form" model="ir.ui.view">
+        <field name="name">res.district.form</field>
+        <field name="model">res.district</field>
+        <field name="arch" type="xml">
+            <form string="District">
+            	<sheet>
+                	<group>
+                        <field name="name"/>
+                        <field name="country_id"/>
+                        <field name="state_id" options='{"no_open": True, "no_create": True}'/>
+                        <field name="zone_count"/>
+                    </group>
+                		<field name="zones" nolabel="True">
+                    		<list editable="bottom">
+                        		<field name="name"/>
+                    		</list>
+                		</field>
+            	</sheet>
+            </form>
+        </field>
+    </record>
+
+    <record model="ir.actions.act_window" id="action_country_state_district">
+        <field name="name">Districts</field>
+        <field name="res_model">res.district</field>
+        <field name="view_mode">tree,form</field>
+        <field name="help" type="html">
+            <p class="oe_view_nocontent_create">
+                Create and manage the different districts within a country state (sub state). Each district is attached to one state.
+            </p>
+        </field>
+    </record>
+
+    <!-- Zone -->
+    <record id="view_zone_tree" model="ir.ui.view">
+        <field name="name">res.zone.tree</field>
+        <field name="model">res.zone</field>
+        <field name="arch" type="xml">
+            <list string="Zones">
+                <field name="name"/>
+                <field name="district"/>
+                <field name="state_id"/>
+                <field name="country_id"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="view_zone_form" model="ir.ui.view">
+        <field name="name">res.zone.form</field>
+        <field name="model">res.zone</field>
+        <field name="arch" type="xml">
+            <form string="Zone">
+            	<sheet>
+                	<group>
+                    	<field name="name"/>
+                    	<field name="country_id"/>
+                    	<field name="state_id"/>
+                    	<field name="district" options='{"no_open": True, "no_create": True}'/>
+                	</group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record model="ir.actions.act_window"
+            id="action_country_state_district_zone">
+        <field name="name">Zones</field>
+        <field name="res_model">res.zone</field>
+        <field name="view_mode">tree,form</field>
+        <field name="help" type="html">
+            <p class="oe_view_nocontent_create">
+                Create and manage the different districts within a state district (sub district). Each zone is attached to one district.
+            </p>
+        </field>
+    </record>
+
+    <!-- City -->
+    <record id="view_city_tree" model="ir.ui.view">
+        <field name="name">res.city.tree</field>
+        <field name="model">res.city</field>
+        <field name="arch" type="xml">
+            <list string="Cities">
+                <field name="name"/>
+                <field name="state_id"/>
+                <field name="country_id"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="view_city_form" model="ir.ui.view">
+        <field name="name">res.city.form</field>
+        <field name="model">res.city</field>
+        <field name="arch" type="xml">
+            <form string="City">
+                <group>
+                    <field name="name"/>
+                    <field name="country_id" />
+                    <field name="state_id" options='{"no_open": True, "no_create": True}'/>
+                </group>
+            </form>
+        </field>
+    </record>
+
+    <record model="ir.actions.act_window"
+            id="action_country_state_city">
+        <field name="name">Cities/Towns</field>
+        <field name="res_model">res.city</field>
+        <field name="view_mode">tree,form</field>
+        <field name="help" type="html">
+            <p class="oe_view_nocontent_create">
+                Create and manage the cities and towns of a state.
+            </p>
+        </field>
+    </record>
+
+    <menuitem name="Common Data"
+              id="menu_common_data"
+              parent="base.menu_administration"/>
+
+    <menuitem action="base.action_country"
+              id="menu_common_country"
+              parent="menu_common_data"
+              sequence="3"/>
+
+    <menuitem action="base.action_country_state"
+              id="menu_common_state"
+              parent="menu_common_data"
+              sequence="5"/>
+
+    <menuitem action="action_country_state_district"
+              id="menu_common_district"
+              parent="menu_common_data"
+              sequence="10"/>
+
+    <menuitem action="action_country_state_district_zone"
+              id="menu_common_zone"
+              parent="menu_common_data"
+              sequence="15"/>
+
+    <menuitem action="action_country_state_city"
+              id="menu_common_city"
+              parent="menu_common_data"
+              sequence="20"/>
+</odoo>

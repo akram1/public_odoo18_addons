@@ -1,0 +1,18 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+,,,,,,,
+access_tag_viewer,tag viewer,model_tag_tag,base.group_user,1,0,0,0
+access_tag_user,tag user,model_tag_tag,group_tags_user,1,0,1,0
+access_tag_manager,tag manager,model_tag_tag,group_tags_manager,1,1,1,1
+access_tag_state_manager,tag state manager,model_tag_tag,group_tags_state_manager,1,1,1,1
+,,,,,,,
+access_tag_category_viewer,tag_category viewer,model_tag_category,base.group_user,1,0,0,0
+access_tag_category_user,tag_category user,model_tag_category,group_tags_user,1,0,1,0
+access_tag_category_manager,tag_category manager,model_tag_category,group_tags_manager,1,1,1,1
+access_tag_category_manager_state,tag_category manager_state,model_tag_category,group_tags_state_manager,1,1,1,1
+access_tag_tag_manager,tag_tag_manager,model_tag_tag,,1,1,1,1
+,,,,,,,
+access_sub_category_viewer,sub_category viewer,model_tag_sub_category,base.group_user,1,0,0,0
+access_sub_category_user,sub_category user,model_tag_sub_category,group_tags_user,1,0,0,0
+access_sub_category_manager,sub_category manager,model_tag_sub_category,group_tags_manager,1,1,1,1
+access_sub_category_manager_state,sub_category manager_state,model_tag_sub_category,group_tags_state_manager,1,1,1,1
+access_sub_tag_manager,sub_tag_manager,model_tag_sub_category,,1,1,1,1

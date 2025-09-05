@@ -1,0 +1,312 @@
+.o_form_view .o_group .o_td_label + td,
+.o_rtl .border-black.o_subtotal.text-right,
+.o_rtl .border-black.o_total.text-right,
+.o_data_cell.o_field_cell.o_list_number.o_monetary_cell.o_readonly_modifier,
+.o_data_cell.o_field_cell.o_list_number, .o_stat_value,
+.o_rtl span.o_rightpanel_right_col {
+     unicode-bidi: plaintext;
+}
+
+.o_rtl .col-auto .text-end{
+     unicode-bidi: plaintext;
+}
+
+.o_rtl th.text-right,
+.o_rtl td.text-right.o_price_total,
+.o_data_cell.o_field_cell.o_list_number,
+.o_rtl .o_data_cell.o_field_cell.o_list_char.o_readonly_modifier.text-right,
+.o_rtl .o_pivot .o_pivot_cell_value,
+.o_form_view .o_group .o_td_label + td,
+.o_rtl td.value.o_list_number,
+.o_rtl td.quantity.o_list_number{
+    text-align: left !important;
+}
+
+.o_rtl div[name="options"] .o_field_boolean {
+    margin-right: 0px !important;
+    margin-left: 10px !important;
+    line-height: 2.3;
+}
+
+
+.o_rtl .o_form_view .o_field_boolean{
+    line-height: 2.0;
+}
+
+.o_rtl .o_settings_container .o_setting_box .custom-checkbox:not(.o_boolean_toggle) {
+    line-height: 2.5;
+    margin-top: -4px;
+}
+
+.o_rtl .o_pivot table .o_pivot_header_cell_closed::after,
+.o_rtl .o_pivot table .o_pivot_header_cell_opened::after{
+    float: left;
+}
+
+.o_rtl td.text-right.o_price_total,
+.o_rtl .col-auto.text-right,
+.o_rtl .o_field_monetary,
+.o_rtl .o_field_number,
+.o_rtl th.o_mrp_bom_cost,
+.o_rtl th.o_mrp_prod_cost,
+.o_rtl td.o_mrp_bom_cost,
+.o_rtl td.o_mrp_prod_cost,
+.o_list_number.text-end,
+.o_rtl .o_list_view .o_list_table tfoot .o_list_number{
+    text-align: left !important;
+    direction: rtl;
+}
+
+.o_rtl .col-auto.text-right{
+    width: 38%;
+}
+
+span.d-block.min-w-0.text-truncate.flex-grow-1.text-end {
+    text-align: left !important;
+}
+
+.o_field_monetary.o_field_number.o_input.o_field_widget.o_quick_editable {
+    direction: rtl !important;
+}
+
+.o_rtl .o_form_view .o_form_statusbar > .o_statusbar_status > .dropdown-menu{
+    left: auto;
+}
+
+.o_rtl .dropdown-header:not(:first-child){
+    background-color: aliceblue !important;
+}
+
+.o_rtl span.o_field_float.o_field_number.o_field_widget.o_quick_editable {
+    vertical-align: text-bottom;
+}
+
+.o_rtl .o_form_view .oe_button_box .btn.oe_stat_button > .o_stat_info .o_stat_value{
+    line-height: 1.6;
+}
+
+.o_rtl i.o_DiscussSidebarCategory_titleIcon.fa.fa-chevron-right {
+    line-height: 1.7;
+    padding-left: 5px;
+}
+
+.o_rtl .o_list_view .o_list_table tbody > tr > td:not(.o_list_record_selector).o_list_number {
+    unicode-bidi: plaintext;
+    text-align: left !important;
+}
+
+.o_rtl .o_kanban_record_title {
+    font-size: 14px !important;
+}
+.o_rtl .o_form_view .o_form_statusbar > .o_statusbar_buttons > .btn {
+    margin: 4px 0 4px 6px;
+}
+
+.o_rtl .o_kanban_view.o_kanban_grouped .o_kanban_record, .o_kanban_view.o_kanban_grouped .o_kanban_quick_create {
+    margin-bottom: 3px;
+}
+
+.o_rtl .o_form_view .o_group {
+    margin: 0 0;
+}
+
+.o_rtl .o_form_view .oe_title > h1 {
+    min-height: auto;
+}
+
+.o_rtl .o_form_view .o_form_label {
+    line-height: 2.4;
+}
+
+.o_rtl .o_field_boolean .o_field_widget .custom-control-label::before,
+.o_rtl .o_field_boolean .o_field_widget .custom-control-label::after {
+    top: 5px;
+}
+
+.o_rtl .o_optional_columns_dropdown .custom-control-label::before,
+.o_rtl .o_optional_columns_dropdown .custom-control-label::after {
+    top: -2px;
+}
+
+.o_rtl span[data-oe-type="monetary"] {
+    unicode-bidi: plaintext;
+}
+
+.o_rtl .dropdown-menu[x-placement^="top"],
+.o_rtl .dropdown-menu[x-placement^="right"],
+.o_rtl .dropdown-menu[x-placement^="bottom"],
+.o_rtl .dropdown-menu[x-placement^="left"] {
+    left: auto !important;
+    right: 0 !important;
+}
+
+
+.o_rtl .nav-tabs .nav-link.active,
+.o_rtl .nav-tabs .nav-item.show .nav-link {
+    font-weight: bold;
+}
+
+.form-check-input {
+    width: 1.2em !important;
+    height: 1.2em !important;
+}
+
+.o_rtl .o_form_view .o_field_monetary.oe_inline input {
+    max-width: 7rem;
+}
+
+
+.o_rtl .o_group_header.o_group_open th.o_group_name span {
+    padding-left: 0px !important;
+}
+
+.o_rtl .o_form_view .oe_right, .o_form_view .o_group.o_inner_group.oe_subtotal_footer {
+    float: right !important;
+    margin-right: 5em;
+}
+.o_field_float.o_field_number.o_field_widget.o_quick_editable,
+.o_field_monetary.o_field_number.o_field_widget.o_quick_editable{
+    unicode-bidi: plaintext;
+}
+
+
+*[data-oe-type="monetary"],
+.o_rtl .o_field_float,
+.o_rtl table .o_pivot_header_cell_closed::before,
+.o_rtl td.text-right.o_price_total,
+.o_rtl .o_value,
+.o_rtl .o_price_total,
+.fa.fa-1x.fa-fw.fa-phone.mr-2+a {
+    unicode-bidi: plaintext !important;
+}
+
+.o_form_view .o_group.o_inner_group > tbody > tr > td span.o_field_widget, .o_form_view .o_group.o_inner_group > tbody > tr > td .o_field_boolean.o_field_widget, .o_form_view .o_group.o_inner_group > tbody > tr > td .oe_avatar.o_field_widget, .o_form_view .o_group.o_inner_group > tbody > tr > td .o_form_uri.o_field_widget {
+    width: auto;
+    unicode-bidi: plaintext;
+}
+
+.o_rtl .o_field_widget.o_field_many2one.o_quick_editable.o_required_modifier,
+.o_rtl .o_field_widget.o_field_many2one.o_quick_editable.o_with_button{
+    margin-left: 2%;
+}
+
+.dropdown-header {
+    background-color: aliceblue !important;
+}
+
+/* Fix number prefixes
+.o_rtl .o_list_number,
+.o_rtl .o_pivot_cell_value,
+.o_rtl .o_list_table,
+.o_rtl .oe_tax_group_amount_value,
+.o_rtl .col-auto.text-right,
+.o_rtl .o_field_monetary,
+.o_rtl .o_field_number,
+.o_rtl th.o_list_number_th,
+.o_rtl th.o_mrp_bom_cost,
+.o_rtl th.o_mrp_prod_cost,
+.o_rtl td.o_mrp_bom_cost,
+.o_rtl td.o_mrp_prod_cost{
+    text-align: left !important;
+    unicode-bidi: plaintext !important;
+}
+
+.o_rtl .col-auto.text-right{
+    width: 38%;
+}
+
+Fix table identation and orientation
+.o_rtl .o_form_view .o_group.o_inner_group.oe_subtotal_footer > tbody > tr > td .o_field_widget {
+    text-align: left;
+    unicode-bidi: plaintext;
+    justify-content: flex-start;
+    -webkit-box-pack: start;
+}
+
+.o_rtl .o_form_view .o_field_widget {
+    margin-bottom: 0px;
+}
+
+Fix table field show/hide dropdown menu
+.o_rtl .o_list_view .o_optional_columns .o_optional_columns_dropdown {
+    left: auto;
+}
+
+//Fix forcast widget cell
+.o_rtl .o_forecast_widget_cell button {
+    position: unset;
+}
+
+//Fix website main menu dropdown
+#oe_main_menu_navbar .dropdown-menu {
+    right: 0 !important;
+    left: auto;
+}
+
+//Fix widgets and buttons
+.o_rtl .o_forecast_widget_cell button {
+    position: inline-block;
+}
+
+.o_rtl .o_form_view .oe_button_box .btn.oe_stat_button > .o_button_icon{
+    margin-right: 6px;
+    margin-left: 0;
+}
+
+.o_rtl span.o_field_integer.o_field_number.o_field_widget.o_readonly_modifier {
+    margin-right: 5px;
+}
+
+//Fix pivot + and - sign position
+.o_rtl table .o_pivot_header_cell_opened::before {
+    float: left;
+}
+
+.o_rtl .o_form_view .oe_button_box .btn.oe_stat_button{
+	height: auto;
+}
+
+// Fix some website snippets
+.o_rtl .s_comparisons .card-body .card-title {
+    unicode-bidi: plaintext;
+}
+
+.o_rtl .note-popover .popover .popover-body .dropdown-menu.show,
+.o_rtl .panel-heading.note-toolbar .dropdown-menu.show{
+    width: fit-content;
+}
+
+.o_rtl .o_form_view .o_group .o_td_label + td {
+    padding: 0px 8px 3px 36px;
+}
+
+.o_rtl .o_form_view .o_group.o_inner_group > tbody > tr > td.o_td_label {
+    text-align: right;
+}
+
+.o_rtl  span.fa.fa-exclamation-triangle {
+    float: left;
+}
+
+.o_rtl .o_form_view .o_group .o_td_label + td{
+    padding: 0px 8px 3px 26px;
+}
+
+.o_rtl .o_form_view .o_group .o_field_widget > .btn {
+    padding: 0 8px;
+}
+
+.o_rtl .td.o_data_cell .o_field_cell .o_list_number {
+    direction: rtl;
+}
+
+.o_rtl .js_language_selector .dropdown-menu {
+    min-width: fit-content;
+}
+
+
+.o_rtl .d-inline-block .o_field_boolean {
+    margin-left: 10px;
+    margin-right: 0px;
+}
+*/

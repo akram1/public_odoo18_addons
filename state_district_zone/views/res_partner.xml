@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_partner_address_form" model="ir.ui.view">
+        <field name="name">District, city and zone contacts address form</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_partner_address_form"/>
+        <field name="arch" type="xml">
+            <field name="city" position="attributes">
+       	    	<attribute name="invisible">1</attribute>
+            </field>
+            <field name="city" position="before">
+                <field name="city_id" placeholder="City" class="o_address_city"
+                       context="{'state_id': state_id, 'default_state_id': state_id}"/>
+                <field name="district" placeholder="District" class="o_address_state"
+                       context="{'state_id': state_id, 'default_state_id': state_id}"/>
+                <field name="zone" placeholder="Zone" class="o_address_zip"
+                       context="{'district': district, 'default_district': district}"/>
+            </field>
+		</field>
+    </record>
+
+	<record id="res_partner_view_form_private" model="ir.ui.view">
+        <field name="name">District, city and zone contacts private form</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.res_partner_view_form_private"/>
+        <field name="arch" type="xml">
+            <field name="city" position="attributes">
+       	    	<attribute name="invisible">1</attribute>
+            </field>
+            <field name="city" position="before">
+                <field name="city_id" placeholder="City" class="o_address_city"
+                       readonly="type == 'contact' and parent_id"
+                       context="{'state_id': state_id, 'default_state_id': state_id}"/>
+                <field name="district" placeholder="District" class="o_address_state"
+                       readonly="type == 'contact' and parent_id"
+                       context="{'state_id': state_id, 'default_state_id': state_id}"/>
+                <field name="zone" placeholder="Zone" class="o_address_zip"
+                       readonly="type == 'contact' and parent_id"
+                       context="{'district': district, 'default_district': district}"/>
+            </field>
+		</field>
+    </record>
+
+    <record id="view_partner_form" model="ir.ui.view">
+        <field name="name">District, city and zone contacts partner form</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_partner_form"/>
+        <field name="arch" type="xml">
+            <field name="city" position="attributes">
+       	    	<attribute name="invisible">1</attribute>
+            </field>
+            <field name="city" position="before">
+                <field name="city_id" placeholder="City" class="o_address_city"
+                       readonly="type == 'contact' and parent_id"
+                       context="{'state_id': state_id, 'default_state_id': state_id}"/>
+                <field name="district" placeholder="District" class="o_address_state"
+                       readonly="type == 'contact' and parent_id"
+                       context="{'state_id': state_id, 'default_state_id': state_id}"/>
+                <field name="zone" placeholder="Zone" class="o_address_zip"
+                       readonly="type == 'contact' and parent_id"
+                       context="{'district': district, 'default_district': district}"/>
+            </field>
+		</field>
+    </record>
+
+</odoo>

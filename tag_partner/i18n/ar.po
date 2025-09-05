@@ -1,0 +1,843 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* tag_partner
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-07-23 21:33+0000\n"
+"PO-Revision-Date: 2025-07-24 00:41+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Generator: Poedit 3.6\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#. module: tag_partner
+#: model:tag.tag,name:tag_partner.partner_blood_group_5
+msgid "AB+"
+msgstr "AB+"
+
+#. module: tag_partner
+#: model:tag.tag,name:tag_partner.partner_blood_group_6
+msgid "AB-"
+msgstr "AB-"
+
+#. module: tag_partner
+#: model:tag.tag,name:tag_partner.partner_ethnicity_4
+msgid "African"
+msgstr "أفريقي"
+
+#. module: tag_partner
+#: model:tag.tag,name:tag_partner.partner_hair_color_amber
+msgid "Amber Hair"
+msgstr "عسلي"
+
+#. module: tag_partner
+#: model:tag.tag,name:tag_partner.partner_ethnicity_2
+msgid "Amerindian"
+msgstr "الهنود الحمر"
+
+#. module: tag_partner
+#: model:tag.tag,name:tag_partner.partner_ethnicity_1
+msgid "Arab"
+msgstr "عرب"
+
+#. module: tag_partner
+#: model:tag.tag,name:tag_partner.partner_ethnicity_3
+msgid "Australaisa"
+msgstr "استرالي"
+
+#. module: tag_partner
+#: model:tag.tag,name:tag_partner.partner_role_author
+msgid "Author"
+msgstr "كاتب"
+
+#. module: tag_partner
+#: model:tag.tag,name:tag_partner.partner_religion_2
+msgid "Bahaee Faith"
+msgstr "بهائي"
+
+#. module: tag_partner
+#: model:tag.tag,name:tag_partner.partner_eye_black
+msgid "Black Eyes"
+msgstr "اسود"
+
+#. module: tag_partner
+#: model:tag.tag,name:tag_partner.partner_hair_color_black
+msgid "Black Hair"
+msgstr "لون الشعر / اسود"
+
+#. module: tag_partner
+#: model:tag.tag,name:tag_partner.partner_hair_color_blond
+msgid "Blond Hair"
+msgstr "لون الشعر / اشقر غامق"
+
+#. module: tag_partner
+#: model:tag.category,name:tag_partner.partner_blood_group
+msgid "Blood Group"
+msgstr "فصيلة الدم"
+
+#. module: tag_partner
+#: model:tag.tag,complete_name:tag_partner.partner_blood_group_1
+msgid "Blood Group / A+"
+msgstr "فصيلة الدم / +A"
+
+#. module: tag_partner
+#: model:tag.tag,complete_name:tag_partner.partner_blood_group_2
+msgid "Blood Group / A-"
+msgstr "فصيلة الدم / -A"
+
+#. module: tag_partner
+#: model:tag.tag,complete_name:tag_partner.partner_blood_group_5
+msgid "Blood Group / AB+"
+msgstr "فصيلة الدم / +AB"
+
+#. module: tag_partner
+#: model:tag.tag,complete_name:tag_partner.partner_blood_group_6
+msgid "Blood Group / AB-"
+msgstr "فصيلة الدم / +AB"
+
+#. module: tag_partner
+#: model:tag.tag,complete_name:tag_partner.partner_blood_group_3
+msgid "Blood Group / B+"
+msgstr "فصيلة الدم / +B"
+
+#. module: tag_partner
+#: model:tag.tag,complete_name:tag_partner.partner_blood_group_4
+msgid "Blood Group / B-"
+msgstr "فصيلة الدم / -B"
+
+#. module: tag_partner
+#: model:tag.tag,complete_name:tag_partner.partner_blood_group_7
+msgid "Blood Group / O+"
+msgstr "فصيلة الدم / +O"
+
+#. module: tag_partner
+#: model:tag.tag,complete_name:tag_partner.partner_blood_group_8
+msgid "Blood Group / O-"
+msgstr "فصيلة الدم / -O"
+
+#. module: tag_partner
+#: model:tag.tag,name:tag_partner.partner_eye_blue
+msgid "Blue Eyes"
+msgstr "ازرق"
+
+#. module: tag_partner
+#: model:tag.tag,name:tag_partner.partner_eye_brown
+msgid "Brown Eyes"
+msgstr "بني"
+
+#. module: tag_partner
+#: model:tag.tag,name:tag_partner.partner_hair_color_brown
+msgid "Brown Hair"
+msgstr "لون الشعر / بني غامق"
+
+#. module: tag_partner
+#: model:tag.tag,name:tag_partner.partner_religion_3
+msgid "Buddhism"
+msgstr "البوذية"
+
+#. module: tag_partner
+#: model:tag.tag,name:tag_partner.partner_religion_4
+msgid "Caodaism"
+msgstr "الكاودية"
+
+#. module: tag_partner
+#: model:tag.tag,name:tag_partner.partner_ethnicity_5
+msgid "Central Asia"
+msgstr "امريكا الوسطى"
+
+#. module: tag_partner
+#: model:tag.tag,name:tag_partner.partner_religion_5
+msgid "Cheondoism"
+msgstr "شندوية"
+
+#. module: tag_partner
+#: model:tag.tag,name:tag_partner.partner_religion_6
+msgid "Christianity"
+msgstr "المسيحية"
+
+#. module: tag_partner
+#: model:ir.model,name:tag_partner.model_res_partner
+msgid "Contact"
+msgstr "جهة الاتصال"
+
+#. module: tag_partner
+#: model:tag.category,complete_name:tag_partner.partner_blood_group
+msgid "Contact / Blood Group"
+msgstr "فصيلة الدم / +A"
+
+#. module: tag_partner
+#: model:tag.category,complete_name:tag_partner.partner_ethnicity
+msgid "Contact / Ethnicity"
+msgstr "جهة الاتصال"
+
+#. module: tag_partner
+#: model:tag.category,complete_name:tag_partner.partner_eye_color
+msgid "Contact / Eye Color"
+msgstr "جهة الاتصال / لون العين / عسلي"
+
+#. module: tag_partner
+#: model:tag.category,complete_name:tag_partner.partner_hair_color
+msgid "Contact / Hair Color"
+msgstr "جهة الاتصال / لون الشعر"
+
+#. module: tag_partner
+#: model:tag.category,complete_name:tag_partner.partner_marital
+msgid "Contact / Marital Status"
+msgstr "جهة الاتصال / الحالة"
+
+#. module: tag_partner
+#: model:tag.category,complete_name:tag_partner.partner_medical_aid
+msgid "Contact / Medical Aid"
+msgstr "جهة الاتصال / لمساعدة طبية"
+
+#. module: tag_partner
+#: model:tag.category,complete_name:tag_partner.partner_religion
+msgid "Contact / Religion"
+msgstr "جهة الاتصال / الديانة"
+
+#. module: tag_partner
+#: model:tag.category,complete_name:tag_partner.partner_role
+msgid "Contact / Role"
+msgstr "جهة الاتصال / الدور"
+
+#. module: tag_partner
+#: model:tag.category,complete_name:tag_partner.partner_sex
+msgid "Contact / Sex"
+msgstr "جهة الاتصال / الجنس"
+
+#. module: tag_partner
+#: model:tag.tag,name:tag_partner.partner_role_customer
+msgid "Customer"
+msgstr "جهة الاتصال / العميل"
+
+#. module: tag_partner
+#: model:tag.tag,name:tag_partner.partner_marital_3
+msgid "Divorced"
+msgstr "مطلّق"
+
+#. module: tag_partner
+#: model:tag.tag,name:tag_partner.partner_ethnicity_6
+msgid "East Asia"
+msgstr "شرق آسيا"
+
+#. module: tag_partner
+#: model:tag.tag,name:tag_partner.partner_role_employee
+msgid "Employee"
+msgstr "الموظف"
+
+#. module: tag_partner
+#: model:tag.category,name:tag_partner.partner_ethnicity
+msgid "Ethnicity"
+msgstr "العرقية"
+
+#. module: tag_partner
+#: model:tag.tag,complete_name:tag_partner.partner_ethnicity_4
+msgid "Ethnicity / African"
+msgstr "العرقية / أفريقي"
+
+#. module: tag_partner
+#: model:tag.tag,complete_name:tag_partner.partner_ethnicity_2
+msgid "Ethnicity / Amerindian"
+msgstr "العرقية / هنود حمر"
+
+#. module: tag_partner
+#: model:tag.tag,complete_name:tag_partner.partner_ethnicity_1
+msgid "Ethnicity / Arab"
+msgstr "العرقية / عرب"
+
+#. module: tag_partner
+#: model:tag.tag,complete_name:tag_partner.partner_ethnicity_3
+msgid "Ethnicity / Australaisa"
+msgstr "العرقية / استرالي"
+
+#. module: tag_partner
+#: model:tag.tag,complete_name:tag_partner.partner_ethnicity_5
+msgid "Ethnicity / Central Asia"
+msgstr "العرقية / امريكا الوسطى"
+
+#. module: tag_partner
+#: model:tag.tag,complete_name:tag_partner.partner_ethnicity_6
+msgid "Ethnicity / East Asia"
+msgstr "العرقية / شرق آسيا"
+
+#. module: tag_partner
+#: model:tag.tag,complete_name:tag_partner.partner_ethnicity_7
+msgid "Ethnicity / European"
+msgstr "العرقية / أوروبي"
+
+#. module: tag_partner
+#: model:tag.tag,complete_name:tag_partner.partner_ethnicity_8
+msgid "Ethnicity / Indian"
+msgstr "العرقية / هندي"
+
+#. module: tag_partner
+#: model:tag.tag,complete_name:tag_partner.partner_ethnicity_9
+msgid "Ethnicity / Inuit"
+msgstr "العرقية / الإنويت"
+
+#. module: tag_partner
+#: model:tag.tag,complete_name:tag_partner.partner_ethnicity_10
+msgid "Ethnicity / Malagasy"
+msgstr "العرقية / مدغشقر"
+
+#. module: tag_partner
+#: model:tag.tag,complete_name:tag_partner.partner_ethnicity_11
+msgid "Ethnicity / Mestizo"
+msgstr "العرقية / مستيزو"
+
+#. module: tag_partner
+#: model:tag.tag,complete_name:tag_partner.partner_ethnicity_12
+msgid "Ethnicity / Mulatto"
+msgstr "العرقية / مولاتو"
+
+#. module: tag_partner
+#: model:tag.tag,complete_name:tag_partner.partner_ethnicity_13
+msgid "Ethnicity / Multi-race"
+msgstr "العرقية / متعدد"
+
+#. module: tag_partner
+#: model:tag.tag,name:tag_partner.partner_ethnicity_7
+msgid "European"
+msgstr "أوروبية"
+
+#. module: tag_partner
+#: model:tag.category,name:tag_partner.partner_eye_color
+msgid "Eye Color"
+msgstr "لون العين"
+
+#. module: tag_partner
+#: model:tag.tag,complete_name:tag_partner.partner_eye_black
+msgid "Eye Color / Black Eyes"
+msgstr "لون العين / اسود"
+
+#. module: tag_partner
+#: model:tag.tag,complete_name:tag_partner.partner_eye_blue
+msgid "Eye Color / Blue Eyes"
+msgstr "لون العين / ازرق"
+
+#. module: tag_partner
+#: model:tag.tag,complete_name:tag_partner.partner_eye_brown
+msgid "Eye Color / Brown Eyes"
+msgstr "لون العين / بني"
+
+#. module: tag_partner
+#: model:tag.tag,complete_name:tag_partner.partner_eye_gray
+msgid "Eye Color / Gray Eyes"
+msgstr "لون العين / رمادي"
+
+#. module: tag_partner
+#: model:tag.tag,complete_name:tag_partner.partner_eye_green
+msgid "Eye Color / Green Eyes"
+msgstr "لون العين / اخضر"
+
+#. module: tag_partner
+#: model:tag.tag,name:tag_partner.partner_medical_aid_1
+msgid "Eye Glasses"
+msgstr "نظارات"
+
+#. module: tag_partner
+#: model:tag.tag,name:tag_partner.partner_person_sex_female
+msgid "Female"
+msgstr "أنثى"
+
+#. module: tag_partner
+#: model:ir.model.fields,help:tag_partner.field_res_partner__search_tags
+msgid "Find all records that contain this tag"
+msgstr "البحث عن جميع السجلات التي  تحتوي على هذا الوسم"
+
+#. module: tag_partner
+#: model:ir.model.fields,help:tag_partner.field_res_partner__search_no_tags
+msgid "Find all records that have no this tag"
+msgstr "البحث عن جميع السجلات التي لا تحتوي على هذا الوسم"
+
+#. module: tag_partner
+#: model:tag.tag,name:tag_partner.partner_religion_7
+msgid "Folk Religion"
+msgstr "دين شعبي"
+
+#. module: tag_partner
+#: model:tag.tag,name:tag_partner.partner_eye_gray
+msgid "Gray Eyes"
+msgstr "رمادي"
+
+#. module: tag_partner
+#: model:tag.tag,name:tag_partner.partner_hair_color_gray
+msgid "Gray Hair"
+msgstr "لون الشعر / رمادي وابيض"
+
+#. module: tag_partner
+#: model:tag.tag,name:tag_partner.partner_eye_green
+msgid "Green Eyes"
+msgstr "اخضر"
+
+#. module: tag_partner
+#: model:tag.category,name:tag_partner.partner_hair_color
+msgid "Hair Color"
+msgstr "لون الشعر"
+
+#. module: tag_partner
+#: model:tag.tag,complete_name:tag_partner.partner_hair_color_amber
+msgid "Hair Color / Amber Hair"
+msgstr "لون الشعر"
+
+#. module: tag_partner
+#: model:tag.tag,complete_name:tag_partner.partner_hair_color_black
+msgid "Hair Color / Black Hair"
+msgstr "لون الشعر / اسود"
+
+#. module: tag_partner
+#: model:tag.tag,complete_name:tag_partner.partner_hair_color_blond
+msgid "Hair Color / Blond Hair"
+msgstr "لون الشعر / اشقر غامق"
+
+#. module: tag_partner
+#: model:tag.tag,complete_name:tag_partner.partner_hair_color_brown
+msgid "Hair Color / Brown Hair"
+msgstr "لون الشعر / بني فاتح"
+
+#. module: tag_partner
+#: model:tag.tag,complete_name:tag_partner.partner_hair_color_gray
+msgid "Hair Color / Gray Hair"
+msgstr "لون الشعر / رمادي وابيض"
+
+#. module: tag_partner
+#: model:tag.tag,complete_name:tag_partner.partner_hair_color_hazel
+msgid "Hair Color / Hazel"
+msgstr "لون العين / كستنائي"
+
+#. module: tag_partner
+#: model:tag.tag,complete_name:tag_partner.partner_hair_color_red
+msgid "Hair Color / Red Hair"
+msgstr "لون الشعر / احمر"
+
+#. module: tag_partner
+#: model:tag.tag,complete_name:tag_partner.partner_hair_color_white
+msgid "Hair Color / White Hair"
+msgstr "لون الشعر / رمادي وابيض"
+
+#. module: tag_partner
+#: model:tag.tag,name:tag_partner.partner_hair_color_hazel
+msgid "Hazel"
+msgstr "كستنائي"
+
+#. module: tag_partner
+#: model:tag.tag,name:tag_partner.partner_medical_aid_2
+msgid "Hearing Aids"
+msgstr "سماعات اذن"
+
+#. module: tag_partner
+#: model:tag.tag,name:tag_partner.partner_religion_8
+msgid "Hinduism"
+msgstr "الهندوسية"
+
+#. module: tag_partner
+#: model:tag.tag,name:tag_partner.partner_religion_9
+msgid "Hoahaoism"
+msgstr "الهاوهية"
+
+#. module: tag_partner
+#: model:tag.tag,name:tag_partner.partner_ethnicity_8
+msgid "Indian"
+msgstr "هندي"
+
+#. module: tag_partner
+#: model:tag.tag,name:tag_partner.partner_ethnicity_9
+msgid "Inuit"
+msgstr "الإنويت"
+
+#. module: tag_partner
+#: model:tag.tag,name:tag_partner.partner_religion_1
+msgid "Islam"
+msgstr "الاسلام"
+
+#. module: tag_partner
+#: model:tag.tag,name:tag_partner.partner_religion_10
+msgid "Jainism"
+msgstr "الجينية"
+
+#. module: tag_partner
+#: model:tag.tag,name:tag_partner.partner_religion_11
+msgid "Judaism"
+msgstr "اليهودية"
+
+#. module: tag_partner
+#: model:tag.tag,name:tag_partner.partner_religion_12
+msgid "Korean Shamanism"
+msgstr "الشامانية الكورية"
+
+#. module: tag_partner
+#: model:tag.tag,name:tag_partner.partner_role_lab
+msgid "Lab Beneficiary"
+msgstr "عميل مختبر"
+
+#. module: tag_partner
+#: model:tag.tag,name:tag_partner.partner_role_library
+msgid "Library Visitor"
+msgstr "زائر مكتبة"
+
+#. module: tag_partner
+#: model:tag.tag,name:tag_partner.partner_role_license
+msgid "License Operator"
+msgstr "ترخيص شركة عاملة"
+
+#. module: tag_partner
+#: model:tag.tag,name:tag_partner.partner_ethnicity_10
+msgid "Malagasy"
+msgstr "مدغشقر"
+
+#. module: tag_partner
+#: model:tag.tag,name:tag_partner.partner_person_sex_male
+msgid "Male"
+msgstr "ذكر"
+
+#. module: tag_partner
+#: model:tag.category,name:tag_partner.partner_marital
+msgid "Marital Status"
+msgstr "الحالة الاجتماعية"
+
+#. module: tag_partner
+#: model:tag.tag,complete_name:tag_partner.partner_marital_3
+msgid "Marital Status / Divorced"
+msgstr "الحالة الاجتماعية / مطلّق"
+
+#. module: tag_partner
+#: model:tag.tag,complete_name:tag_partner.partner_marital_2
+msgid "Marital Status / Married"
+msgstr "الحالة الاجتماعية / متزوج"
+
+#. module: tag_partner
+#: model:tag.tag,complete_name:tag_partner.partner_marital_1
+msgid "Marital Status / Single"
+msgstr "الحالة الاجتماعية / أعزب"
+
+#. module: tag_partner
+#: model:tag.tag,complete_name:tag_partner.partner_marital_4
+msgid "Marital Status / Widower"
+msgstr "الحالة الاجتماعية /أرمل"
+
+#. module: tag_partner
+#: model:tag.tag,name:tag_partner.partner_marital_2
+msgid "Married"
+msgstr "متزوج"
+
+#. module: tag_partner
+#: model:tag.category,name:tag_partner.partner_medical_aid
+msgid "Medical Aid"
+msgstr "مساعدة طبية"
+
+#. module: tag_partner
+#: model:tag.tag,complete_name:tag_partner.partner_medical_aid_1
+msgid "Medical Aid / Eye Glasses"
+msgstr "مساعدة طبية / نظارات"
+
+#. module: tag_partner
+#: model:tag.tag,complete_name:tag_partner.partner_medical_aid_2
+msgid "Medical Aid / Hearing Aids"
+msgstr "مساعدة طبية / سماعات اذن"
+
+#. module: tag_partner
+#: model:tag.tag,complete_name:tag_partner.partner_medical_aid_4
+msgid "Medical Aid / Medical Chair"
+msgstr "مساعدة طبية / كرسي متحرك"
+
+#. module: tag_partner
+#: model:tag.tag,complete_name:tag_partner.partner_medical_aid_3
+msgid "Medical Aid / Medical Crutch"
+msgstr "مساعدة طبية / عكاز"
+
+#. module: tag_partner
+#: model:tag.tag,name:tag_partner.partner_medical_aid_4
+msgid "Medical Chair"
+msgstr "كرسي طبي"
+
+#. module: tag_partner
+#: model:tag.tag,name:tag_partner.partner_medical_aid_3
+msgid "Medical Crutch"
+msgstr "عكاز طبي"
+
+#. module: tag_partner
+#: model:tag.tag,name:tag_partner.partner_ethnicity_11
+msgid "Mestizo"
+msgstr "مستيزو"
+
+#. module: tag_partner
+#: model:ir.model.fields,field_description:tag_partner.field_res_partner__model_name
+#: model:ir.model.fields,field_description:tag_partner.field_res_users__model_name
+msgid "Model Name"
+msgstr "اسم الكائن"
+
+#. module: tag_partner
+#: model:tag.tag,name:tag_partner.partner_ethnicity_12
+msgid "Mulatto"
+msgstr "مولاتو"
+
+#. module: tag_partner
+#: model:tag.tag,name:tag_partner.partner_ethnicity_13
+msgid "Multi-race"
+msgstr "متعدد الاعراق"
+
+#. module: tag_partner
+#: model:tag.tag,name:tag_partner.partner_role_museum_visitor
+msgid "Museum Visitor"
+msgstr "زائر المتحف"
+
+#. module: tag_partner
+#: model:ir.model.fields,field_description:tag_partner.field_res_partner__search_no_tags
+msgid "No tag"
+msgstr "لا وسوم "
+
+#. module: tag_partner
+#: model:ir.model.fields,field_description:tag_partner.field_res_partner__category_id
+#: model:ir.model.fields,field_description:tag_partner.field_res_users__category_id
+msgid "Old Tags"
+msgstr "وسوم قديمة"
+
+#. module: tag_partner
+#: model:ir.actions.act_window,name:tag_partner.partner_tags_view_action
+#: model:ir.ui.menu,name:tag_partner.menu_partner_tags_id
+msgid "Partner Categories"
+msgstr "فئات العميل"
+
+#. module: tag_partner
+#: model:tag.tag,name:tag_partner.partner_role_publisher
+msgid "Publisher"
+msgstr "ناشر"
+
+#. module: tag_partner
+#: model:tag.tag,name:tag_partner.partner_hair_color_red
+msgid "Red Hair"
+msgstr "احمر"
+
+#. module: tag_partner
+#: model:tag.category,name:tag_partner.partner_religion
+msgid "Religion"
+msgstr "الديانة"
+
+#. module: tag_partner
+#: model:tag.tag,complete_name:tag_partner.partner_religion_2
+msgid "Religion / Bahaee Faith"
+msgstr "الديانة / بهائي"
+
+#. module: tag_partner
+#: model:tag.tag,complete_name:tag_partner.partner_religion_3
+msgid "Religion / Buddhism"
+msgstr "الديانة / البوذية"
+
+#. module: tag_partner
+#: model:tag.tag,complete_name:tag_partner.partner_religion_4
+msgid "Religion / Caodaism"
+msgstr "الديانة / الكاودية"
+
+#. module: tag_partner
+#: model:tag.tag,complete_name:tag_partner.partner_religion_5
+msgid "Religion / Cheondoism"
+msgstr "الديانة / شندوية"
+
+#. module: tag_partner
+#: model:tag.tag,complete_name:tag_partner.partner_religion_6
+msgid "Religion / Christianity"
+msgstr "الديانة / المسيحية"
+
+#. module: tag_partner
+#: model:tag.tag,complete_name:tag_partner.partner_religion_7
+msgid "Religion / Folk Religion"
+msgstr "الديانة / دين شعبي"
+
+#. module: tag_partner
+#: model:tag.tag,complete_name:tag_partner.partner_religion_8
+msgid "Religion / Hinduism"
+msgstr "الديانة / الهندوسية"
+
+#. module: tag_partner
+#: model:tag.tag,complete_name:tag_partner.partner_religion_9
+msgid "Religion / Hoahaoism"
+msgstr "الديانة / الهاوهية"
+
+#. module: tag_partner
+#: model:tag.tag,complete_name:tag_partner.partner_religion_1
+msgid "Religion / Islam"
+msgstr "الديانة / الاسلام"
+
+#. module: tag_partner
+#: model:tag.tag,complete_name:tag_partner.partner_religion_10
+msgid "Religion / Jainism"
+msgstr "الديانة / الجينية"
+
+#. module: tag_partner
+#: model:tag.tag,complete_name:tag_partner.partner_religion_11
+msgid "Religion / Judaism"
+msgstr "الديانة / اليهودية"
+
+#. module: tag_partner
+#: model:tag.tag,complete_name:tag_partner.partner_religion_12
+msgid "Religion / Korean Shamanism"
+msgstr "الديانة / الشامانية الكورية"
+
+#. module: tag_partner
+#: model:tag.tag,complete_name:tag_partner.partner_religion_13
+msgid "Religion / Shinto"
+msgstr "الديانة / شنتو"
+
+#. module: tag_partner
+#: model:tag.tag,complete_name:tag_partner.partner_religion_14
+msgid "Religion / Sikhism"
+msgstr "الديانة / السيخية"
+
+#. module: tag_partner
+#: model:tag.tag,complete_name:tag_partner.partner_religion_15
+msgid "Religion / Taoism"
+msgstr "الديانة / التاوية"
+
+#. module: tag_partner
+#: model:tag.tag,complete_name:tag_partner.partner_religion_16
+msgid "Religion / Tenriism"
+msgstr "الديانة / التنرية"
+
+#. module: tag_partner
+#: model:tag.category,name:tag_partner.partner_role
+msgid "Role"
+msgstr "الدور"
+
+#. module: tag_partner
+#: model:tag.tag,complete_name:tag_partner.partner_role_author
+msgid "Role / Author"
+msgstr "الدور / كاتب"
+
+#. module: tag_partner
+#: model:tag.tag,complete_name:tag_partner.partner_role_customer
+msgid "Role / Customer"
+msgstr "الدور / عميل"
+
+#. module: tag_partner
+#: model:tag.tag,complete_name:tag_partner.partner_role_employee
+msgid "Role / Employee"
+msgstr "الدور / موظف"
+
+#. module: tag_partner
+#: model:tag.tag,complete_name:tag_partner.partner_role_lab
+msgid "Role / Lab Beneficiary"
+msgstr "الدور / عميل مختبر"
+
+#. module: tag_partner
+#: model:tag.tag,complete_name:tag_partner.partner_role_library
+msgid "Role / Library Visitor"
+msgstr "الدور / زائر مكتبة"
+
+#. module: tag_partner
+#: model:tag.tag,complete_name:tag_partner.partner_role_license
+msgid "Role / License Operator"
+msgstr "الدور / ترخيص شركة عاملة"
+
+#. module: tag_partner
+#: model:tag.tag,complete_name:tag_partner.partner_role_museum_visitor
+msgid "Role / Museum Visitor"
+msgstr "الدور / زائر متحف"
+
+#. module: tag_partner
+#: model:tag.tag,complete_name:tag_partner.partner_role_publisher
+msgid "Role / Publisher"
+msgstr "الدور / الناشر"
+
+#. module: tag_partner
+#: model:tag.tag,complete_name:tag_partner.partner_role_study
+msgid "Role / Study Beneficiary"
+msgstr "الدور / مستفيد"
+
+#. module: tag_partner
+#: model:tag.tag,complete_name:tag_partner.partner_role_vendor
+msgid "Role / Vendor"
+msgstr "الدور / المورد"
+
+#. module: tag_partner
+#: model:tag.tag,complete_name:tag_partner.partner_role_visitor
+msgid "Role / Visitor"
+msgstr "الدور / زائر"
+
+#. module: tag_partner
+#: model:tag.category,name:tag_partner.partner_sex
+msgid "Sex"
+msgstr "الجنس"
+
+#. module: tag_partner
+#: model:tag.tag,complete_name:tag_partner.partner_person_sex_female
+msgid "Sex / Female"
+msgstr "الجنس / أنثى"
+
+#. module: tag_partner
+#: model:tag.tag,complete_name:tag_partner.partner_person_sex_male
+msgid "Sex / Male"
+msgstr "الجنس / ذكر"
+
+#. module: tag_partner
+#: model:tag.tag,name:tag_partner.partner_religion_13
+msgid "Shinto"
+msgstr "شنتو"
+
+#. module: tag_partner
+#: model:tag.tag,name:tag_partner.partner_religion_14
+msgid "Sikhism"
+msgstr "السيخية"
+
+#. module: tag_partner
+#: model:tag.tag,name:tag_partner.partner_marital_1
+msgid "Single"
+msgstr "أعزب"
+
+#. module: tag_partner
+#: model:tag.tag,name:tag_partner.partner_role_study
+msgid "Study Beneficiary"
+msgstr "مستفيد"
+
+#. module: tag_partner
+#: model:ir.model.fields,field_description:tag_partner.field_res_partner__search_tags
+msgid "Tag"
+msgstr "الوسم"
+
+#. module: tag_partner
+#: model:ir.model.fields,field_description:tag_partner.field_res_partner__fld_tags
+msgid "Tags"
+msgstr "الوسوم"
+
+#. module: tag_partner
+#: model_terms:ir.ui.view,arch_db:tag_partner.view_partner_form
+#: model_terms:ir.ui.view,arch_db:tag_partner.view_partner_list
+msgid "Tags..."
+msgstr "وسوم..."
+
+#. module: tag_partner
+#: model:tag.tag,name:tag_partner.partner_religion_15
+msgid "Taoism"
+msgstr "التاوية"
+
+#. module: tag_partner
+#: model:tag.tag,name:tag_partner.partner_religion_16
+msgid "Tenriism"
+msgstr "التنرية"
+
+#. module: tag_partner
+#: model:tag.tag,name:tag_partner.partner_role_vendor
+msgid "Vendor"
+msgstr "المورد"
+
+#. module: tag_partner
+#: model:tag.tag,name:tag_partner.partner_role_visitor
+msgid "Visitor"
+msgstr "زائر"
+
+#. module: tag_partner
+#: model:tag.tag,name:tag_partner.partner_hair_color_white
+msgid "White Hair"
+msgstr "ابيض"
+
+#. module: tag_partner
+#: model:tag.tag,name:tag_partner.partner_marital_4
+msgid "Widower"
+msgstr "أرمل"

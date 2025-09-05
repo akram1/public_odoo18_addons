@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_employee_form" model="ir.ui.view">
+        <field name="name">hr.employee.form.inherit</field>
+        <field name="model">hr.employee</field>
+        <field name="inherit_id" ref="hr.view_employee_form"/>
+        <field name="arch" type="xml">
+			<h1 position="replace">
+				<h1 class="d-flex oe_read_only">
+					<field name="name" placeholder="Employee's Name" required="True"/>
+					<a title="Chat" icon="fa-comments" href="#" class="ml8 o_employee_chat_btn"
+					   invisible="not context.get('chat_icon') and user_id == False" role="button">
+						<i class="fa fa-comments"/></a>
+				</h1>
+				<h1 class="d-flex oe_edit_only">
+					<field name="name_changed" invisible="1"/>
+					<field name="first_name" placeholder="First Name" nolabel="1"/>
+					<field name="middle_name" placeholder="Middle Name" nolabel="1" />
+					<field name="last_name" placeholder="Last Name" nolabel="1"/>
+					<a title="Chat" icon="fa-comments" href="#" class="ml8 o_employee_chat_btn"
+					   invisible="not context.get('chat_icon') and user_id == False" role="button">
+						<i class="fa fa-comments"/></a>
+				</h1>
+			</h1>
+			<xpath expr="//page/group/group/div/field[@name='user_id']" position="attributes">
+				<attribute name="options">
+					{'no_quick_create': True}
+				</attribute>
+				<attribute name="context">
+					{'allow_create_employee': False, 'default_create_employee': False,
+					 'default_first_name': first_name, 'default_middle_name': middle_name, 'default_last_name': last_name, 'default_name': name}
+				</attribute>
+			</xpath>
+        </field>
+    </record>
+</odoo>

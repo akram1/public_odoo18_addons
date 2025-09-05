@@ -1,0 +1,669 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* tag
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-07-22 23:37+0000\n"
+"PO-Revision-Date: 2025-07-23 15:22+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Generator: Poedit 3.6\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#. module: tag
+#: model:res.groups,comment:tag.group_tags_state_manager
+msgid ""
+"\n"
+"            Users in this group can manage state tags.\n"
+"        "
+msgstr ""
+"\n"
+"            يمكن للمستخدمين في هذه المجموعة إدارة حالات الوسوم.\n"
+"        "
+
+#. module: tag
+#: model:res.groups,comment:tag.group_tags_manager
+msgid ""
+"\n"
+"            Users in this group can manage tags.\n"
+"        "
+msgstr ""
+"\n"
+"            يمكن للمستخدمين في هذه المجموعة إدارة الوسوم.\n"
+"        "
+
+#. module: tag
+#: model:res.groups,comment:tag.group_tags_user
+msgid ""
+"\n"
+"            Users in this group have access to menu Tags. They can only "
+"create or view tags.\n"
+"        "
+msgstr ""
+"\n"
+"            يمكن لمستخدمي هذه المجموعة الوصول إلى قائمة الوسوم. يمكنهم فقط "
+"إنشاء أو عرض الوسوم.\n"
+"        "
+
+#. module: tag
+#: model_terms:ir.ui.view,arch_db:tag.view_tag_category_form
+msgid ""
+"**** Fields in this page have no real effect. To activate these features,\n"
+"                                please install Tag Pro ****"
+msgstr ""
+"**** الحقول في هذه الصفحة ليس لها تأثير فعلي\n"
+". لتفعيل هذه الميزات، يُرجى تثبيت وسوم برو ****"
+
+#. module: tag
+#: model_terms:ir.ui.view,arch_db:tag.view_tag_form
+msgid ""
+"**** Fields in this page have no real effect. To activate these features,\n"
+"                                please install Tag State Control ****"
+msgstr ""
+"**** الحقول في هذه الصفحة ليس لها تأثير فعلي\n"
+". لتفعيل هذه الميزات، يُرجى تثبيت \"التحكم بحالة الوسوم\" ****"
+
+#. module: tag
+#: model_terms:ir.ui.view,arch_db:tag.view_tag_form
+msgid "Action Control"
+msgstr "التحكم بالإجراء"
+
+#. module: tag
+#: model:ir.model.fields,field_description:tag.field_tag_state_mixin__fld_reason
+msgid "Action Reason"
+msgstr "سبب الاجراء"
+
+#. module: tag
+#: model:ir.model.fields,field_description:tag.field_tag_category__active
+#: model:ir.model.fields,field_description:tag.field_tag_tag__active
+msgid "Active"
+msgstr "نشط"
+
+#. module: tag
+#: model_terms:ir.actions.act_window,help:tag.action_tag_caegories_view
+msgid "Add new category"
+msgstr "إضافة فئة جديدة"
+
+#. module: tag
+#: model_terms:ir.actions.act_window,help:tag.action_tag_view
+#: model_terms:ir.actions.act_window,help:tag.action_tag_view_by_parent
+#: model_terms:ir.actions.act_window,help:tag.action_tag_view_simple
+msgid "Add new tag"
+msgstr "إضافة وسم جدبد"
+
+#. module: tag
+#: model:ir.ui.menu,name:tag.menu_tags_all
+msgid "All Tags"
+msgstr "كل الوسوم"
+
+#. module: tag
+#: model:ir.model.fields,help:tag.field_tag_category__code
+#: model:ir.model.fields,help:tag.field_tag_tag__cat_code
+msgid "Can be used for special tags which have programmable bechavior"
+msgstr "يمكن استخدامها للوسوم الخاصة التي لها سلوك قابل للبرمجة"
+
+#. module: tag
+#: model:ir.actions.act_window,name:tag.action_tag_caegories_view
+#: model:ir.ui.menu,name:tag.menu_action_tag_categories_view
+msgid "Categories"
+msgstr "الفئات"
+
+#. module: tag
+#: model:ir.model.fields,field_description:tag.field_tag_tag__fld_cat
+#: model_terms:ir.ui.view,arch_db:tag.view_tag_search
+msgid "Category"
+msgstr "الفئة"
+
+#. module: tag
+#: model:ir.model.constraint,message:tag.constraint_tag_category_name_uniq
+msgid "Category Name  must be unique per model"
+msgstr "يجب أن يكون اسم الفئة فريدًا لكل طراز برمجي."
+
+#. module: tag
+#: model:ir.model.fields,field_description:tag.field_tag_category__cat_type
+#: model:ir.model.fields,field_description:tag.field_tag_tag__cat_type
+msgid "Category Type"
+msgstr "نوع الفئة"
+
+#. module: tag
+#: model_terms:ir.ui.view,arch_db:tag.view_tag_category_form
+msgid "Category code"
+msgstr "رمز الفئة"
+
+#. module: tag
+#: model:ir.model.constraint,message:tag.constraint_tag_category_code_uniq
+msgid "Category code must be unique"
+msgstr "يجب أن يكون الرمز فريدًا لكل فئة."
+
+#. module: tag
+#: model_terms:ir.actions.act_window,help:tag.action_tag_caegories_view
+msgid "Category is the container of tags. Category is related to a model."
+msgstr "الفئة هي حاوية الوسوم المرتبطة بطراز برمجي ما."
+
+#. module: tag
+#: model_terms:ir.ui.view,arch_db:tag.view_tag_category_form
+msgid "Category name"
+msgstr "اسم الفئة"
+
+#. module: tag
+#: model_terms:ir.ui.view,arch_db:tag.view_tag_form
+msgid "Choose Fields"
+msgstr "اختر حقول"
+
+#. module: tag
+#: model_terms:ir.ui.view,arch_db:tag.view_tag_form
+msgid "Choose Tags"
+msgstr "اختر وسوم"
+
+#. module: tag
+#: model:ir.model.fields,field_description:tag.field_tag_category__code
+#: model:ir.model.fields,field_description:tag.field_tag_tag__cat_code
+#: model:ir.model.fields,field_description:tag.field_tag_tag__code
+msgid "Code"
+msgstr "الرمز"
+
+#. module: tag
+#: model:ir.model.fields,field_description:tag.field_tag_category__color
+#: model:ir.model.fields,field_description:tag.field_tag_tag__color
+msgid "Color"
+msgstr "اللون"
+
+#. module: tag
+#: model:ir.model.fields,field_description:tag.field_tag_category__complete_name
+#: model:ir.model.fields,field_description:tag.field_tag_tag__complete_name
+msgid "Complete Name"
+msgstr "الاسم الكامل"
+
+#. module: tag
+#: model_terms:ir.ui.view,arch_db:tag.view_tag_category_form
+#: model_terms:ir.ui.view,arch_db:tag.view_tag_form
+msgid "Control"
+msgstr "التحكم"
+
+#. module: tag
+#: model:ir.model.fields,field_description:tag.field_tag_category__create_uid
+#: model:ir.model.fields,field_description:tag.field_tag_sub_category__create_uid
+#: model:ir.model.fields,field_description:tag.field_tag_tag__create_uid
+msgid "Created by"
+msgstr "انشأه"
+
+#. module: tag
+#: model:ir.model.fields,field_description:tag.field_tag_category__create_date
+#: model:ir.model.fields,field_description:tag.field_tag_sub_category__create_date
+#: model:ir.model.fields,field_description:tag.field_tag_tag__create_date
+msgid "Created on"
+msgstr "تم إنشاؤه في"
+
+#. module: tag
+#: model:ir.model.fields,field_description:tag.field_tag_category__default_tag
+msgid "Default Tag"
+msgstr "الوسوم الافتراضي"
+
+#. module: tag
+#: model:ir.model.fields,field_description:tag.field_tag_category__description
+#: model:ir.model.fields,field_description:tag.field_tag_tag__description
+msgid "Description"
+msgstr "الوصف"
+
+#. module: tag
+#: model_terms:ir.ui.view,arch_db:tag.view_tag_form
+#: model_terms:ir.ui.view,arch_db:tag.view_tag_simple_form
+msgid "Description shown to user..."
+msgstr "الوصف الذي يظهر للمستخدم"
+
+#. module: tag
+#: model:ir.model.fields,field_description:tag.field_tag_category__display_name
+#: model:ir.model.fields,field_description:tag.field_tag_sub_category__display_name
+#: model:ir.model.fields,field_description:tag.field_tag_tag__display_name
+msgid "Display Name"
+msgstr "الاسم المعروض"
+
+#. module: tag
+#: model:ir.model.fields,help:tag.field_tag_mixin__search_tags
+msgid "Find all records that contain this tag"
+msgstr "البحث عن جميع السجلات التي  تحتوي على هذا الوسم"
+
+#. module: tag
+#: model:ir.model.fields,help:tag.field_tag_mixin__search_no_tags
+msgid "Find all records that have no this tag"
+msgstr "البحث عن جميع السجلات التي لا تحتوي على هذا الوسم"
+
+#. module: tag
+#: model:ir.model.fields,help:tag.field_tag_category__complete_name
+#: model:ir.model.fields,help:tag.field_tag_tag__complete_name
+msgid "Full name of tag (including category name)"
+msgstr "الاسم الكامل للوسم (بما في ذلك اسم الفئة)"
+
+#. module: tag
+#: model_terms:ir.ui.view,arch_db:tag.view_tag_category_search
+#: model_terms:ir.ui.view,arch_db:tag.view_tag_search
+msgid "Group By..."
+msgstr "تجميع حسب..."
+
+#. module: tag
+#: model:ir.model.fields,help:tag.field_tag_tag__objects_count
+msgid "How many objects contains this tag"
+msgstr "كم عدد السجلات التي تحتوي على هذه الوسوم"
+
+#. module: tag
+#: model:ir.model.fields,help:tag.field_tag_category__tags_count
+msgid "How many tags related to this category"
+msgstr "كم عدد الوسوم المتعلقة بهذه الفئة"
+
+#. module: tag
+#: model:ir.model.fields,field_description:tag.field_tag_category__id
+#: model:ir.model.fields,field_description:tag.field_tag_sub_category__id
+#: model:ir.model.fields,field_description:tag.field_tag_tag__id
+msgid "ID"
+msgstr "المعرف"
+
+#. module: tag
+#: model:ir.model.fields,field_description:tag.field_tag_tag__image
+msgid "Image"
+msgstr "الصورة"
+
+#. module: tag
+#: model:ir.model.fields,field_description:tag.field_tag_category__write_uid
+#: model:ir.model.fields,field_description:tag.field_tag_sub_category__write_uid
+#: model:ir.model.fields,field_description:tag.field_tag_tag__write_uid
+msgid "Last Updated by"
+msgstr "آخر  تحديث بواسطة"
+
+#. module: tag
+#: model:ir.model.fields,field_description:tag.field_tag_category__write_date
+#: model:ir.model.fields,field_description:tag.field_tag_sub_category__write_date
+#: model:ir.model.fields,field_description:tag.field_tag_tag__write_date
+msgid "Last Updated on"
+msgstr "آخر تحديث"
+
+#. module: tag
+#: model:ir.model.fields,field_description:tag.field_tag_category__log_change
+msgid "Log Changes?"
+msgstr "سجل التغييرات؟"
+
+#. module: tag
+#: model:ir.model.fields,help:tag.field_tag_category__log_change
+msgid ""
+"Log and track any changes made on this tag category. Install Tag Change Log "
+"to activate this feature."
+msgstr ""
+"سجّل وتتبّع أي تغييرات على فئة الوسوم هذه. ثبّت سجل تغييرات الوسوم لتفعيل هذه "
+"الميزة."
+
+#. module: tag
+#: model:ir.model.fields,help:tag.field_tag_tag__duration
+msgid ""
+"Max minutes the action should take. Install Tag State to activate this "
+"feature."
+msgstr ""
+"الحد الأقصى للدقائق التي يجب أن يستغرقها الإجراء. ثبّت \"حالة الوسوم\" "
+"لتفعيل هذه الميزة."
+
+#. module: tag
+#: model:ir.model.fields,field_description:tag.field_tag_tag__duration
+msgid "Minutes to Spend"
+msgstr "دقائق عمل"
+
+#. module: tag
+#: model:ir.model.fields,field_description:tag.field_tag_category__model_id
+#: model:ir.model.fields,field_description:tag.field_tag_tag__model_id
+#: model:ir.model.fields,field_description:tag.field_tag_tag__model_name
+#: model_terms:ir.ui.view,arch_db:tag.view_tag_category_search
+#: model_terms:ir.ui.view,arch_db:tag.view_tag_search
+msgid "Model"
+msgstr "الطراز البرمجي"
+
+#. module: tag
+#: model:ir.model.fields,field_description:tag.field_tag_category__model_name
+msgid "Model Description"
+msgstr "وصف الطراز"
+
+#. module: tag
+#: model:ir.model.fields,field_description:tag.field_tag_category__name
+#: model:ir.model.fields,field_description:tag.field_tag_sub_category__name
+#: model:ir.model.fields,field_description:tag.field_tag_tag__category_name
+#: model:ir.model.fields,field_description:tag.field_tag_tag__name
+msgid "Name"
+msgstr "الاسم"
+
+#. module: tag
+#: model:ir.model.constraint,message:tag.constraint_tag_tag_name_uniq
+msgid "Name must be uniqe per Model and Category Type."
+msgstr "يجب أن يكون الاسم فريدًا لكل طراز ونوع الفئة."
+
+#. module: tag
+#: model:ir.model.constraint,message:tag.constraint_tag_sub_category_name_uniq
+msgid "Name must be unique."
+msgstr "يجب أن يكون الاسم فريدًا."
+
+#. module: tag
+#: model:ir.model.fields,field_description:tag.field_tag_tag__no_delete
+msgid "No Delete?"
+msgstr "حظر الحذف؟"
+
+#. module: tag
+#: model:ir.model.fields,field_description:tag.field_tag_tag__no_write
+msgid "No Write?"
+msgstr "حظر التعديل ؟"
+
+#. module: tag
+#: model:ir.model.fields,field_description:tag.field_tag_mixin__search_no_tags
+msgid "No tag"
+msgstr "لا وسوم "
+
+#. module: tag
+#: model_terms:ir.ui.view,arch_db:tag.view_tag_category_form
+#: model_terms:ir.ui.view,arch_db:tag.view_tag_form
+msgid "Notes"
+msgstr "الملاحظات"
+
+#. module: tag
+#: model:ir.model.fields,field_description:tag.field_tag_tag__objects_count
+#: model_terms:ir.ui.view,arch_db:tag.view_tag_form
+msgid "Objects"
+msgstr "السجلات"
+
+#. module: tag
+#: model_terms:ir.ui.view,arch_db:tag.view_tag_list
+msgid "Objects #"
+msgstr "عدد السحلات"
+
+#. module: tag
+#: model:ir.model.fields,field_description:tag.field_tag_category__parent_cat
+#: model:ir.model.fields,field_description:tag.field_tag_tag__parent_cat
+msgid "Parent Category"
+msgstr "الفئة الرئيسية "
+
+#. module: tag
+#: model_terms:ir.ui.view,arch_db:tag.view_tag_search
+msgid "Parente Category"
+msgstr "الفئة الرئيسية"
+
+#. module: tag
+#: model:ir.model.fields,field_description:tag.field_tag_tag__readonly_fields
+msgid "Readonly Fields"
+msgstr "حقول للقراءة فقط"
+
+#. module: tag
+#: model:ir.model.fields.selection,name:tag.selection__tag_category__cat_type__reason
+msgid "Reason"
+msgstr "السبب"
+
+#. module: tag
+#: model_terms:ir.ui.view,arch_db:tag.view_tag_form
+msgid "Record Control"
+msgstr "التحكم بالسجل"
+
+#. module: tag
+#: model:ir.model.fields,field_description:tag.field_tag_tag__req_category
+msgid "Required Category"
+msgstr "فئة إلزامية"
+
+#. module: tag
+#: model:ir.model.fields,field_description:tag.field_tag_tag__required_fields
+msgid "Required Fields"
+msgstr "حقول إلزامية"
+
+#. module: tag
+#: model:ir.model.fields,field_description:tag.field_tag_category__required
+msgid "Required Tag"
+msgstr "وسم إلزامي"
+
+#. module: tag
+#: model:ir.model.fields,field_description:tag.field_tag_category__sequence
+#: model:ir.model.fields,field_description:tag.field_tag_tag__sequence
+msgid "Sequence"
+msgstr "تسلسل "
+
+#. module: tag
+#: model_terms:ir.ui.view,arch_db:tag.view_tag_list
+msgid "Show Objects"
+msgstr "عرض السجلات"
+
+#. module: tag
+#: model_terms:ir.ui.view,arch_db:tag.view_tag_category_list
+msgid "Show Tags"
+msgstr "اظهار الوسوم"
+
+#. module: tag
+#: model:ir.model.fields,field_description:tag.field_tag_category__single_tag
+msgid "Single Tag"
+msgstr "وسم منفرد"
+
+#. module: tag
+#: model:ir.model.fields,help:tag.field_tag_category__model_id
+#: model:ir.model.fields,help:tag.field_tag_tag__model_id
+msgid "Specify model for which this tag is available."
+msgstr "حدد الطراز الذي يتوفر له هذا الوسم."
+
+#. module: tag
+#: model:ir.model.fields.selection,name:tag.selection__tag_category__cat_type__state
+msgid "State"
+msgstr "الحالة"
+
+#. module: tag
+#: model:res.groups,name:tag.group_tags_state_manager
+msgid "State Manager"
+msgstr "مدير الحالات"
+
+#. module: tag
+#: model:ir.model.fields,field_description:tag.field_tag_state_mixin__fld_state
+msgid "State Tag"
+msgstr "حالة الوسم"
+
+#. module: tag
+#: model:ir.model.fields,field_description:tag.field_tag_state_mixin__state
+msgid "Status"
+msgstr "الحالة"
+
+#. module: tag
+#: model:ir.model.fields,field_description:tag.field_tag_state_mixin__state_date
+msgid "Status Date"
+msgstr "تاريخ الحالة"
+
+#. module: tag
+#: model:ir.model.fields,field_description:tag.field_tag_mixin__search_tags
+#: model:ir.model.fields.selection,name:tag.selection__tag_category__cat_type__tag
+msgid "Tag"
+msgstr "الوسم"
+
+#. module: tag
+#: model:ir.model,name:tag.model_tag_category
+msgid "Tag Category"
+msgstr "فئة الوسم"
+
+#. module: tag
+#: model:res.groups,name:tag.group_tags_manager
+msgid "Tag Manager"
+msgstr "مدير الوسوم"
+
+#. module: tag
+#: model:ir.model,name:tag.model_tag_mixin
+msgid "Tag Mixin"
+msgstr "الدمج البرمجي للوسوم"
+
+#. module: tag
+#: model:ir.model.fields,field_description:tag.field_tag_tag__tag_range
+msgid "Tag Range"
+msgstr " مدى الوسم"
+
+#. module: tag
+#: model:ir.model,name:tag.model_tag_state_mixin
+msgid "Tag State Mixin"
+msgstr "الدمج البرمجي لحالة للوسوم"
+
+#. module: tag
+#: model:ir.model,name:tag.model_tag_sub_category
+msgid "Tag Sub Category"
+msgstr "وسم الفئة الفرعية"
+
+#. module: tag
+#: model:res.groups,name:tag.group_tags_user
+msgid "Tag User"
+msgstr "وسوم المستخدم"
+
+#. module: tag
+#: model:ir.actions.act_window,name:tag.action_tag_view
+#: model:ir.actions.act_window,name:tag.action_tag_view_by_parent
+#: model:ir.actions.act_window,name:tag.action_tag_view_simple
+#: model:ir.model,name:tag.model_tag_tag
+#: model:ir.model.fields,field_description:tag.field_tag_category__fld_tags
+#: model:ir.model.fields,field_description:tag.field_tag_mixin__fld_tags
+#: model:ir.module.category,name:tag.module_category_tags
+#: model:ir.ui.menu,name:tag.menu_tags_root
+#: model_terms:ir.ui.view,arch_db:tag.view_tag_category_form
+msgid "Tags"
+msgstr "الوسوم"
+
+#. module: tag
+#: model_terms:ir.ui.view,arch_db:tag.view_tag_category_list
+msgid "Tags #"
+msgstr "عدد الوسوم"
+
+#. module: tag
+#: model:ir.model.fields,field_description:tag.field_tag_category__tags_count
+msgid "Tags Count"
+msgstr "عدد الوسوم"
+
+#. module: tag
+#: model:ir.ui.menu,name:tag.menu_tags_by_type
+msgid "Tags by Type"
+msgstr "الوسوم بحسب النوع"
+
+#. module: tag
+#: model_terms:ir.actions.act_window,help:tag.action_tag_view
+#: model_terms:ir.actions.act_window,help:tag.action_tag_view_by_parent
+#: model_terms:ir.actions.act_window,help:tag.action_tag_view_simple
+msgid ""
+"Tags is a multi-relational field to any model. Tags are grouped into \n"
+"                categories. Just add Tag to any model to add or take over "
+"model \n"
+"                category, type, state. This opens up to manage all tags of "
+"all \n"
+"                models though single interface and control how tag can "
+"effect or\n"
+"                enhance models."
+msgstr ""
+"الوسوم حقل متعدد العلاقات لأي طراز برمجي. تُجمّع الوسوم في فئات. \n"
+"                      ما عليك سوى لإضافة وسم إلى أي طراز إضافة فئة النموذج "
+"وتحديد  نوعه أو حالته. يتيح لك هذا إدارة جميع وسوم جميع الطرازات من خلال "
+"واجهة واحدة، والتحكم في كيفية تأثير الوسوم على الطراز أو تحسينه."
+
+#. module: tag
+#. odoo-python
+#: code:addons/tag/models/tag_category.py:0
+msgid "Tags related to category %s"
+msgstr "الوسوم ذات الصلة بالفئة %s"
+
+#. module: tag
+#: model:ir.model.fields,help:tag.field_tag_category__required
+msgid ""
+"This category requires to be tagged.Install Tag Pro to activate this "
+"feature."
+msgstr ""
+"تحتاج هذه الفئة إلى وضع وسم عليها. قم بتثبيت \"وسوم برو\" لتفعيل هذه الميزة."
+
+#. module: tag
+#: model:ir.model.fields,help:tag.field_tag_tag__req_category
+msgid ""
+"This means you have to choose one tag of this category if this tag is "
+"selected. Install Tag Pro to activate this feature."
+msgstr ""
+"هذا يعني أنه يجب عليك اختيار وسم واحد من هذه الفئة إذا تم تحديد هذه الوسم. "
+"قم بتثبيت \"وسوم برو\" لتفعيل هذه الميزة."
+
+#. module: tag
+#: model:ir.model.fields,help:tag.field_tag_tag__no_write
+msgid ""
+"This protects the record from alternation at given state regardless of "
+"record rules or security groups. Install Tag State to activate this feature."
+msgstr ""
+" يحمي هذا السجل من التغيير في حالة معينة، بغض النظر عن قواعد السجل أو "
+"مجموعات الأمان. ثبّت \"حالة الوسوم\" لتفعيل هذه الميزة."
+
+#. module: tag
+#: model:ir.model.fields,help:tag.field_tag_tag__no_delete
+msgid ""
+"This protects the record from deletion at given state regardless of record "
+"rules or security groups. Install Tag State to activate this feature."
+msgstr ""
+"هذا يحمي السجل من الحذف في حالة معينة، بغض النظر عن قواعد السجل أو مجموعات "
+"الأمان. ثبّت \"حالة الوسوم\" لتفعيل هذه الميزة."
+
+#. module: tag
+#: model:ir.model.fields,field_description:tag.field_tag_type_mixin__fld_type
+#: model:ir.model.fields.selection,name:tag.selection__tag_category__cat_type__type
+msgid "Type"
+msgstr "النوع"
+
+#. module: tag
+#: model:ir.model,name:tag.model_tag_type_mixin
+msgid "Type Mixin"
+msgstr "الدمج البرمجي للانواع"
+
+#. module: tag
+#: model_terms:ir.ui.view,arch_db:tag.view_tag_form
+msgid "User Control"
+msgstr "التحكم بالمستخدم"
+
+#. module: tag
+#: model:ir.model.fields,field_description:tag.field_tag_tag__value1
+msgid "Value1"
+msgstr "قيمة 1"
+
+#. module: tag
+#: model:ir.model.fields,field_description:tag.field_tag_tag__value2
+msgid "Value2"
+msgstr "قيمة 2"
+
+#. module: tag
+#: model:ir.model.fields,field_description:tag.field_tag_tag__value3
+msgid "Value3"
+msgstr "قيمة 3"
+
+#. module: tag
+#: model:ir.model.fields,help:tag.field_tag_tag__tag_range
+msgid ""
+"You can fine turn which tags of the required category are available for "
+"selection.  Install Tag Pro to activate this feature."
+msgstr ""
+"يمكنك ضبط وسوم الفئة المطلوبة المتاحة للاختيار. ثبّت \"وسوم برو\" لتفعيل هذه "
+"الميزة."
+
+#. module: tag
+#: model:ir.model.fields,help:tag.field_tag_tag__readonly_fields
+msgid ""
+"You can set some fields of document as readonly once a state is selected. "
+"Install Tag State to activate this feature."
+msgstr ""
+"يمكنك ضبط بعض حقول المستند للقراءة فقط عند تحديد حالة. ثبّت \"حالة الوسوم\" "
+"لتفعيل هذه الميزة."
+
+#. module: tag
+#: model:ir.model.fields,help:tag.field_tag_tag__required_fields
+msgid ""
+"You can set some fields of document as required once a state is selected. "
+"Install Tag State to activate this feature."
+msgstr ""
+"يمكنك تحديد بعض حقول المستند حسب الحاجة بعد تحديد حالة. ثبّت \"حالة الوسوم\" "
+"لتفعيل هذه الميزة."
+
+#. module: tag
+#: model:ir.model.fields,help:tag.field_tag_category__single_tag
+msgid ""
+"if set to True then only one tag from this category may be present on a "
+"single object. On attempt to add second tag from this category to object, "
+"error will be raised. Install Tag Pro to activate this feature."
+msgstr ""
+"إذا تم ضبطه على \"صحيح\"، فلن يُسمح إلا بإضافة وسم واحد من هذه الفئة إلى "
+"الكائن. عند محاولة إضافة وسم ثانٍ من هذه الفئة إلى الكائن، سيظهر خطأ. ثبّت "
+"\"وسوم برو\" لتفعيل هذه الميزة."

@@ -1,0 +1,2904 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* tag_employee
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-07-23 17:03+0000\n"
+"PO-Revision-Date: 2025-07-24 00:30+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : "
+"n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Generator: Poedit 3.6\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_blood_group_5
+msgid "AB+"
+msgstr "AB+"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_blood_group_6
+msgid "AB-"
+msgstr "AB-"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_role_accountant
+msgid "Accountant"
+msgstr "محاسب"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_1
+msgid "Accounting"
+msgstr "محاسبة"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_2
+msgid "Accounting and Finance"
+msgstr "محاسبة وتمويل"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_role_administrative
+msgid "Administrative"
+msgstr "اداري"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_3
+msgid "Advanced Geology"
+msgstr "جيولوجيا متقدمة"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_4
+msgid "Aerial Survey Engineering"
+msgstr "هندسة مسح جوي"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_ethnicity_4
+msgid "African"
+msgstr "أفريقي"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_hair_color_amber
+msgid "Amber Hair"
+msgstr "عسلي"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_ethnicity_2
+msgid "Amerindian"
+msgstr "الهنود الحمر"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_5
+msgid "Analytical Chemistry"
+msgstr "كيمياء تحليلية"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_6
+msgid "Applied Science"
+msgstr "علوم تطبيقة"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_ethnicity_1
+msgid "Arab"
+msgstr "عرب"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_7
+msgid "Arabic Language and Translation"
+msgstr "لغة عربية وترجمة"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_8
+msgid "Arabic Studies"
+msgstr "دراسات عربية"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_state_1
+msgid "At Work"
+msgstr "في العمل"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_ethnicity_3
+msgid "Australaisa"
+msgstr "استرالي"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_hiring_decision_6
+msgid "Authority"
+msgstr "الهيئة"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_9
+msgid "Auto Mechanics"
+msgstr "مكنيك سيارات"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_10
+msgid "Automotive Technician"
+msgstr "فني سيارات"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_qualification_3
+msgid "Bachelor"
+msgstr "بكالوريوس"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_religion_2
+msgid "Bahaee Faith"
+msgstr "بهائي"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_state_9
+msgid "Battlefront"
+msgstr "جبهات"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_11
+msgid "Biochemistry"
+msgstr "كيمياء حيوية"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_13
+msgid "Biological Chemistry"
+msgstr "كيمياء بيولوجية"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_14
+msgid "Biology"
+msgstr "احياء"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_15
+msgid "Biology and Chemistry"
+msgstr "احياء وكيمياء"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_eye_black
+msgid "Black Eyes"
+msgstr "اسود"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_hair_color_black
+msgid "Black Hair"
+msgstr "لون الشعر / اسود"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_hair_color_blond
+msgid "Blond Hair"
+msgstr "لون الشعر / اشقر غامق"
+
+#. module: tag_employee
+#: model:tag.category,name:tag_employee.employee_blood_group
+msgid "Blood Group"
+msgstr "فصيلة الدم"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_blood_group_1
+msgid "Blood Group / A+"
+msgstr "فصيلة الدم / +A"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_blood_group_2
+msgid "Blood Group / A-"
+msgstr "فصيلة الدم / -A"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_blood_group_5
+msgid "Blood Group / AB+"
+msgstr "فصيلة الدم / +AB"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_blood_group_6
+msgid "Blood Group / AB-"
+msgstr "فصيلة الدم / +AB"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_blood_group_3
+msgid "Blood Group / B+"
+msgstr "فصيلة الدم / +B"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_blood_group_4
+msgid "Blood Group / B-"
+msgstr "فصيلة الدم / -B"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_blood_group_7
+msgid "Blood Group / O+"
+msgstr "فصيلة الدم / +O"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_blood_group_8
+msgid "Blood Group / O-"
+msgstr "فصيلة الدم / -O"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_eye_blue
+msgid "Blue Eyes"
+msgstr "ازرق"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_hiring_decision_1
+msgid "Board"
+msgstr "البورد"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_eye_brown
+msgid "Brown Eyes"
+msgstr "بني"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_hair_color_brown
+msgid "Brown Hair"
+msgstr "لون الشعر / بني غامق"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_religion_3
+msgid "Buddhism"
+msgstr "البوذية"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_16
+msgid "Business Administration"
+msgstr "ادارة أعمال"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_religion_4
+msgid "Caodaism"
+msgstr "الكاودية"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_role_carpenter
+msgid "Carpenter"
+msgstr "نجار"
+
+#. module: tag_employee
+#: model:ir.model.fields,help:tag_employee.field_hr_employee__employee_type
+msgid ""
+"Categorize your Employees by type. This field also has an impact on "
+"contracts. Only Employees, Students and Trainee will have contract history."
+msgstr ""
+"نوع الموظف. على الرغم من أن الهدف الرئيسي يبدو أنه لفرز الموظفين في فئات، "
+"إلا أن هذا الحقل يحدث تغييراً في سجل العقود. فقط نوع الموظفين هو ما يجب أن "
+"يكون ضمن العقد وسيكون لديه سجل للعقد."
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_ethnicity_5
+msgid "Central Asia"
+msgstr "امريكا الوسطى"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_role_chairman
+msgid "Chairman"
+msgstr "مدير العمل"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_role_chemical_engineer
+msgid "Chemical Engineer"
+msgstr "هندسة كيمائية"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_17
+msgid "Chemical Engineering"
+msgstr "هندسة كيميائية"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_18
+msgid "Chemical Geology"
+msgstr "جيولوجيا كيميائية"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_19
+msgid "Chemistry"
+msgstr "كيمياء"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_22
+msgid "Chemistry Biology Science"
+msgstr "علوم احياء وكيمياء"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_23
+msgid "Chemistry Physics"
+msgstr "كيمياء فيزياء"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_20
+msgid "Chemistry and Animal Science"
+msgstr "كيمياء وعلوم الحيوان"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_religion_5
+msgid "Cheondoism"
+msgstr "شندوية"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_religion_6
+msgid "Christianity"
+msgstr "المسيحية"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_role_civil_engineer
+msgid "Civil Engineer"
+msgstr "مهندس مدني"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_24
+msgid "Civil Engineering"
+msgstr "هندسة مدنية"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_role_clerk
+msgid "Clerk"
+msgstr "كاتب"
+
+#. module: tag_employee
+#: model:ir.model.fields.selection,name:tag_employee.selection__hr_employee__employee_type__collaborator
+msgid "Collaborator"
+msgstr "متعاون"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_hiring_decision_5
+msgid "Committee"
+msgstr "اللجنة"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_25
+msgid "Computer Architecture"
+msgstr "معمارية الحاسوب"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_26
+msgid "Computer Engineering"
+msgstr "هندسة كمبيوتر"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_27
+msgid "Computer Information Systems"
+msgstr "نظم معلومات حاسوب"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_28
+msgid "Computer Science"
+msgstr "علوم حاسوب"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_29
+msgid "Construction Engineering"
+msgstr "هندسة بناء"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_hiring_decision_3
+msgid "Council of Ministers"
+msgstr "مجلس الوزراء"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_role_craftsman
+msgid "Craftsman"
+msgstr "مهني"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_state_12
+msgid "Deceased"
+msgstr "متوفي"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_degree_1
+msgid "Degree 1"
+msgstr " الدرجة 1"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_degree_10
+msgid "Degree 10"
+msgstr " الدرجة 10"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_degree_11
+msgid "Degree 11"
+msgstr " الدرجة 11"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_degree_12
+msgid "Degree 12"
+msgstr " الدرجة 12"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_degree_13
+msgid "Degree 13"
+msgstr " الدرجة 13"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_degree_14
+msgid "Degree 14"
+msgstr " الدرجة 14"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_degree_15
+msgid "Degree 15"
+msgstr " الدرجة 15"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_degree_16
+msgid "Degree 16"
+msgstr " الدرجة 16"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_degree_17
+msgid "Degree 17"
+msgstr " الدرجة 17"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_degree_18
+msgid "Degree 18"
+msgstr " الدرجة 18"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_degree_19
+msgid "Degree 19"
+msgstr " الدرجة 19"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_degree_2
+msgid "Degree 2"
+msgstr " الدرجة 2"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_degree_20
+msgid "Degree 20"
+msgstr " الدرجة 20"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_degree_3
+msgid "Degree 3"
+msgstr " الدرجة 3"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_degree_4
+msgid "Degree 4"
+msgstr " الدرجة 4"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_degree_5
+msgid "Degree 5"
+msgstr " الدرجة 5"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_degree_6
+msgid "Degree 6"
+msgstr " الدرجة 6"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_degree_7
+msgid "Degree 7"
+msgstr " الدرجة 7"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_degree_8
+msgid "Degree 8"
+msgstr " الدرجة 8"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_degree_9
+msgid "Degree 9"
+msgstr " الدرجة 9"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_state_6
+msgid "Delegated"
+msgstr "منتدب"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_role_deputy
+msgid "Deputy"
+msgstr "وكيل"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_31
+msgid "Development Management"
+msgstr "ادارة تنمية"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_qualification_8
+msgid "Diploma"
+msgstr "دبلوم"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_qualification_5
+msgid "Diploma Post High School"
+msgstr "دبلوم بعد الثانوية"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_qualification_6
+msgid "Diploma Post Mid-school"
+msgstr "دبلوم بعد الاعدادية"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_marital_3
+msgid "Divorced"
+msgstr "مطلّق"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_role_doctor
+msgid "Doctor"
+msgstr "دكتور"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_role_driver
+msgid "Driver"
+msgstr "سائق"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_34
+msgid "Earth Geology and Environment"
+msgstr "جيولوجيا الأرض والبيئة"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_35
+msgid "Earth Science"
+msgstr "علوم ارض"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_39
+msgid "Earth Science Geology"
+msgstr "جيولوجيا علوم الارض"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_40
+msgid "Earth Science Geology and Physics"
+msgstr "جيولوجيا علوم الارض والفيزياء"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_36
+msgid "Earth Science and Environment"
+msgstr "علوم ارض وبيئة"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_37
+msgid "Earth Science and Geophysics"
+msgstr "علوم ارض وجيوفيزياء"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_38
+msgid "Earth Science and Marine Environment"
+msgstr "علوم ارض وبيئة بحرية"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_32
+msgid "Earth and Environment Geophysics"
+msgstr "جيوفيزياء الأرض والبيئة"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_ethnicity_6
+msgid "East Asia"
+msgstr "شرق آسيا"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_43
+msgid "Economic Geology"
+msgstr "الجيولوجيا الاقتصادية"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_44
+msgid "Economic Geology and Mineral"
+msgstr "جيولوجيا اقتصادية ومعادن"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_45
+msgid "Economic Geology and Rocks"
+msgstr "جيولوجيا اقتصادية وصخور"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_46
+msgid "Economy Policy"
+msgstr "سياسة اقتصاد"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_47
+msgid "Electrical Engineering"
+msgstr "هندسة كهربائية"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_role_electrician
+msgid "Electrician"
+msgstr "كهربائي"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_48
+msgid "Electricity"
+msgstr "كهرباء"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_49
+msgid "Electronic and Industrial Control"
+msgstr "تحكم إلكتروني وصناعي"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_qualification_12
+msgid "Elementary"
+msgstr "ابتدائي"
+
+#. module: tag_employee
+#: model:ir.model,name:tag_employee.model_hr_employee
+msgid "Employee"
+msgstr "الموظف"
+
+#. module: tag_employee
+#: model:tag.category,complete_name:tag_employee.employee_blood_group
+msgid "Employee / Blood Group"
+msgstr "الموظف / فصيلة الدم"
+
+#. module: tag_employee
+#: model:tag.category,complete_name:tag_employee.employee_degree
+msgid "Employee / Employement Degree"
+msgstr "الموظف / درجة التعيين"
+
+#. module: tag_employee
+#: model:tag.category,complete_name:tag_employee.employee_level
+msgid "Employee / Employement Level"
+msgstr "الموظف / مستوى التعيين"
+
+#. module: tag_employee
+#: model:tag.category,complete_name:tag_employee.employee_ethnicity
+msgid "Employee / Ethnicity"
+msgstr "الموظف / العرقية"
+
+#. module: tag_employee
+#: model:tag.category,complete_name:tag_employee.employee_eye_color
+msgid "Employee / Eye Color"
+msgstr "الموظف / لون العين / عسلي"
+
+#. module: tag_employee
+#: model:tag.category,complete_name:tag_employee.employee_hair_color
+msgid "Employee / Hair Color"
+msgstr "الموظف / لون الشعر / اصلع"
+
+#. module: tag_employee
+#: model:tag.category,complete_name:tag_employee.employee_highest_position
+msgid "Employee / Highest Position"
+msgstr "الموظف / أعلى منصب"
+
+#. module: tag_employee
+#: model:tag.category,complete_name:tag_employee.employee_hiring_decision
+msgid "Employee / Hiring Decision"
+msgstr "الموظف / مصدر التعيين"
+
+#. module: tag_employee
+#: model:tag.category,complete_name:tag_employee.employee_marital
+msgid "Employee / Marital Status"
+msgstr "الموظف / الحالة"
+
+#. module: tag_employee
+#: model:tag.category,complete_name:tag_employee.employee_medical_aid
+msgid "Employee / Medical Aid"
+msgstr "الموظف / معونة طبية / نظارات"
+
+#. module: tag_employee
+#: model:tag.category,complete_name:tag_employee.employee_qualification
+msgid "Employee / Qualification"
+msgstr "الموظف / المؤهل"
+
+#. module: tag_employee
+#: model:tag.category,complete_name:tag_employee.employee_religion
+msgid "Employee / Religion"
+msgstr "الموظف / الديانة"
+
+#. module: tag_employee
+#: model:tag.category,complete_name:tag_employee.employee_role
+msgid "Employee / Role"
+msgstr "الموظف / دور الموظف"
+
+#. module: tag_employee
+#: model:tag.category,complete_name:tag_employee.employee_sex
+msgid "Employee / Sex"
+msgstr "الموظف / الموظف"
+
+#. module: tag_employee
+#: model:tag.category,complete_name:tag_employee.employee_specialization
+msgid "Employee / Specialization"
+msgstr "الموظف / التخصص"
+
+#. module: tag_employee
+#: model:tag.category,complete_name:tag_employee.employee_state
+msgid "Employee / State"
+msgstr "الموظف / الحالة"
+
+#. module: tag_employee
+#: model:ir.actions.act_window,name:tag_employee.hr_employee_tags_view_action
+#: model:ir.ui.menu,name:tag_employee.menu_hr_employee_tags_id
+msgid "Employee Tags"
+msgstr "وسوم الموظف"
+
+#. module: tag_employee
+#: model:ir.model.fields,field_description:tag_employee.field_hr_employee__employee_type
+msgid "Employee Type"
+msgstr "نوع الموظف"
+
+#. module: tag_employee
+#: model:tag.category,name:tag_employee.employee_degree
+msgid "Employement Degree"
+msgstr "درجة التعيين"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_degree_1
+msgid "Employement Degree / Degree 1"
+msgstr "درجة التعيين / الدرجة 1"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_degree_10
+msgid "Employement Degree / Degree 10"
+msgstr "درجة التعيين / الدرجة 10"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_degree_11
+msgid "Employement Degree / Degree 11"
+msgstr "درجة التعيين / الدرجة 11"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_degree_12
+msgid "Employement Degree / Degree 12"
+msgstr "درجة التعيين / الدرجة 12"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_degree_13
+msgid "Employement Degree / Degree 13"
+msgstr "درجة التعيين / الدرجة 13"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_degree_14
+msgid "Employement Degree / Degree 14"
+msgstr "درجة التعيين / الدرجة 14"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_degree_15
+msgid "Employement Degree / Degree 15"
+msgstr "درجة التعيين / الدرجة 15"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_degree_16
+msgid "Employement Degree / Degree 16"
+msgstr "درجة التعيين / الدرجة 16"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_degree_17
+msgid "Employement Degree / Degree 17"
+msgstr "درجة التعيين / الدرجة 17"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_degree_18
+msgid "Employement Degree / Degree 18"
+msgstr "درجة التعيين / الدرجة 18"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_degree_19
+msgid "Employement Degree / Degree 19"
+msgstr "درجة التعيين / الدرجة 19"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_degree_2
+msgid "Employement Degree / Degree 2"
+msgstr "درجة التعيين / الدرجة 2"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_degree_20
+msgid "Employement Degree / Degree 20"
+msgstr "درجة التعيين / الدرجة 20"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_degree_3
+msgid "Employement Degree / Degree 3"
+msgstr "درجة التعيين / الدرجة 3"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_degree_4
+msgid "Employement Degree / Degree 4"
+msgstr "درجة التعيين / الدرجة 4"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_degree_5
+msgid "Employement Degree / Degree 5"
+msgstr "درجة التعيين / الدرجة 5"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_degree_6
+msgid "Employement Degree / Degree 6"
+msgstr "درجة التعيين / الدرجة 6"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_degree_7
+msgid "Employement Degree / Degree 7"
+msgstr "درجة التعيين / الدرجة 7"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_degree_8
+msgid "Employement Degree / Degree 8"
+msgstr "درجة التعيين / الدرجة 7"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_degree_9
+msgid "Employement Degree / Degree 9"
+msgstr "درجة التعيين / الدرجة 9"
+
+#. module: tag_employee
+#: model:tag.category,name:tag_employee.employee_level
+msgid "Employement Level"
+msgstr "مستوى التعيين"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_level_1
+msgid "Employement Level / Level 1"
+msgstr "مستوى التعيين / المستوى 1"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_level_2
+msgid "Employement Level / Level 2"
+msgstr "مستوى التعيين / المستوى 2"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_level_3
+msgid "Employement Level / Level 3"
+msgstr "مستوى التعيين / المستوى 3"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_level_4
+msgid "Employement Level / Level 4"
+msgstr "مستوى التعيين / المستوى 4"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_level_5
+msgid "Employement Level / Level 5"
+msgstr "مستوى التعيين / المستوى 5"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_level_6
+msgid "Employement Level / Level 6"
+msgstr "مستوى التعيين / المستوى 6"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_role_engineer
+msgid "Engineer"
+msgstr "مهندس"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_50
+msgid "English Language "
+msgstr "لغة انجليزية "
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_52
+msgid "English Language Etiquette"
+msgstr "آداب لغة انجليزية"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_51
+msgid "English Language and Translation"
+msgstr "لغة انجليزية وترجمة"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_53
+msgid "English Studies"
+msgstr "دراسات انجليزية"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_55
+msgid "Environmental Engineering"
+msgstr "هندسة بيئية"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_56
+msgid "Environmental Science"
+msgstr "علوم بيئة"
+
+#. module: tag_employee
+#: model:tag.category,name:tag_employee.employee_ethnicity
+msgid "Ethnicity"
+msgstr "العرقية"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_ethnicity_4
+msgid "Ethnicity / African"
+msgstr "العرقية / أفريقي"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_ethnicity_2
+msgid "Ethnicity / Amerindian"
+msgstr "العرقية / هنود حمر"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_ethnicity_1
+msgid "Ethnicity / Arab"
+msgstr "العرقية / عرب"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_ethnicity_3
+msgid "Ethnicity / Australaisa"
+msgstr "العرقية / استرالي"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_ethnicity_5
+msgid "Ethnicity / Central Asia"
+msgstr "العرقية / امريكا الوسطى"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_ethnicity_6
+msgid "Ethnicity / East Asia"
+msgstr "العرقية / شرق آسيا"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_ethnicity_7
+msgid "Ethnicity / European"
+msgstr "العرقية / أوروبي"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_ethnicity_8
+msgid "Ethnicity / Indian"
+msgstr "العرقية / هندي"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_ethnicity_9
+msgid "Ethnicity / Inuit"
+msgstr "العرقية / الإنويت"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_ethnicity_10
+msgid "Ethnicity / Malagasy"
+msgstr "العرقية / مدغشقر"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_ethnicity_11
+msgid "Ethnicity / Mestizo"
+msgstr "العرقية / مستيزو"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_ethnicity_12
+msgid "Ethnicity / Mulatto"
+msgstr "العرقية / مولاتو"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_ethnicity_13
+msgid "Ethnicity / Multi-race"
+msgstr "العرقية / متعدد"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_ethnicity_7
+msgid "European"
+msgstr "أوروبية"
+
+#. module: tag_employee
+#: model:tag.category,name:tag_employee.employee_eye_color
+msgid "Eye Color"
+msgstr "لون العين"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_eye_black
+msgid "Eye Color / Black Eyes"
+msgstr "لون العين / اسود"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_eye_blue
+msgid "Eye Color / Blue Eyes"
+msgstr "لون العين / ازرق"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_eye_brown
+msgid "Eye Color / Brown Eyes"
+msgstr "لون العين / بني"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_eye_gray
+msgid "Eye Color / Gray Eyes"
+msgstr "لون العين / رمادي"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_eye_green
+msgid "Eye Color / Green Eyes"
+msgstr "لون العين / اخضر"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_medical_aid_1
+msgid "Eye Glasses"
+msgstr "نظارات"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_role_farmer
+msgid "Farmer"
+msgstr "مزارع"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_person_sex_female
+msgid "Female"
+msgstr "أنثى"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_57
+msgid "Financial Management"
+msgstr "ادارة مالية"
+
+#. module: tag_employee
+#: model:ir.model.fields,help:tag_employee.field_hr_employee__search_tags
+msgid "Find all records that contain this tag"
+msgstr "البحث عن جميع السجلات التي  تحتوي على هذا الوسم"
+
+#. module: tag_employee
+#: model:ir.model.fields,help:tag_employee.field_hr_employee__search_no_tags
+msgid "Find all records that have no this tag"
+msgstr "البحث عن جميع السجلات التي لا تحتوي على هذا الوسم"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_religion_7
+msgid "Folk Religion"
+msgstr "دين شعبي"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_58
+msgid "Furniture Carpentry"
+msgstr "نجارة اثاث"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_role_gardener
+msgid "Gardener"
+msgstr "بستاني"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_role_director
+msgid "General Director"
+msgstr "موجه عام"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_role_general_manager
+msgid "General Manager"
+msgstr "مدير عام"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_90
+msgid "General Medicine"
+msgstr "موجه عام"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_67
+msgid "Geo-science Chemistry"
+msgstr "كيمياء علوم الحياة"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_68
+msgid "Geo-science Physics"
+msgstr "جيولوجيا علوم الارض والفيزياء"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_59
+msgid "Geochemistry"
+msgstr "جيوكيمياء"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_60
+msgid "Geography"
+msgstr "جغرافيا"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_61
+msgid "Geological Engineering"
+msgstr "هندسة جيولوجية"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_role_geologist
+msgid "Geologist"
+msgstr "جيولوجي"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_role_leader_geol
+msgid "Geologist Team Leader"
+msgstr "جيولوجي قائد فريق"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_62
+msgid "Geology"
+msgstr "جيولوجيا"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_63
+msgid "Geology and Geophysics"
+msgstr "جيولوجيا وجيوفيزياء"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_64
+msgid "Geophysical Engineering"
+msgstr "هندسة جيوفيزيائية"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_65
+msgid "Geophysics"
+msgstr "جيوفيزياء"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_66
+msgid "Geophysics and Hydrology"
+msgstr "جيوفيزياء وهيدرولوجيا"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_eye_gray
+msgid "Gray Eyes"
+msgstr "رمادي"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_hair_color_gray
+msgid "Gray Hair"
+msgstr "لون الشعر / رمادي وابيض"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_eye_green
+msgid "Green Eyes"
+msgstr "اخضر"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_role_guard
+msgid "Guard"
+msgstr "حارس"
+
+#. module: tag_employee
+#: model:tag.category,name:tag_employee.employee_hair_color
+msgid "Hair Color"
+msgstr "لون الشعر"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_hair_color_amber
+msgid "Hair Color / Amber Hair"
+msgstr "لون الشعر"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_hair_color_black
+msgid "Hair Color / Black Hair"
+msgstr "لون الشعر / اسود"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_hair_color_blond
+msgid "Hair Color / Blond Hair"
+msgstr "لون الشعر / اشقر غامق"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_hair_color_brown
+msgid "Hair Color / Brown Hair"
+msgstr "لون الشعر / بني غامق"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_hair_color_gray
+msgid "Hair Color / Gray Hair"
+msgstr "لون الشعر / رمادي وابيض"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_hair_color_hazel
+msgid "Hair Color / Hazel"
+msgstr "لون العين / كستنائي"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_hair_color_red
+msgid "Hair Color / Red Hair"
+msgstr "لون الشعر / احمر"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_hair_color_white
+msgid "Hair Color / White Hair"
+msgstr "لون الشعر / رمادي وابيض"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_hair_color_hazel
+msgid "Hazel"
+msgstr "كستنائي"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_role_head_division
+msgid "Head of Division"
+msgstr "رئيس قسم"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_medical_aid_2
+msgid "Hearing Aids"
+msgstr "سماعات اذن"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_qualification_7
+msgid "High Diploma"
+msgstr "دبلوم عالي"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_qualification_9
+msgid "High School"
+msgstr "ثانوية عامة"
+
+#. module: tag_employee
+#: model:tag.category,name:tag_employee.employee_highest_position
+msgid "Highest Position"
+msgstr "أعلى منصب"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_religion_8
+msgid "Hinduism"
+msgstr "الهندوسية"
+
+#. module: tag_employee
+#: model:tag.category,name:tag_employee.employee_hiring_decision
+msgid "Hiring Decision"
+msgstr "مصدر التعيين"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_hiring_decision_6
+msgid "Hiring Decision / Authority"
+msgstr "مصدر التعيين / السلطة"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_hiring_decision_1
+msgid "Hiring Decision / Board"
+msgstr "مصدر التعيين / الهيئة"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_hiring_decision_5
+msgid "Hiring Decision / Committee"
+msgstr "مصدر التعيين / لجنة"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_hiring_decision_3
+msgid "Hiring Decision / Council of Ministers"
+msgstr "مصدر التعيين /مجلس الوزراء"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_hiring_decision_2
+msgid "Hiring Decision / Ministerial"
+msgstr "مصدر التعيين / وزاري"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_hiring_decision_4
+msgid "Hiring Decision / Supreme Revolutionary Committee"
+msgstr "مصدر التعيين / الجنة الثورية العليا"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_69
+msgid "History"
+msgstr "تاريخ"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_religion_9
+msgid "Hoahaoism"
+msgstr "الهاوهية"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_70
+msgid "Holy Quran"
+msgstr "قرآن كريم"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_71
+msgid "Home Economics"
+msgstr "اقتصاد منزلي"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_qualification_14
+msgid "Illiterate"
+msgstr "غير متعلم"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_ethnicity_8
+msgid "Indian"
+msgstr "هندي"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_72
+msgid "Industrial"
+msgstr "صناعي"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_73
+msgid "Industrial Electronic Control"
+msgstr "تحكم صناعي إلكتروني"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_74
+msgid "Industrial Engineering"
+msgstr "هندسة صناعية"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_75
+msgid "Information Systems"
+msgstr "نظم المعلومات"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_76
+msgid "Information Technology"
+msgstr "تكنولوجيا المعلومات"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_ethnicity_9
+msgid "Inuit"
+msgstr "الإنويت"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_religion_1
+msgid "Islam"
+msgstr "الاسلام"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_77
+msgid "Islamic Studies"
+msgstr "دراسات اسلامية"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_religion_10
+msgid "Jainism"
+msgstr "الجينية"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_religion_11
+msgid "Judaism"
+msgstr "اليهودية"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_religion_12
+msgid "Korean Shamanism"
+msgstr "الشامانية الكورية"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_role_lab_specialist
+msgid "Lab Specialist"
+msgstr "اخصائي مختبرات"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_level_1
+msgid "Level 1"
+msgstr "المستوى 1"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_level_2
+msgid "Level 2"
+msgstr "المستوى 2"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_level_3
+msgid "Level 3"
+msgstr "المستوى 3"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_level_4
+msgid "Level 4"
+msgstr "المستوى 4"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_level_5
+msgid "Level 5"
+msgstr "المستوى 5"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_level_6
+msgid "Level 6"
+msgstr "المستوى 6"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_role_librarian
+msgid "Librarian"
+msgstr "امين مكتبة"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_78
+msgid "Life Science Chemistry"
+msgstr "كيمياء علوم الحياة"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_qualification_4
+msgid "Lisans"
+msgstr "ليسانس"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_79
+msgid "Literary"
+msgstr "ادبي"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_qualification_13
+msgid "Literate"
+msgstr "متعلم"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_ethnicity_10
+msgid "Malagasy"
+msgstr "مدغشقر"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_person_sex_male
+msgid "Male"
+msgstr "ذكر"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_80
+msgid "Management Information Systems"
+msgstr "نظم معلومات ادارية"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_role_manager
+msgid "Manager"
+msgstr "مدير"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_82
+msgid "Map Engineering"
+msgstr "هندسة خرائط"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_83
+msgid "Marine Geology"
+msgstr "جيولوجيا البحار"
+
+#. module: tag_employee
+#: model:tag.category,name:tag_employee.employee_marital
+msgid "Marital Status"
+msgstr "الحالة الاجتماعية"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_marital_3
+msgid "Marital Status / Divorced"
+msgstr "الحالة الاجتماعية / مطلّق"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_marital_2
+msgid "Marital Status / Married"
+msgstr "الحالة الاجتماعية / متزوج"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_marital_1
+msgid "Marital Status / Single"
+msgstr "الحالة الاجتماعية / أعزب"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_marital_4
+msgid "Marital Status / Widower"
+msgstr "الحالة الاجتماعية /أرمل"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_84
+msgid "Marketing"
+msgstr "تسويق"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_marital_2
+msgid "Married"
+msgstr "متزوج"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_qualification_2
+msgid "Master"
+msgstr "ماجستير"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_85
+msgid "Mathematics"
+msgstr "رياضيات"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_86
+msgid "Mechanical Engineering"
+msgstr "هندسة ميكانيكية"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_87
+msgid "Mechanics"
+msgstr "مكنيك"
+
+#. module: tag_employee
+#: model:tag.category,name:tag_employee.employee_medical_aid
+msgid "Medical Aid"
+msgstr "مساعدة طبية"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_medical_aid_1
+msgid "Medical Aid / Eye Glasses"
+msgstr "مساعدة طبية / نظارات"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_medical_aid_2
+msgid "Medical Aid / Hearing Aids"
+msgstr "مساعدة طبية / سماعات اذن"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_medical_aid_4
+msgid "Medical Aid / Medical Chair"
+msgstr "مساعدة طبية / كرسي متحرك"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_medical_aid_3
+msgid "Medical Aid / Medical Crutch"
+msgstr "مساعدة طبية / عكاز"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_medical_aid_4
+msgid "Medical Chair"
+msgstr "كرسي طبي"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_medical_aid_3
+msgid "Medical Crutch"
+msgstr "عكاز طبي"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_ethnicity_11
+msgid "Mestizo"
+msgstr "مستيزو"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_qualification_11
+msgid "Mid School"
+msgstr "اعدادي"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_89
+msgid "Mineral Science"
+msgstr "علوم معادن"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_91
+msgid "Minerals, Rocks and Ores Deposits"
+msgstr "معادن وصخور ورواسب الخامات"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_92
+msgid "Mining Engineering"
+msgstr "هندسة تعدين"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_role_minister
+msgid "Minister"
+msgstr "وزير"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_hiring_decision_2
+msgid "Ministerial"
+msgstr "وزاري"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_ethnicity_12
+msgid "Mulatto"
+msgstr "مولاتو"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_ethnicity_13
+msgid "Multi-race"
+msgstr "متعدد الاعراق"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_role_guide
+msgid "Museum Guid"
+msgstr "مرشد المتحف"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_93
+msgid "Natural Science"
+msgstr "علوم طبيعية"
+
+#. module: tag_employee
+#: model:ir.model.fields,field_description:tag_employee.field_hr_employee__search_no_tags
+msgid "No tag"
+msgstr "لا وسوم "
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_role_nurse
+msgid "Nurse"
+msgstr "ممرض"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_94
+msgid "Office Management"
+msgstr "ادارة مكاتب"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_97
+msgid "Oil Geo-sciences"
+msgstr "علوم الطبقات والنفط"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_95
+msgid "Oil and Gas Engineering"
+msgstr "هندسة نفط وغاز"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_96
+msgid "Oil and Water"
+msgstr "نفط ومياه"
+
+#. module: tag_employee
+#: model:ir.model.fields,field_description:tag_employee.field_hr_employee__category_ids
+msgid "Old Tags"
+msgstr "وسوم قديمة"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_state_3
+msgid "On Vacation"
+msgstr "في اجازة"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_99
+msgid "Petroleum Engineering"
+msgstr "هندسة بترولية"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_100
+msgid "Petroleum Geology"
+msgstr "جيولوجيا بترولية"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_98
+msgid "Petroleum and Water Geology"
+msgstr "جيولوجيا البترول والمياه"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_qualification_1
+msgid "PhD"
+msgstr "دكتوراة"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_role_pharmacist
+msgid "Pharmacist"
+msgstr "صيدلي"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_101
+msgid "Physical Engineering"
+msgstr "هندسة فيزيائية"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_102
+msgid "Physics"
+msgstr "فيزياء"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_103
+msgid "Physics and Mathematics"
+msgstr "فيزياء ورياضيات"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_104
+msgid "Politics"
+msgstr "سياسة"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_role_president
+msgid "President"
+msgstr "رئيس"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_role_programmer
+msgid "Programmer"
+msgstr "مبرمج"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_105
+msgid "Programming"
+msgstr "برمجة حاسوب"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_106
+msgid "Prospecting Geology"
+msgstr "جيولوجيا التنقيب"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_107
+msgid "Public Law"
+msgstr "قانون عام"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_108
+msgid "Public Relations"
+msgstr "علاقات عامة"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_109
+msgid "Public Relations and Advertising"
+msgstr "علاقات عامة واعلان"
+
+#. module: tag_employee
+#: model:tag.category,name:tag_employee.employee_qualification
+msgid "Qualification"
+msgstr "المؤهل"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_qualification_3
+msgid "Qualification / Bachelor"
+msgstr "المؤهل / بكالوريوس"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_qualification_8
+msgid "Qualification / Diploma"
+msgstr "المؤهل / دبلوم"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_qualification_5
+msgid "Qualification / Diploma Post High School"
+msgstr "المؤهل / دبلوم بعد الثانوية"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_qualification_6
+msgid "Qualification / Diploma Post Mid-school"
+msgstr "المؤهل / دبلوم بعد الاعدادية"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_qualification_12
+msgid "Qualification / Elementary"
+msgstr "المؤهل / ابتدائي"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_qualification_7
+msgid "Qualification / High Diploma"
+msgstr "المؤهل / دبلوم بعد الثانوية"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_qualification_9
+msgid "Qualification / High School"
+msgstr "المؤهل / دبلوم بعد الثانوية"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_qualification_14
+msgid "Qualification / Illiterate"
+msgstr "المؤهل / غير متعلم"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_qualification_4
+msgid "Qualification / Lisans"
+msgstr "المؤهل / ليسانس"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_qualification_13
+msgid "Qualification / Literate"
+msgstr "المؤهل / بدون (أمي)"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_qualification_2
+msgid "Qualification / Master"
+msgstr "المؤهل / ماجستير"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_qualification_11
+msgid "Qualification / Mid School"
+msgstr "المؤهل / دبلوم بعد الاعدادية"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_qualification_1
+msgid "Qualification / PhD"
+msgstr "المؤهل / دكتوراة"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_qualification_10
+msgid "Qualification / Technical high school"
+msgstr "المؤهل / ثانوية فنية"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_hair_color_red
+msgid "Red Hair"
+msgstr "احمر"
+
+#. module: tag_employee
+#: model:tag.category,name:tag_employee.employee_religion
+msgid "Religion"
+msgstr "الديانة"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_religion_2
+msgid "Religion / Bahaee Faith"
+msgstr "الديانة / بهائي"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_religion_3
+msgid "Religion / Buddhism"
+msgstr "الديانة / البوذية"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_religion_4
+msgid "Religion / Caodaism"
+msgstr "الديانة / الكاودية"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_religion_5
+msgid "Religion / Cheondoism"
+msgstr "الديانة / شندوية"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_religion_6
+msgid "Religion / Christianity"
+msgstr "الديانة / المسيحية"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_religion_7
+msgid "Religion / Folk Religion"
+msgstr "الديانة / دين شعبي"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_religion_8
+msgid "Religion / Hinduism"
+msgstr "الديانة / الهندوسية"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_religion_9
+msgid "Religion / Hoahaoism"
+msgstr "الديانة / الهاوهية"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_religion_1
+msgid "Religion / Islam"
+msgstr "الديانة / الاسلام"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_religion_10
+msgid "Religion / Jainism"
+msgstr "الديانة / الجينية"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_religion_11
+msgid "Religion / Judaism"
+msgstr "الديانة / اليهودية"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_religion_12
+msgid "Religion / Korean Shamanism"
+msgstr "الديانة / الشامانية الكورية"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_religion_13
+msgid "Religion / Shinto"
+msgstr "الديانة / شنتو"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_religion_14
+msgid "Religion / Sikhism"
+msgstr "الديانة / السيخية"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_religion_15
+msgid "Religion / Taoism"
+msgstr "الديانة / التاوية"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_religion_16
+msgid "Religion / Tenriism"
+msgstr "الديانة / التنرية"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_role_representative
+msgid "Representative"
+msgstr "مندوب"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_state_11
+msgid "Retired"
+msgstr "متقاعد"
+
+#. module: tag_employee
+#: model:tag.category,name:tag_employee.employee_role
+msgid "Role"
+msgstr "دور الموظف"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_role_accountant
+msgid "Role / Accountant"
+msgstr "دور الموظف / محاسب"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_role_administrative
+msgid "Role / Administrative"
+msgstr "دور الموظف / اداري"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_role_carpenter
+msgid "Role / Carpenter"
+msgstr "دور الموظف / نجار"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_role_chairman
+msgid "Role / Chairman"
+msgstr "دور الموظف / مدير العمل"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_role_chemical_engineer
+msgid "Role / Chemical Engineer"
+msgstr "دور الموظف / هندسة كيمائية"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_role_civil_engineer
+msgid "Role / Civil Engineer"
+msgstr "دور الموظف / مهندس مدني"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_role_clerk
+msgid "Role / Clerk"
+msgstr "دور الموظف / موظف استقبال"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_role_craftsman
+msgid "Role / Craftsman"
+msgstr "دور الموظف / مهني"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_role_deputy
+msgid "Role / Deputy"
+msgstr "دور الموظف / وكيل"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_role_doctor
+msgid "Role / Doctor"
+msgstr "دور الموظف / دكتور"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_role_driver
+msgid "Role / Driver"
+msgstr "دور الموظف / سائق"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_role_electrician
+msgid "Role / Electrician"
+msgstr "دور الموظف / كهربائي"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_role_engineer
+msgid "Role / Engineer"
+msgstr "دور الموظف / مهندس"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_role_farmer
+msgid "Role / Farmer"
+msgstr "دور الموظف / مزارع"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_role_gardener
+msgid "Role / Gardener"
+msgstr "دور الموظف / بستاني"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_role_director
+msgid "Role / General Director"
+msgstr "دور الموظف / موجه عام"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_role_general_manager
+msgid "Role / General Manager"
+msgstr "دور الموظف / مدير عام"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_role_geologist
+msgid "Role / Geologist"
+msgstr "دور الموظف / جيولوجي"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_role_leader_geol
+msgid "Role / Geologist Team Leader"
+msgstr "دور الموظف / جيولوجي قائد فريق"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_role_guard
+msgid "Role / Guard"
+msgstr "دور الموظف / حارس"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_role_head_division
+msgid "Role / Head of Division"
+msgstr "دور الموظف / رئيس قسم"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_role_lab_specialist
+msgid "Role / Lab Specialist"
+msgstr "دور الموظف / اخصائي مختبرات"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_role_librarian
+msgid "Role / Librarian"
+msgstr "دور الموظف / امين مكتبة"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_role_manager
+msgid "Role / Manager"
+msgstr "دور الموظف / مدير"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_role_minister
+msgid "Role / Minister"
+msgstr "دور الموظف / وزير"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_role_guide
+msgid "Role / Museum Guid"
+msgstr "دور الموظف / مرشد المتحف"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_role_nurse
+msgid "Role / Nurse"
+msgstr "دور الموظف / ممرض"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_role_pharmacist
+msgid "Role / Pharmacist"
+msgstr "دور الموظف / صيدلي"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_role_president
+msgid "Role / President"
+msgstr "دور الموظف / رئيس"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_role_programmer
+msgid "Role / Programmer"
+msgstr "دور الموظف / مبرمج"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_role_representative
+msgid "Role / Representative"
+msgstr "دور الموظف / مندوب"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_role_secretary
+msgid "Role / Secretary"
+msgstr "دور الموظف / سكرتير"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_role_service_assoc
+msgid "Role / Service Associate"
+msgstr "دور الموظف / مساعد خدمات"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_role_specialist
+msgid "Role / Specialist"
+msgstr "دور الموظف / اخصائي"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_role_spe_geol
+msgid "Role / Specialist Geologist"
+msgstr "دور الموظف / اخصائي جيولوجي"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_role_supervisor
+msgid "Role / Supervisor"
+msgstr "دور الموظف / مشرف"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_role_teacher
+msgid "Role / Teacher"
+msgstr "دور الموظف / معلم"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_role_technician
+msgid "Role / Technician"
+msgstr "دور الموظف / فني"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_role_tech_geol
+msgid "Role / Technician Geologist"
+msgstr "دور الموظف / فني جيولوجي"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_role_vise_president
+msgid "Role / Vise President"
+msgstr "دور الموظف / نائب رئيس"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_112
+msgid "Science"
+msgstr "دور الموظف / علوم احياء وكيمياء"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_110
+msgid "Scientific"
+msgstr "علمي"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_state_5
+msgid "Seconded Employee"
+msgstr "معار"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_role_secretary
+msgid "Secretary"
+msgstr "سكرتير"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_role_service_assoc
+msgid "Service Associate"
+msgstr "مساعد خدمات"
+
+#. module: tag_employee
+#: model:tag.category,name:tag_employee.employee_sex
+msgid "Sex"
+msgstr "الجنس"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_person_sex_female
+msgid "Sex / Female"
+msgstr "الجنس / أنثى"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_person_sex_male
+msgid "Sex / Male"
+msgstr "الجنس / ذكر"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_111
+msgid "Sharia Law"
+msgstr "شريعة وقانون"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_religion_13
+msgid "Shinto"
+msgstr "شنتو"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_state_8
+msgid "Sick Condition"
+msgstr "حالة مرضية"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_religion_14
+msgid "Sikhism"
+msgstr "السيخية"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_marital_1
+msgid "Single"
+msgstr "أعزب"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_113
+msgid "Social Studies"
+msgstr "دراسات اجتماعية"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_role_specialist
+msgid "Specialist"
+msgstr "اخصائي"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_role_spe_geol
+msgid "Specialist Geologist"
+msgstr "اخصائي جيولوجي"
+
+#. module: tag_employee
+#: model:tag.category,name:tag_employee.employee_specialization
+msgid "Specialization"
+msgstr "التخصص"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_1
+msgid "Specialization / Accounting"
+msgstr "التخصص / محاسبة"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_2
+msgid "Specialization / Accounting and Finance"
+msgstr "التخصص / محاسبة وتمويل"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_3
+msgid "Specialization / Advanced Geology"
+msgstr "التخصص / جيولوجيا متقدمة"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_4
+msgid "Specialization / Aerial Survey Engineering"
+msgstr "التخصص / هندسة مسح جوي"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_5
+msgid "Specialization / Analytical Chemistry"
+msgstr "التخصص / كيمياء تحليلية"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_6
+msgid "Specialization / Applied Science"
+msgstr "التخصص / علوم تطبيقة"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_7
+msgid "Specialization / Arabic Language and Translation"
+msgstr "التخصص / لغة عربية وترجمة"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_8
+msgid "Specialization / Arabic Studies"
+msgstr "التخصص / دراسات عربية"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_9
+msgid "Specialization / Auto Mechanics"
+msgstr "التخصص / مكنيك سيارات"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_10
+msgid "Specialization / Automotive Technician"
+msgstr "التخصص / فني سيارات"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_11
+msgid "Specialization / Biochemistry"
+msgstr "التخصص / كيمياء حيوية"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_13
+msgid "Specialization / Biological Chemistry"
+msgstr "التخصص / كيمياء بيولوجية"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_14
+msgid "Specialization / Biology"
+msgstr "التخصص / التخصص"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_15
+msgid "Specialization / Biology and Chemistry"
+msgstr "التخصص / علوم احياء وكيمياء"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_16
+msgid "Specialization / Business Administration"
+msgstr "التخصص / ادارة أعمال"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_17
+msgid "Specialization / Chemical Engineering"
+msgstr "التخصص / هندسة كيميائية"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_18
+msgid "Specialization / Chemical Geology"
+msgstr "التخصص / جيولوجيا كيميائية"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_19
+msgid "Specialization / Chemistry"
+msgstr "التخصص / كيمياء"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_22
+msgid "Specialization / Chemistry Biology Science"
+msgstr "التخصص / علوم احياء وكيمياء"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_23
+msgid "Specialization / Chemistry Physics"
+msgstr "التخصص / كيمياء فيزياء"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_20
+msgid "Specialization / Chemistry and Animal Science"
+msgstr "التخصص / كيمياء وعلوم الحيوان"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_24
+msgid "Specialization / Civil Engineering"
+msgstr "التخصص / هندسة مدنية"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_25
+msgid "Specialization / Computer Architecture"
+msgstr "التخصص / معمارية الحاسوب"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_26
+msgid "Specialization / Computer Engineering"
+msgstr "التخصص / هندسة كمبيوتر"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_27
+msgid "Specialization / Computer Information Systems"
+msgstr "التخصص / نظم معلومات حاسوب"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_28
+msgid "Specialization / Computer Science"
+msgstr "التخصص / علوم حاسبوب"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_29
+msgid "Specialization / Construction Engineering"
+msgstr "التخصص / هندسة بناء"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_31
+msgid "Specialization / Development Management"
+msgstr "التخصص / ادارة تنمية"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_34
+msgid "Specialization / Earth Geology and Environment"
+msgstr "التخصص / جيولوجيا الأرض والبيئة"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_35
+msgid "Specialization / Earth Science"
+msgstr "التخصص / علوم ارض"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_39
+msgid "Specialization / Earth Science Geology"
+msgstr "التخصص / جيولوجيا علوم الارض والفيزياء"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_40
+msgid "Specialization / Earth Science Geology and Physics"
+msgstr "التخصص / جيولوجيا علوم الارض والفيزياء"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_36
+msgid "Specialization / Earth Science and Environment"
+msgstr "التخصص / علوم ارض وبيئة بحرية"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_37
+msgid "Specialization / Earth Science and Geophysics"
+msgstr "التخصص / علوم ارض وجيوفيزياء"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_38
+msgid "Specialization / Earth Science and Marine Environment"
+msgstr "التخصص / علوم ارض وبيئة بحرية"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_32
+msgid "Specialization / Earth and Environment Geophysics"
+msgstr "التخصص / جيوفيزياء الأرض والبيئة"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_43
+msgid "Specialization / Economic Geology"
+msgstr "التخصص / جيولوجيا اقتصادية وصخور"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_44
+msgid "Specialization / Economic Geology and Mineral"
+msgstr "التخصص / جيولوجيا اقتصادية ومعادن"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_45
+msgid "Specialization / Economic Geology and Rocks"
+msgstr "التخصص / جيولوجيا اقتصادية وصخور"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_46
+msgid "Specialization / Economy Policy"
+msgstr "التخصص / سياسة اقتصاد"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_47
+msgid "Specialization / Electrical Engineering"
+msgstr "التخصص / هندسة كهربائية"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_48
+msgid "Specialization / Electricity"
+msgstr "التخصص / كهرباء"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_49
+msgid "Specialization / Electronic and Industrial Control"
+msgstr "التخصص / تحكم إلكتروني وصناعي"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_50
+msgid "Specialization / English Language "
+msgstr "التخصص / لغة انجليزية"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_52
+msgid "Specialization / English Language Etiquette"
+msgstr "التخصص / آداب لغة انجليزية"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_51
+msgid "Specialization / English Language and Translation"
+msgstr "التخصص / لغة انجليزية وترجمة"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_53
+msgid "Specialization / English Studies"
+msgstr "التخصص / دراسات انجليزية"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_55
+msgid "Specialization / Environmental Engineering"
+msgstr "التخصص / هندسة مياه وبيئة"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_56
+msgid "Specialization / Environmental Science"
+msgstr "التخصص / علوم بيئة"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_57
+msgid "Specialization / Financial Management"
+msgstr "التخصص / ادارة مالية"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_58
+msgid "Specialization / Furniture Carpentry"
+msgstr "التخصص / نجارة اثاث"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_90
+msgid "Specialization / General Medicine"
+msgstr "التخصص / طب عام"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_67
+msgid "Specialization / Geo-science Chemistry"
+msgstr "التخصص / كيمياء وعلوم الحيوان"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_68
+msgid "Specialization / Geo-science Physics"
+msgstr "التخصص / جيولوجيا علوم الارض والفيزياء"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_59
+msgid "Specialization / Geochemistry"
+msgstr "التخصص / جيوكيمياء"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_60
+msgid "Specialization / Geography"
+msgstr "التخصص / جغرافيا"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_61
+msgid "Specialization / Geological Engineering"
+msgstr "التخصص / هندسة جيولوجية"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_62
+msgid "Specialization / Geology"
+msgstr "التخصص / جيولوجيا"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_63
+msgid "Specialization / Geology and Geophysics"
+msgstr "التخصص / الجيولوجيا والجيوفيزياء"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_64
+msgid "Specialization / Geophysical Engineering"
+msgstr "التخصص / هندسة جيوفيزيائية"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_65
+msgid "Specialization / Geophysics"
+msgstr "التخصص / جيوفيزياء"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_66
+msgid "Specialization / Geophysics and Hydrology"
+msgstr "التخصص / جيوفيزياء وهيدرولوجيا"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_69
+msgid "Specialization / History"
+msgstr "التخصص / تاريخ"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_70
+msgid "Specialization / Holy Quran"
+msgstr "التخصص / قرآن كريم"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_71
+msgid "Specialization / Home Economics"
+msgstr "التخصص / اقتصاد منزلي"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_72
+msgid "Specialization / Industrial"
+msgstr "التخصص / صناعي"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_73
+msgid "Specialization / Industrial Electronic Control"
+msgstr "التخصص / تحكم إلكتروني وصناعي"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_74
+msgid "Specialization / Industrial Engineering"
+msgstr "التخصص / هندسة صناعية"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_75
+msgid "Specialization / Information Systems"
+msgstr "التخصص / نظم معلومات حاسوب"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_76
+msgid "Specialization / Information Technology"
+msgstr "التخصص / تكنولوجيا المعلومات"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_77
+msgid "Specialization / Islamic Studies"
+msgstr "التخصص / دراسات اسلامية"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_78
+msgid "Specialization / Life Science Chemistry"
+msgstr "التخصص / كيمياء علوم الحياة"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_79
+msgid "Specialization / Literary"
+msgstr "التخصص / ادبي"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_80
+msgid "Specialization / Management Information Systems"
+msgstr "التخصص / نظم معلومات ادارية"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_82
+msgid "Specialization / Map Engineering"
+msgstr "التخصص / هندسة خرائط"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_83
+msgid "Specialization / Marine Geology"
+msgstr "التخصص / جيولوجيا البحار"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_84
+msgid "Specialization / Marketing"
+msgstr "التخصص / تسويق"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_85
+msgid "Specialization / Mathematics"
+msgstr "التخصص / رياضيات"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_86
+msgid "Specialization / Mechanical Engineering"
+msgstr "التخصص / هندسة ميكانيكية"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_87
+msgid "Specialization / Mechanics"
+msgstr "التخصص / ميكانيك"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_89
+msgid "Specialization / Mineral Science"
+msgstr "التخصص / علوم معادن"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_91
+msgid "Specialization / Minerals, Rocks and Ores Deposits"
+msgstr "التخصص / معادن وصخور ورواسب الخامات"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_92
+msgid "Specialization / Mining Engineering"
+msgstr "التخصص / هندسة تعدين"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_93
+msgid "Specialization / Natural Science"
+msgstr "التخصص / علوم طبيعية"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_94
+msgid "Specialization / Office Management"
+msgstr "التخصص / ادارة مكاتب"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_97
+msgid "Specialization / Oil Geo-sciences"
+msgstr "التخصص / علوم الطبقات والنفط"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_95
+msgid "Specialization / Oil and Gas Engineering"
+msgstr "التخصص / هندسة نفط وغاز"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_96
+msgid "Specialization / Oil and Water"
+msgstr "التخصص / نفط ومياه"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_99
+msgid "Specialization / Petroleum Engineering"
+msgstr "التخصص / هندسة بترولية"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_100
+msgid "Specialization / Petroleum Geology"
+msgstr "التخصص / جيولوجيا البترول والمياه"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_98
+msgid "Specialization / Petroleum and Water Geology"
+msgstr "التخصص / جيولوجيا البترول والمياه"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_101
+msgid "Specialization / Physical Engineering"
+msgstr "التخصص / هندسة فيزيائية"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_102
+msgid "Specialization / Physics"
+msgstr "التخصص / فيزياء"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_103
+msgid "Specialization / Physics and Mathematics"
+msgstr "التخصص / فيزياء ورياضيات"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_104
+msgid "Specialization / Politics"
+msgstr "التخصص / سياسة"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_105
+msgid "Specialization / Programming"
+msgstr "التخصص / برمجة حاسوب"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_106
+msgid "Specialization / Prospecting Geology"
+msgstr "التخصص / جيولوجيا التنقيب"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_107
+msgid "Specialization / Public Law"
+msgstr "التخصص / قانون عام"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_108
+msgid "Specialization / Public Relations"
+msgstr "التخصص / علاقات عامة واعلان"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_109
+msgid "Specialization / Public Relations and Advertising"
+msgstr "التخصص / علاقات عامة واعلان"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_112
+msgid "Specialization / Science"
+msgstr "التخصص / علوم"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_110
+msgid "Specialization / Scientific"
+msgstr "التخصص / علمي"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_111
+msgid "Specialization / Sharia Law"
+msgstr "التخصص / شريعة وقانون"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_113
+msgid "Specialization / Social Studies"
+msgstr "التخصص / دراسات اجتماعية"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_114
+msgid "Specialization / Statistics"
+msgstr "التخصص / احصاء"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_115
+msgid "Specialization / Stratigraphy and Oil Sciences"
+msgstr "التخصص / علوم الطبقات والنفط"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_116
+msgid "Specialization / Stratigraphy and Petroleum Geology"
+msgstr "التخصص / جيولوجيا الطبقات والنفط"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_117
+msgid "Specialization / Thermal Engineering"
+msgstr "التخصص / هندسة حرارية"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_118
+msgid "Specialization / Turning Mechanics"
+msgstr "التخصص / مهني"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_120
+msgid "Specialization / Water Engineering and Management"
+msgstr "التخصص / هندسة وادارة المياه"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_specialization_119
+msgid "Specialization / Water and Environmental Engineering"
+msgstr "التخصص / هندسة مياه وبيئة"
+
+#. module: tag_employee
+#: model:tag.category,name:tag_employee.employee_state
+msgid "State"
+msgstr "التخصص / الحالة"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_state_1
+msgid "State / At Work"
+msgstr "الحالة / في العمل"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_state_9
+msgid "State / Battlefront"
+msgstr "الحالة / جبهات"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_state_12
+msgid "State / Deceased"
+msgstr "الحالة / متوفي"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_state_6
+msgid "State / Delegated"
+msgstr "الحالة / منتدب"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_state_3
+msgid "State / On Vacation"
+msgstr "الحالة / في اجازة"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_state_11
+msgid "State / Retired"
+msgstr "الحالة / متقاعد"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_state_5
+msgid "State / Seconded Employee"
+msgstr "الحالة / معار"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_state_8
+msgid "State / Sick Condition"
+msgstr "الحالة / حالة مرضية"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_state_7
+msgid "State / Study Permit"
+msgstr "الحالة / مجاز دراسيا"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_state_10
+msgid "State / Terminated"
+msgstr "الحالة / انهاء خدمة"
+
+#. module: tag_employee
+#: model:tag.tag,complete_name:tag_employee.employee_state_4
+msgid "State / Unpaid Leave"
+msgstr "الحالة / إجازة غير مدفوعة"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_114
+msgid "Statistics"
+msgstr "احصاء"
+
+#. module: tag_employee
+#: model:ir.model.fields,field_description:tag_employee.field_hr_employee__state
+msgid "Status"
+msgstr "الحالة"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_115
+msgid "Stratigraphy and Oil Sciences"
+msgstr "علوم الطبقات والنفط"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_116
+msgid "Stratigraphy and Petroleum Geology"
+msgstr "جيولوجيا الطبقات والنفط"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_state_7
+msgid "Study Permit"
+msgstr "مجاز دراسيا"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_role_supervisor
+msgid "Supervisor"
+msgstr "مشرف"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_hiring_decision_4
+msgid "Supreme Revolutionary Committee"
+msgstr "للجنة الثورية العليا"
+
+#. module: tag_employee
+#: model:ir.model.fields,field_description:tag_employee.field_hr_employee__search_tags
+msgid "Tag"
+msgstr "الوسم"
+
+#. module: tag_employee
+#: model:ir.model.fields,field_description:tag_employee.field_hr_employee__fld_tags
+#: model_terms:ir.ui.view,arch_db:tag_employee.view_employee_form
+msgid "Tags"
+msgstr "الوسوم"
+
+#. module: tag_employee
+#: model_terms:ir.ui.view,arch_db:tag_employee.hr_kanban_view_employees
+#: model_terms:ir.ui.view,arch_db:tag_employee.view_employee_form
+#: model_terms:ir.ui.view,arch_db:tag_employee.view_employee_list
+msgid "Tags..."
+msgstr "وسوم..."
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_religion_15
+msgid "Taoism"
+msgstr "التاوية"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_role_teacher
+msgid "Teacher"
+msgstr "معلم"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_qualification_10
+msgid "Technical high school"
+msgstr "ثانوية فنية"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_role_technician
+msgid "Technician"
+msgstr "فني"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_role_tech_geol
+msgid "Technician Geologist"
+msgstr "فني جيولوجي"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_religion_16
+msgid "Tenriism"
+msgstr "التنرية"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_state_10
+msgid "Terminated"
+msgstr "انهاء خدمة"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_117
+msgid "Thermal Engineering"
+msgstr "هندسة حرارية"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_118
+msgid "Turning Mechanics"
+msgstr "مهني"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_state_4
+msgid "Unpaid Leave"
+msgstr "إجازة غير مدفوعة"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_role_vise_president
+msgid "Vise President"
+msgstr "نائب الرئيس"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_120
+msgid "Water Engineering and Management"
+msgstr "هندسة وادارة المياه"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_specialization_119
+msgid "Water and Environmental Engineering"
+msgstr "هندسة مياه وبيئة"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_hair_color_white
+msgid "White Hair"
+msgstr "لون الشعر / رمادي وابيض"
+
+#. module: tag_employee
+#: model:tag.tag,name:tag_employee.employee_marital_4
+msgid "Widower"
+msgstr "أرمل"

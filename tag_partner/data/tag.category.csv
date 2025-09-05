@@ -1,0 +1,9 @@
+id,name,code,sequence,cat_type,single_tag,model_id
+partner_role,Role,partner_role,1,tag,0,base.model_res_partner
+partner_sex,Sex,partner_sex,2,tag,1,base.model_res_partner
+partner_eye_color,Eye Color,partner_eye_color,3,tag,1,base.model_res_partner
+partner_hair_color,Hair Color,partner_hair_color,4,tag,1,base.model_res_partner
+partner_religion,Religion,partner_religion,5,tag,1,base.model_res_partner
+partner_ethnicity,Ethnicity,partner_ethnicity,6,tag,1,base.model_res_partner
+partner_medical_aid,Medical Aid,partner_medical_aid,7,tag,0,base.model_res_partner
+partner_blood_group,Blood Group,partner_blood_group,8,tag,1,base.model_res_partner

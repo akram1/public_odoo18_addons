@@ -1,0 +1,408 @@
+<?xml version="1.0"?>
+<odoo>
+    <record id="partner_role_publisher" model="tag.tag">
+        <field name="name">Publisher</field>
+        <field name="sequence">1</field>
+        <field name="fld_cat" ref="partner_role" />
+    </record>
+    <record id="partner_role_author" model="tag.tag">
+        <field name="name">Author</field>
+        <field name="sequence">2</field>
+        <field name="fld_cat" ref="partner_role" />
+    </record>
+    <record id="partner_role_vendor" model="tag.tag">
+        <field name="name">Vendor</field>
+        <field name="sequence">3</field>
+        <field name="fld_cat" ref="partner_role" />
+    </record>
+    <record id="partner_role_visitor" model="tag.tag">
+        <field name="name">Visitor</field>
+        <field name="sequence">4</field>
+        <field name="fld_cat" ref="partner_role" />
+    </record>
+    <record id="partner_role_employee" model="tag.tag">
+        <field name="name">Employee</field>
+        <field name="sequence">5</field>
+        <field name="fld_cat" ref="partner_role" />
+    </record>
+    <record id="partner_role_customer" model="tag.tag">
+        <field name="name">Customer</field>
+        <field name="sequence">6</field>
+        <field name="fld_cat" ref="partner_role" />
+    </record>
+    <record id="partner_role_library" model="tag.tag">
+        <field name="name">Library Visitor</field>
+        <field name="sequence">7</field>
+        <field name="fld_cat" ref="partner_role" />
+    </record>
+    <record id="partner_role_museum_visitor" model="tag.tag">
+        <field name="name">Museum Visitor</field>
+        <field name="sequence">8</field>
+        <field name="fld_cat" ref="partner_role" />
+    </record>
+    <record id="partner_role_lab" model="tag.tag">
+        <field name="name">Lab Beneficiary</field>
+        <field name="sequence">9</field>
+        <field name="fld_cat" ref="partner_role" />
+    </record>
+    <record id="partner_role_license" model="tag.tag">
+        <field name="name">License Operator</field>
+        <field name="sequence">10</field>
+        <field name="fld_cat" ref="partner_role" />
+    </record>
+    <record id="partner_role_study" model="tag.tag">
+        <field name="name">Study Beneficiary</field>
+        <field name="sequence">12</field>
+        <field name="fld_cat" ref="partner_role" />
+    </record>
+    <record id="partner_ethnicity_1" model="tag.tag">
+        <field name="name">Arab</field>
+        <field name="code">arab</field>
+        <field name="sequence">1</field>
+        <field name="value1"></field>
+        <field name="value2"></field>
+        <field name="value3"></field>
+        <field name="fld_cat" ref="partner_ethnicity"/>
+    </record>
+    <record id="partner_ethnicity_2" model="tag.tag">
+        <field name="name">Amerindian</field>
+        <field name="code">am_indian</field>
+        <field name="sequence">2</field>
+        <field name="fld_cat" ref="partner_ethnicity"/>
+    </record>
+    <record id="partner_ethnicity_3" model="tag.tag">
+        <field name="name">Australaisa</field>
+        <field name="code">aus_asian</field>
+        <field name="sequence">3</field>
+        <field name="fld_cat" ref="partner_ethnicity"/>
+    </record>
+    <record id="partner_ethnicity_4" model="tag.tag">
+        <field name="name">African</field>
+        <field name="code">african</field>
+        <field name="sequence">4</field>
+        <field name="fld_cat" ref="partner_ethnicity"/>
+    </record>
+    <record id="partner_ethnicity_5" model="tag.tag">
+        <field name="name">Central Asia</field>
+        <field name="code">c_asia</field>
+        <field name="sequence">5</field>
+        <field name="fld_cat" ref="partner_ethnicity"/>
+    </record>
+    <record id="partner_ethnicity_6" model="tag.tag">
+        <field name="name">East Asia</field>
+        <field name="code">e_asia</field>
+        <field name="sequence">6</field>
+        <field name="fld_cat" ref="partner_ethnicity"/>
+    </record>
+    <record id="partner_ethnicity_7" model="tag.tag">
+        <field name="name">European</field>
+        <field name="code">european</field>
+        <field name="sequence">7</field>
+        <field name="fld_cat" ref="partner_ethnicity"/>
+    </record>
+    <record id="partner_ethnicity_8" model="tag.tag">
+        <field name="name">Indian</field>
+        <field name="code">indian</field>
+        <field name="sequence">8</field>
+        <field name="fld_cat" ref="partner_ethnicity"/>
+    </record>
+    <record id="partner_ethnicity_9" model="tag.tag">
+        <field name="name">Inuit</field>
+        <field name="code">inuit</field>
+        <field name="sequence">9</field>
+        <field name="fld_cat" ref="partner_ethnicity"/>
+    </record>
+    <record id="partner_ethnicity_10" model="tag.tag">
+        <field name="name">Malagasy</field>
+        <field name="code">malagasy</field>
+        <field name="sequence">10</field>
+        <field name="fld_cat" ref="partner_ethnicity"/>
+    </record>
+    <record id="partner_ethnicity_11" model="tag.tag">
+        <field name="name">Mestizo</field>
+        <field name="code">mestizo</field>
+        <field name="sequence">11</field>
+        <field name="fld_cat" ref="partner_ethnicity"/>
+    </record>
+    <record id="partner_ethnicity_12" model="tag.tag">
+        <field name="name">Mulatto</field>
+        <field name="code">mulatto</field>
+        <field name="sequence">12</field>
+        <field name="fld_cat" ref="partner_ethnicity"/>
+    </record>
+    <record id="partner_ethnicity_13" model="tag.tag">
+        <field name="name">Multi-race</field>
+        <field name="code">multirace</field>
+        <field name="sequence">13</field>
+        <field name="fld_cat" ref="partner_ethnicity"/>
+    </record>
+    <record id="partner_medical_aid_1" model="tag.tag">
+        <field name="name">Eye Glasses</field>
+        <field name="code">glasses</field>
+        <field name="sequence">1</field>
+        <field name="fld_cat" ref="partner_medical_aid"/>
+    </record>
+    <record id="partner_medical_aid_2" model="tag.tag">
+        <field name="name">Hearing Aids</field>
+        <field name="code">hearing_aid</field>
+        <field name="sequence">2</field>
+        <field name="fld_cat" ref="partner_medical_aid"/>
+    </record>
+    <record id="partner_medical_aid_3" model="tag.tag">
+        <field name="name">Medical Crutch</field>
+        <field name="code">medical_crutch</field>
+        <field name="sequence">3</field>
+        <field name="fld_cat" ref="partner_medical_aid"/>
+    </record>
+    <record id="partner_medical_aid_4" model="tag.tag">
+        <field name="name">Medical Chair</field>
+        <field name="code">medical_chair</field>
+        <field name="sequence">4</field>
+        <field name="fld_cat" ref="partner_medical_aid"/>
+    </record>
+    <record id="partner_marital_1" model="tag.tag">
+        <field name="name">Single</field>
+        <field name="code">single</field>
+        <field name="sequence">1</field>
+        <field name="fld_cat" ref="partner_marital"/>
+    </record>
+    <record id="partner_marital_2" model="tag.tag">
+        <field name="name">Married</field>
+        <field name="code">married</field>
+        <field name="sequence">2</field>
+        <field name="fld_cat" ref="partner_marital"/>
+    </record>
+    <record id="partner_marital_3" model="tag.tag">
+        <field name="name">Divorced</field>
+        <field name="code">divorced</field>
+        <field name="sequence">3</field>
+        <field name="fld_cat" ref="partner_marital"/>
+    </record>
+    <record id="partner_marital_4" model="tag.tag">
+        <field name="name">Widower</field>
+        <field name="code">widower</field>
+        <field name="sequence">4</field>
+        <field name="fld_cat" ref="partner_marital"/>
+    </record>
+    <record id="partner_blood_group_1" model="tag.tag">
+        <field name="name">A+</field>
+        <field name="code">A+</field>
+        <field name="sequence">1</field>
+        <field name="fld_cat" ref="partner_blood_group"/>
+    </record>
+    <record id="partner_blood_group_2" model="tag.tag">
+        <field name="name">A-</field>
+        <field name="code">A-</field>
+        <field name="sequence">2</field>
+        <field name="fld_cat" ref="partner_blood_group"/>
+    </record>
+    <record id="partner_blood_group_3" model="tag.tag">
+        <field name="name">B+</field>
+        <field name="code">B+</field>
+        <field name="sequence">3</field>
+        <field name="fld_cat" ref="partner_blood_group"/>
+    </record>
+    <record id="partner_blood_group_4" model="tag.tag">
+        <field name="name">B-</field>
+        <field name="code">B-</field>
+        <field name="sequence">4</field>
+        <field name="fld_cat" ref="partner_blood_group"/>
+    </record>
+    <record id="partner_blood_group_5" model="tag.tag">
+        <field name="name">AB+</field>
+        <field name="code">AB+</field>
+        <field name="sequence">5</field>
+        <field name="fld_cat" ref="partner_blood_group"/>
+    </record>
+    <record id="partner_blood_group_6" model="tag.tag">
+        <field name="name">AB-</field>
+        <field name="code">AB-</field>
+        <field name="sequence">6</field>
+        <field name="fld_cat" ref="partner_blood_group"/>
+    </record>
+    <record id="partner_blood_group_7" model="tag.tag">
+        <field name="name">O+</field>
+        <field name="code">O+</field>
+        <field name="sequence">7</field>
+        <field name="fld_cat" ref="partner_blood_group"/>
+    </record>
+    <record id="partner_blood_group_8" model="tag.tag">
+        <field name="name">O-</field>
+        <field name="code">O-</field>
+        <field name="sequence">8</field>
+        <field name="fld_cat" ref="partner_blood_group"/>
+    </record>
+    <record id="partner_religion_1" model="tag.tag">
+        <field name="name">Islam</field>
+        <field name="code">islam</field>
+        <field name="sequence">1</field>
+        <field name="fld_cat" ref="partner_religion"/>
+    </record>
+    <record id="partner_religion_2" model="tag.tag">
+        <field name="name">Bahaee Faith</field>
+        <field name="code">bahaee</field>
+        <field name="sequence">2</field>
+        <field name="fld_cat" ref="partner_religion"/>
+    </record>
+    <record id="partner_religion_3" model="tag.tag">
+        <field name="name">Buddhism</field>
+        <field name="code">buddhism</field>
+        <field name="sequence">3</field>
+        <field name="fld_cat" ref="partner_religion"/>
+    </record>
+    <record id="partner_religion_4" model="tag.tag">
+        <field name="name">Caodaism</field>
+        <field name="code">caodaism</field>
+        <field name="sequence">4</field>
+        <field name="fld_cat" ref="partner_religion"/>
+    </record>
+    <record id="partner_religion_5" model="tag.tag">
+        <field name="name">Cheondoism</field>
+        <field name="code">cheondoism</field>
+        <field name="sequence">5</field>
+        <field name="fld_cat" ref="partner_religion"/>
+    </record>
+    <record id="partner_religion_6" model="tag.tag">
+        <field name="name">Christianity</field>
+        <field name="code">christianity</field>
+        <field name="sequence">6</field>
+        <field name="fld_cat" ref="partner_religion"/>
+    </record>
+    <record id="partner_religion_7" model="tag.tag">
+        <field name="name">Folk Religion</field>
+        <field name="code">folk</field>
+        <field name="sequence">7</field>
+        <field name="fld_cat" ref="partner_religion"/>
+    </record>
+    <record id="partner_religion_8" model="tag.tag">
+        <field name="name">Hinduism</field>
+        <field name="code">hinduism</field>
+        <field name="sequence">8</field>
+        <field name="fld_cat" ref="partner_religion"/>
+    </record>
+    <record id="partner_religion_9" model="tag.tag">
+        <field name="name">Hoahaoism</field>
+        <field name="code">hoahaoism</field>
+        <field name="sequence">9</field>
+        <field name="fld_cat" ref="partner_religion"/>
+    </record>
+    <record id="partner_religion_10" model="tag.tag">
+        <field name="name">Jainism</field>
+        <field name="code">jainism</field>
+        <field name="sequence">10</field>
+        <field name="fld_cat" ref="partner_religion"/>
+    </record>
+    <record id="partner_religion_11" model="tag.tag">
+        <field name="name">Judaism</field>
+        <field name="code">judaism</field>
+        <field name="sequence">11</field>
+        <field name="fld_cat" ref="partner_religion"/>
+    </record>
+    <record id="partner_religion_12" model="tag.tag">
+        <field name="name">Korean Shamanism</field>
+        <field name="code">k_shamanism</field>
+        <field name="sequence">12</field>
+        <field name="fld_cat" ref="partner_religion"/>
+    </record>
+    <record id="partner_religion_13" model="tag.tag">
+        <field name="name">Shinto</field>
+        <field name="code">shinto</field>
+        <field name="sequence">13</field>
+        <field name="fld_cat" ref="partner_religion"/>
+    </record>
+    <record id="partner_religion_14" model="tag.tag">
+        <field name="name">Sikhism</field>
+        <field name="code">sikhism</field>
+        <field name="sequence">14</field>
+        <field name="fld_cat" ref="partner_religion"/>
+    </record>
+    <record id="partner_religion_15" model="tag.tag">
+        <field name="name">Taoism</field>
+        <field name="code">taoism</field>
+        <field name="sequence">15</field>
+        <field name="fld_cat" ref="partner_religion"/>
+    </record>
+    <record id="partner_religion_16" model="tag.tag">
+        <field name="name">Tenriism</field>
+        <field name="code">tenriism</field>
+        <field name="sequence">16</field>
+        <field name="fld_cat" ref="partner_religion"/>
+    </record>
+    <record id="partner_person_sex_male" model="tag.tag">
+        <field name="name">Male</field>
+        <field name="code">male</field>
+        <field name="sequence">1</field>
+        <field name="fld_cat" ref="partner_sex"/>
+    </record>
+    <record id="partner_person_sex_female" model="tag.tag">
+        <field name="name">Female</field>
+        <field name="code">female</field>
+        <field name="sequence">2</field>
+        <field name="fld_cat" ref="partner_sex"/>
+    </record>
+    <record id="partner_hair_color_black" model="tag.tag">
+        <field name="name">Black Hair</field>
+        <field name="sequence">1</field>
+        <field name="fld_cat" ref="partner_hair_color"/>
+    </record>
+    <record id="partner_hair_color_hazel" model="tag.tag">
+        <field name="name">Hazel</field>
+        <field name="sequence">2</field>
+        <field name="fld_cat" ref="partner_hair_color"/>
+    </record>
+    <record id="partner_hair_color_blond" model="tag.tag">
+        <field name="name">Blond Hair</field>
+        <field name="sequence">3</field>
+        <field name="fld_cat" ref="partner_hair_color"/>
+    </record>
+    <record id="partner_hair_color_red" model="tag.tag">
+        <field name="name">Red Hair</field>
+        <field name="sequence">4</field>
+        <field name="fld_cat" ref="partner_hair_color"/>
+    </record>
+    <record id="partner_hair_color_brown" model="tag.tag">
+        <field name="name">Brown Hair</field>
+        <field name="sequence">5</field>
+        <field name="fld_cat" ref="partner_hair_color"/>
+    </record>
+    <record id="partner_hair_color_gray" model="tag.tag">
+        <field name="name">Gray Hair</field>
+        <field name="sequence">6</field>
+        <field name="fld_cat" ref="partner_hair_color"/>
+    </record>
+    <record id="partner_hair_color_white" model="tag.tag">
+        <field name="name">White Hair</field>
+        <field name="sequence">7</field>
+        <field name="fld_cat" ref="partner_hair_color"/>
+    </record>
+    <record id="partner_eye_black" model="tag.tag">
+        <field name="name">Black Eyes</field>
+        <field name="sequence">1</field>
+        <field name="fld_cat" ref="partner_eye_color"/>
+    </record>
+    <record id="partner_eye_brown" model="tag.tag">
+        <field name="name">Brown Eyes</field>
+        <field name="sequence">2</field>
+        <field name="fld_cat" ref="partner_eye_color"/>
+    </record>
+    <record id="partner_hair_color_amber" model="tag.tag">
+        <field name="name">Amber Hair</field>
+        <field name="sequence">3</field>
+        <field name="fld_cat" ref="partner_hair_color"/>
+    </record>
+    <record id="partner_eye_blue" model="tag.tag">
+        <field name="name">Blue Eyes</field>
+        <field name="sequence">4</field>
+        <field name="fld_cat" ref="partner_eye_color"/>
+    </record>
+    <record id="partner_eye_gray" model="tag.tag">
+        <field name="name">Gray Eyes</field>
+        <field name="sequence">5</field>
+        <field name="fld_cat" ref="partner_eye_color"/>
+    </record>
+    <record id="partner_eye_green" model="tag.tag">
+        <field name="name">Green Eyes</field>
+        <field name="sequence">6</field>
+        <field name="fld_cat" ref="partner_eye_color"/>
+    </record>
+</odoo>

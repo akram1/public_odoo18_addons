@@ -1,0 +1,19 @@
+$font-path: './fonts';
+
+@mixin arabic-font($family, $type, $weight) {
+    @font-face {
+        font-family: $family;
+        src: url('#{$font-path}/#{$family}-#{$type}.ttf') format('truetype');
+        font-weight: $weight;
+        font-style: normal;
+    }
+}
+
+@include arabic-font('Zain', 'Light', 300);
+@include arabic-font('Zain', 'Regular', 400);
+@include arabic-font('Zain', 'Bold', 700);
+@include arabic-font('Zain', 'ExtraBold', 800);
+@include arabic-font('NotoNaskhArabic', 'Medium', 500);
+@include arabic-font('NotoNaskhArabic', 'Regular', 400);
+@include arabic-font('NotoNaskhArabic', 'SemiBold', 600);
+@include arabic-font('NotoNaskhArabic', 'Bold', 700);

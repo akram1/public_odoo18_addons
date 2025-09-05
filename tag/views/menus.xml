@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <menuitem id="menu_tags_root"
+              groups="tag.group_tags_user"
+              sequence="120"
+              name="Tags"
+              web_icon="tag,static/description/icon.png"/>
+
+    <menuitem id="menu_tags_all"
+              parent="menu_tags_root"
+              action="action_tag_view"
+              sequence="10"
+              name="All Tags"/>
+
+    <menuitem id="menu_tags_by_type"
+              parent="menu_tags_root"
+              sequence="20"
+              name="Tags by Type"/>
+
+    <menuitem action="action_tag_caegories_view"
+              id="menu_action_tag_categories_view"
+              parent="menu_tags_root"
+              name="Categories"
+              sequence="30"/>
+</odoo>

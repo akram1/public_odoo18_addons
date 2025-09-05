@@ -1,0 +1,2146 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* state_district_zone
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-05-20 06:11+0000\n"
+"PO-Revision-Date: 2022-05-22 01:43+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_hj_abs
+msgid "Abs"
+msgstr "عبس"
+
+#. module: state_district_zone
+#: model:res.country.state,name:state_district_zone.ye_ab
+msgid "Abyan"
+msgstr "أبين"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_hu_dah
+msgid "Ad Dahi"
+msgstr "الضحى"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_de_dha
+msgid "Ad Dhale'e"
+msgstr "الضالع"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_hd_dis
+msgid "Ad Dis"
+msgstr "الديس"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_hu_dur
+msgid "Ad Durayhimi"
+msgstr "الدريهمي"
+
+#. module: state_district_zone
+#: model:res.city,name:state_district_zone.ye_city_adn
+#: model:res.country.state,name:state_district_zone.ye_ad
+msgid "Aden"
+msgstr "عدن"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_hd_dhl
+msgid "Adh Dhlia'ah"
+msgstr "الضليعة"
+
+#. module: state_district_zone
+#: model:ir.model.fields,help:state_district_zone.field_res_country_state__name
+msgid "Administrative divisions of a country. E.g. Fed. State, Departement, Canton"
+msgstr "التقسيم الإداري للدولة. مثال: ولايات فيدرالية، أقسام، أقاليم"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_hj_afy
+msgid "Aflah Al Yaman"
+msgstr "أفلح اليمن"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_hj_asm
+msgid "Aflah Ash Shawm"
+msgstr "أفلح الشام"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ab_ahw
+msgid "Ahwar"
+msgstr "أحور"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_sh_aib
+msgid "Ain"
+msgstr "عين"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ba_ars
+msgid "Al A'rsh"
+msgstr "العرش"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_mb_abd
+msgid "Al Abdiyah"
+msgstr "العبدية"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_hd_abr
+msgid "Al Abr"
+msgstr "العبر"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_am_ash
+msgid "Al Ashah"
+msgstr "العشة"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_de_azr
+msgid "Al Azariq"
+msgstr "الازارق"
+
+#. module: state_district_zone
+#: model:res.city,name:state_district_zone.ye_city_bay
+#: model:res.country.state,name:state_district_zone.ye_ba
+#: model:res.district,name:state_district_zone.ye_ba_bay
+msgid "Al Bayda"
+msgstr "البيضاء"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ba_cit
+msgid "Al Bayda City"
+msgstr "مدينة البيضاء"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ad_bur
+msgid "Al Buraiqeh"
+msgstr "البريقة"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_sd_dhr
+msgid "Al Dhaher"
+msgstr "الظاهر"
+
+#. module: state_district_zone
+#: model:res.city,name:state_district_zone.ye_city_dal
+#: model:res.country.state,name:state_district_zone.ye_de
+msgid "Al Dhale"
+msgstr "الضالع"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ib_dhh
+msgid "Al Dhihar"
+msgstr "الظهار"
+
+#. module: state_district_zone
+#: model:res.city,name:state_district_zone.ye_city_gai
+msgid "Al Gaidah"
+msgstr "الغيضة"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_hu_gar
+msgid "Al Garrahi"
+msgstr "الجراحي"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_mh_gha
+msgid "Al Ghaydah"
+msgstr "الغيظة"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ja_gha
+msgid "Al Ghayl"
+msgstr "الغيل"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_la_had
+msgid "Al Had"
+msgstr "الحد"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_dr_had
+msgid "Al Hada"
+msgstr "الحدا"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_hu_haj
+msgid "Al Hajjaylah"
+msgstr "الحجيلة"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_hu_hal
+msgid "Al Hali"
+msgstr "الحالي"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_sd_has
+msgid "Al Hashwah"
+msgstr "الحشوة"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_hu_haw
+msgid "Al Hawak"
+msgstr "الحوك"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_la_haw
+msgid "Al Hawtah"
+msgstr "الحوطة"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_sa_hyd
+msgid "Al Haymah Ad Dakhiliyah"
+msgstr "الحيمة الداخلية"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_sa_hyk
+msgid "Al Haymah Al Kharijiyah"
+msgstr "الحيمة الخارجية"
+
+#. module: state_district_zone
+#: model:res.city,name:state_district_zone.ye_city_haz
+#: model:res.district,name:state_district_zone.ye_ja_haz
+msgid "Al Hazm"
+msgstr "الحزم"
+
+#. module: state_district_zone
+#: model:res.city,name:state_district_zone.ye_city_hot
+msgid "Al Hootah"
+msgstr "الحوطة"
+
+#. module: state_district_zone
+#: model:res.city,name:state_district_zone.ye_city_hud
+#: model:res.country.state,name:state_district_zone.ye_hu
+msgid "Al Hudaydah"
+msgstr "الحديدة"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ja_hum
+msgid "Al Humaydat"
+msgstr "الحميدات"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_de_hsh
+msgid "Al Husha"
+msgstr "الحشاء"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_sa_hus
+msgid "Al Husn"
+msgstr "الحصن"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_de_hus
+msgid "Al Hussein"
+msgstr "الحصين"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ra_jab
+msgid "Al Jabin"
+msgstr "الجبين"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ra_jaf
+msgid "Al Jafariyah"
+msgstr "الجعفرية"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_hj_jam
+msgid "Al Jamimah"
+msgstr "الجميمة"
+
+#. module: state_district_zone
+#: model:res.country.state,name:state_district_zone.ye_ja
+msgid "Al Jawf"
+msgstr "الجوف"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_mb_jub
+msgid "Al Jubah"
+msgstr "الجوبة"
+
+#. module: state_district_zone
+#: model:res.city,name:state_district_zone.ye_city_jub
+msgid "Al Jubain"
+msgstr "الجبين"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_mt_kha
+msgid "Al Khabt"
+msgstr "الخبت"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ja_kha
+msgid "Al Khalq"
+msgstr "الخلق"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_hu_kha
+msgid "Al Khawkhah"
+msgstr "الخوخة"
+
+#. module: state_district_zone
+#: model:res.city,name:state_district_zone.ye_city_kho
+msgid "Al Khookha"
+msgstr "الخوخة"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ta_maf
+msgid "Al Ma'afer"
+msgstr "المعافر"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_am_mad
+msgid "Al Madan"
+msgstr "المدان"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_la_mad
+msgid "Al Madaribah Wa Al Arah"
+msgstr "المضاربة والعارة"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_la_maf
+msgid "Al Maflahy"
+msgstr "المفلحي"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_hj_mag
+msgid "Al Maghrabah"
+msgstr "المغربة"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_hj_mah
+msgid "Al Mahabishah"
+msgstr "المحابشة"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ab_mah
+msgid "Al Mahfad"
+msgstr "المحفد"
+
+#. module: state_district_zone
+#: model:res.country.state,name:state_district_zone.ye_mh
+msgid "Al Mahrah"
+msgstr "المهرة"
+
+#. module: state_district_zone
+#: model:res.city,name:state_district_zone.ye_city_mht
+#: model:res.country.state,name:state_district_zone.ye_mt
+#: model:res.district,name:state_district_zone.ye_mt_mah
+msgid "Al Mahwit"
+msgstr "المحويت"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_mt_cit
+msgid "Al Mahwit City"
+msgstr "مدينة المحويت"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ib_mak
+msgid "Al Makhadir"
+msgstr "المخادر"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ba_mal
+msgid "Al Malagim"
+msgstr "الملاجم"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_dr_man
+msgid "Al Manar"
+msgstr "المنار"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ad_man
+msgid "Al Mansura"
+msgstr "المنصورة"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_hu_man
+msgid "Al Mansuriyah"
+msgstr "المنصورية"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_la_maq
+msgid "Al Maqatirah"
+msgstr "المقاطرة"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_hu_mar
+msgid "Al Marawi'ah"
+msgstr "المراوعة"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ib_msh
+msgid "Al Mashannah"
+msgstr "المشنة"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_mh_mas
+msgid "Al Masilah"
+msgstr "المسيلة"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ja_mas
+msgid "Al Maslub"
+msgstr "المصلوب"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ja_mat
+msgid "Al Maton"
+msgstr "المتون"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ta_maw
+msgid "Al Mawasit"
+msgstr "المواسط"
+
+#. module: state_district_zone
+#: model:res.city,name:state_district_zone.ye_city_mhb
+msgid "Al Mhabisha"
+msgstr "المحابشة"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_hj_mif
+msgid "Al Miftah"
+msgstr "المفتاح"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_hu_mig
+msgid "Al Mighlaf"
+msgstr "المغلاف"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_la_mil
+msgid "Al Milah"
+msgstr "الملاح"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_hu_min
+msgid "Al Mina"
+msgstr "الميناء"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ta_mis
+msgid "Al Misrakh"
+msgstr "المسراخ"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ta_mud
+msgid "Al Mudhaffar"
+msgstr "المظفر"
+
+#. module: state_district_zone
+#: model:res.city,name:state_district_zone.ye_city_muk
+msgid "Al Mukala"
+msgstr "المكلا"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ta_muk
+msgid "Al Mukha"
+msgstr "المخا"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_hu_mun
+msgid "Al Munirah"
+msgstr "المنيرة"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_la_mus
+msgid "Al Musaymir"
+msgstr "المسيمر"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ib_qad
+msgid "Al Qa'idah"
+msgstr "القاعدة"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_la_qab
+msgid "Al Qabbaytah"
+msgstr "القبيطة"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_hd_qaf
+msgid "Al Qaf"
+msgstr "القف"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ta_qah
+msgid "Al Qahirah"
+msgstr "القاهرة"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_hu_qan
+msgid "Al Qanawis"
+msgstr "القناوص"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_hd_qat
+msgid "Al Qatn"
+msgstr "القطن"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ba_qur
+msgid "Al Quraishyah"
+msgstr "القريشية"
+
+#. module: state_district_zone
+#: model:res.city,name:state_district_zone.ye_city_shr
+msgid "Al Shihir"
+msgstr "الشحر"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_sh_tal
+msgid "Al Talh"
+msgstr "الطلح"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ib_uda
+msgid "Al Udayn"
+msgstr "العدين"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ab_wad
+msgid "Al Wade'a"
+msgstr "الوضيع"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_aa_wah
+msgid "Al Wahdah"
+msgstr "الوحدة"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ta_waz
+msgid "Al Wazi'iyah"
+msgstr "الوازعية"
+
+#. module: state_district_zone
+#: model:res.city,name:state_district_zone.ye_city_zad
+msgid "Al Zaidiya"
+msgstr "الزيدية"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_hu_luh
+msgid "Alluheyah"
+msgstr "اللحية"
+
+#. module: state_district_zone
+#: model:res.country.state,name:state_district_zone.ye_aa
+msgid "Amanat Al Asimah"
+msgstr "أمانة العاصمة"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_hd_amd
+msgid "Amd"
+msgstr "عمد"
+
+#. module: state_district_zone
+#: model:res.city,name:state_district_zone.ye_city_amr
+#: model:res.country.state,name:state_district_zone.ye_am
+#: model:res.district,name:state_district_zone.ye_am_amr
+msgid "Amran"
+msgstr "عمران"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ib_nad
+msgid "An Nadirah"
+msgstr "الناردة"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_dr_ans
+msgid "Anss"
+msgstr "عنس"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ib_rad
+msgid "Ar Radmah"
+msgstr "الرضمة"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_sh_raw
+msgid "Ar Rawdah"
+msgstr "الروضة"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_hd_ray
+msgid "Ar Raydah Wa Qusayar"
+msgstr "الريدة وقصيعر"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_mt_ruj
+msgid "Ar Rujum"
+msgstr "الرجم"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ba_rya
+msgid "Ar Ryashyyah"
+msgstr "الرياشية"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_sa_arh
+msgid "Arhab"
+msgstr "أرحب"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_sh_arm
+msgid "Arma'a"
+msgstr "عرماء"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_aa_sab
+msgid "As Sabain"
+msgstr "السبعين"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ib_sab
+msgid "As Sabrah"
+msgstr "السبرة"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ib_sad
+msgid "As Saddah"
+msgstr "السدة"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_sd_saf
+msgid "As Safra"
+msgstr "الصفراء"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_sh_sai
+msgid "As Said"
+msgstr "الصعيد"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_hu_sal
+msgid "As Salif"
+msgstr "الصليف"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ba_swd
+msgid "As Sawadiyah"
+msgstr "السوادية"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_am_saw
+msgid "As Sawd"
+msgstr "السود"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_hd_saw
+msgid "As Sawm"
+msgstr "السوم"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ba_swm
+msgid "As Sawma'ah"
+msgstr "الصومعة"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ib_say
+msgid "As Sayyani"
+msgstr "السياني"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ta_sil
+msgid "As Silw"
+msgstr "الصلو"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_am_sud
+msgid "As Sudah"
+msgstr "السودة"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_hu_suk
+msgid "As Sukhnah"
+msgstr "السخنة"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ib_shr
+msgid "Ash Sha'ir"
+msgstr "الشعر"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_hj_Shg
+msgid "Ash Shaghadirah"
+msgstr "الشغادرة"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ad_oth
+msgid "Ash Shaikh Outhman"
+msgstr "الشيخ عثمان"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ta_shm
+msgid "Ash Shamayatayn"
+msgstr "الشمايتين"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ba_shr
+msgid "Ash Sharyah"
+msgstr "الشرية"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_hd_shi
+msgid "Ash Shihr"
+msgstr "الشحر"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_de_shu
+msgid "Ash Shu'ayb"
+msgstr "الشعيب"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_hj_asl
+msgid "Aslem"
+msgstr "أسلم"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_aa_saf
+msgid "Assafi'yah"
+msgstr "الصافية"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ta_taz
+msgid "At Ta'iziyah"
+msgstr "التعزية"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ba_taf
+msgid "At Taffah"
+msgstr "الطفة"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_aa_tah
+msgid "At Tahrir"
+msgstr "التحرير"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_mt_taw
+msgid "At Tawilah"
+msgstr "الطويلة"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_hu_tuh
+msgid "At Tuhayat"
+msgstr "التحيتا"
+
+#. module: state_district_zone
+#: model:res.city,name:state_district_zone.ye_city_atq
+#: model:res.district,name:state_district_zone.ye_sh_atq
+msgid "Ataq"
+msgstr "عتق"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_aa_tha
+msgid "Ath'thaorah"
+msgstr "الثورة"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ad_att
+msgid "Attawahi"
+msgstr "التواهي"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_sa_att
+msgid "Attyal"
+msgstr "الطيال"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ba_zah
+#: model:res.district,name:state_district_zone.ye_ja_zah
+msgid "Az Zahir"
+msgstr "الزاهر"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_hu_zay
+msgid "Az Zaydiyah"
+msgstr "الزيدية"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_hu_zuh
+msgid "Az Zuhrah"
+msgstr "الزهرة"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_aa_aza
+msgid "Az'zal"
+msgstr "آزال"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ib_bad
+msgid "Ba'dan"
+msgstr "بعدان"
+
+#. module: state_district_zone
+#: model:res.city,name:state_district_zone.ye_city_faq
+msgid "Bait Alfaqeeh"
+msgstr "بيت الفقه"
+
+#. module: state_district_zone
+#: model:res.city,name:state_district_zone.ye_city_baj
+#: model:res.district,name:state_district_zone.ye_hu_baj
+msgid "Bajil"
+msgstr "باجل"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_hj_bak
+msgid "Bakil Almeer"
+msgstr "بكيل المي"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_hj_awm
+msgid "Bani Al Awam"
+msgstr "بني العوام"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_aa_har
+msgid "Bani Al Harith"
+msgstr "بني الحارث"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_sa_dhb
+msgid "Bani Dhabyan"
+msgstr "بني ضبيان"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_sa_mat
+msgid "Bani Matar"
+msgstr "بني مطر"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_hj_qas
+msgid "Bani Qa'is"
+msgstr "بني قيس الطو"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_mt_sad
+msgid "Bani Sa'd"
+msgstr "بني سعد"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_am_sur
+msgid "Bani Suraim"
+msgstr "بني صري"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_sd_baq
+msgid "Baqim"
+msgstr "باقم"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ja_bar
+msgid "Bart Al Anan"
+msgstr "برط العنا"
+
+#. module: state_district_zone
+#: model:res.city,name:state_district_zone.ye_city_bai
+#: model:res.district,name:state_district_zone.ye_sh_bay
+msgid "Bayhan"
+msgstr "بيحان"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_hu_faq
+msgid "Bayt al-Faqih"
+msgstr "بيت الفقية"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_mb_bid
+msgid "Bidbadah"
+msgstr "بدبدة"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_sa_rus
+msgid "Bilad Ar Rus"
+msgstr "بلاد الروس"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ra_tam
+msgid "Bilad At Ta'am"
+msgstr "بلاد الطعام"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_hd_may
+msgid "Brom Mayfa"
+msgstr "بروم ميفعة"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_hu_bur
+msgid "Bura"
+msgstr "برع"
+
+#. module: state_district_zone
+#: model_terms:ir.ui.view,arch_db:state_district_zone.view_city_tree
+msgid "Cities"
+msgstr "المدن"
+
+#. module: state_district_zone
+#: model:ir.actions.act_window,name:state_district_zone.action_country_state_city
+#: model:ir.ui.menu,name:state_district_zone.menu_common_city
+msgid "Cities/Towns"
+msgstr "المدن"
+
+#. module: state_district_zone
+#: model_terms:ir.ui.view,arch_db:state_district_zone.res_partner_view_form_private
+#: model_terms:ir.ui.view,arch_db:state_district_zone.view_city_form
+#: model_terms:ir.ui.view,arch_db:state_district_zone.view_partner_address_form
+#: model_terms:ir.ui.view,arch_db:state_district_zone.view_partner_form
+msgid "City"
+msgstr "المدينة"
+
+#. module: state_district_zone
+#: model:ir.model.fields,field_description:state_district_zone.field_res_city__name
+#: model:ir.model.fields,field_description:state_district_zone.field_res_partner__city_id
+#: model:ir.model.fields,field_description:state_district_zone.field_res_users__city_id
+#: model:ir.model.fields,field_description:state_district_zone.field_state_district_mixin__city_id
+msgid "City/Town"
+msgstr "المدينة"
+
+#. module: state_district_zone
+#: model:ir.model.fields,field_description:state_district_zone.field_res_country_state__color
+msgid "Color"
+msgstr "اللون"
+
+#. module: state_district_zone
+#: model:ir.ui.menu,name:state_district_zone.menu_common_data
+msgid "Common Data"
+msgstr "البيانات المشتركة"
+
+#. module: state_district_zone
+#: model:ir.model,name:state_district_zone.model_res_partner
+msgid "Contact"
+msgstr "جهة الاتصال"
+
+#. module: state_district_zone
+#: model:ir.model,name:state_district_zone.model_res_country
+#: model:ir.model.fields,field_description:state_district_zone.field_res_city__country_id
+#: model:ir.model.fields,field_description:state_district_zone.field_res_district__country_id
+#: model:ir.model.fields,field_description:state_district_zone.field_res_partner__country_id
+#: model:ir.model.fields,field_description:state_district_zone.field_res_users__country_id
+#: model:ir.model.fields,field_description:state_district_zone.field_res_zone__country_id
+#: model:ir.model.fields,field_description:state_district_zone.field_state_district_mixin__country_id
+#: model_terms:ir.ui.view,arch_db:state_district_zone.res_partner_view_form_private
+#: model_terms:ir.ui.view,arch_db:state_district_zone.view_city_form
+#: model_terms:ir.ui.view,arch_db:state_district_zone.view_district_form
+#: model_terms:ir.ui.view,arch_db:state_district_zone.view_district_tree
+#: model_terms:ir.ui.view,arch_db:state_district_zone.view_partner_address_form
+#: model_terms:ir.ui.view,arch_db:state_district_zone.view_partner_form
+#: model_terms:ir.ui.view,arch_db:state_district_zone.view_zone_form
+msgid "Country"
+msgstr "الدولة"
+
+#. module: state_district_zone
+#: model:ir.model.fields,field_description:state_district_zone.field_res_country__name
+msgid "Country Name"
+msgstr "اسم الدولة"
+
+#. module: state_district_zone
+#: model:ir.model,name:state_district_zone.model_res_country_state
+msgid "Country state"
+msgstr "الولاية أو المحافظة"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ad_cra
+msgid "Craiter"
+msgstr "كريتر"
+
+#. module: state_district_zone
+#: model_terms:ir.actions.act_window,help:state_district_zone.action_country_state_city
+msgid "Create and manage the cities and towns of a state."
+msgstr "إنشاء وإدارة مدن وبلدات الدولة."
+
+#. module: state_district_zone
+#: model_terms:ir.actions.act_window,help:state_district_zone.action_country_state_district
+msgid ""
+"Create and manage the different districts within a country\n"
+"                state (sub state). Each district is attached to one state."
+msgstr ""
+"إنشاء وإدارة المديريات المختلفة داخل محافظة\n"
+"                  . كل مديرية متصلة يمحافظة واحدة."
+
+#. module: state_district_zone
+#: model_terms:ir.actions.act_window,help:state_district_zone.action_country_state_district_zone
+msgid ""
+"Create and manage the different districts within a state\n"
+"                district (sub district). Each zone is attached to one district."
+msgstr ""
+"إنشاء وإدارة المناطق المختلفة داخل مديرية\n"
+"                  محافظة (عزلة). كل عزلة متصلة بمنطقة واحدة."
+
+#. module: state_district_zone
+#: model:ir.model.fields,field_description:state_district_zone.field_res_city__create_uid
+#: model:ir.model.fields,field_description:state_district_zone.field_res_district__create_uid
+#: model:ir.model.fields,field_description:state_district_zone.field_res_zone__create_uid
+msgid "Created by"
+msgstr "أنشئ بواسطة"
+
+#. module: state_district_zone
+#: model:ir.model.fields,field_description:state_district_zone.field_res_city__create_date
+#: model:ir.model.fields,field_description:state_district_zone.field_res_district__create_date
+#: model:ir.model.fields,field_description:state_district_zone.field_res_zone__create_date
+msgid "Created on"
+msgstr "أنشئ في"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_de_dam
+msgid "Damt"
+msgstr "دمت"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ad_sad
+msgid "Dar Sad"
+msgstr "دار سعد"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_hd_daw
+msgid "Daw'an"
+msgstr "دوعن"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_dr_daw
+msgid "Dawran"
+msgstr "ضوران"
+
+#. module: state_district_zone
+#: model:res.country.state,name:state_district_zone.ye_dr
+msgid "Dhamar"
+msgstr "ذمار"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_dr_cit
+msgid "Dhamar City"
+msgstr "مدينة ذمار"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_sh_dhr
+msgid "Dhar"
+msgstr "دهر"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ib_suf
+msgid "Dhi As Sufal"
+msgstr "ذي السفال"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_am_dhi
+msgid "Dhi Bin"
+msgstr "ذيبين"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ba_nai
+msgid "Dhi Na'im"
+msgstr "ذي ناعم"
+
+#. module: state_district_zone
+#: model:res.city,name:state_district_zone.ye_city_dhm
+msgid "Dhmar"
+msgstr "ذمار"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ta_dhb
+msgid "Dhubab"
+msgstr "ذباب"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ta_dim
+msgid "Dimnat Khadir"
+msgstr "منة خدير"
+
+#. module: state_district_zone
+#: model:ir.model.fields,field_description:state_district_zone.field_res_city__display_name
+#: model:ir.model.fields,field_description:state_district_zone.field_res_district__display_name
+#: model:ir.model.fields,field_description:state_district_zone.field_res_zone__display_name
+msgid "Display Name"
+msgstr "اسم العرض"
+
+#. module: state_district_zone
+#: model:ir.model.fields,field_description:state_district_zone.field_res_partner__district
+#: model:ir.model.fields,field_description:state_district_zone.field_res_users__district
+#: model:ir.model.fields,field_description:state_district_zone.field_res_zone__district
+#: model:ir.model.fields,field_description:state_district_zone.field_state_district_mixin__district
+#: model_terms:ir.ui.view,arch_db:state_district_zone.res_partner_view_form_private
+#: model_terms:ir.ui.view,arch_db:state_district_zone.view_district_form
+#: model_terms:ir.ui.view,arch_db:state_district_zone.view_partner_address_form
+#: model_terms:ir.ui.view,arch_db:state_district_zone.view_partner_form
+#: model_terms:ir.ui.view,arch_db:state_district_zone.view_zone_form
+msgid "District"
+msgstr "المديرية"
+
+#. module: state_district_zone
+#: model:ir.model.fields,field_description:state_district_zone.field_res_district__name
+msgid "District Name"
+msgstr "اسم المديرية"
+
+#. module: state_district_zone
+#: model:ir.model,name:state_district_zone.model_res_zone
+msgid "District Zone"
+msgstr "عزل المديرية"
+
+#. module: state_district_zone
+#: model:ir.actions.act_window,name:state_district_zone.action_country_state_district
+#: model:ir.model.fields,field_description:state_district_zone.field_res_country__districts
+#: model:ir.model.fields,field_description:state_district_zone.field_res_country_state__districts
+#: model:ir.ui.menu,name:state_district_zone.menu_common_state
+#: model_terms:ir.ui.view,arch_db:state_district_zone.view_district_tree
+msgid "Districts"
+msgstr "المديريات"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ib_fud
+msgid "Far Al Udayn"
+msgstr "فرع العدين"
+
+#. module: state_district_zone
+#: model:ir.ui.menu,name:state_district_zone.menu_common_country
+msgid "Fed. States"
+msgstr "المحافظات"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_sd_ghm
+msgid "Ghamr"
+msgstr "غمر"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_hd_waz
+msgid "Ghayl Ba Wazir"
+msgstr "غيل باوزير"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_hd_yam
+msgid "Ghayl Bin Yamin"
+msgstr "غيل بن يمين"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_sh_hab
+msgid "Habban"
+msgstr "حبان"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_la_jab
+msgid "Habil Jabr"
+msgstr "حبيل جبر"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_am_hab
+msgid "Habur Zulaymah"
+msgstr "ظليمة حبور"
+
+#. module: state_district_zone
+#: model:res.country.state,name:state_district_zone.ye_hd
+msgid "Hadramaut"
+msgstr "حضرموت"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_hd_sai
+msgid "Hagr As Sai'ar"
+msgstr "حجر الصيعر"
+
+#. module: state_district_zone
+#: model:res.city,name:state_district_zone.ye_city_has
+msgid "Hais"
+msgstr "حيس"
+
+#. module: state_district_zone
+#: model:res.city,name:state_district_zone.ye_city_haj
+#: model:res.country.state,name:state_district_zone.ye_hj
+#: model:res.district,name:state_district_zone.ye_hj_haj
+msgid "Hajjah"
+msgstr "حجة"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_hj_cit
+msgid "Hajjah City"
+msgstr "مدينة حجة"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_hd_haj
+msgid "Hajr"
+msgstr "حجر"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_la_hal
+msgid "Halimayn"
+msgstr "حالمين"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_sa_ham
+msgid "Hamdan"
+msgstr "همدان"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_hj_har
+msgid "Harad"
+msgstr "حرض"
+
+#. module: state_district_zone
+#: model:res.city,name:state_district_zone.ye_city_rar
+msgid "Haradh"
+msgstr "حرض"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_mb_hrb
+msgid "Hareeb"
+msgstr "حريب"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_mb_qrm
+msgid "Hareeb Al Qaramish"
+msgstr "حريب القراميش"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_am_suf
+msgid "Harf Sufyan"
+msgstr "حرف سفيان"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_mh_hat
+msgid "Hat"
+msgstr "حات"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_sh_hat
+msgid "Hateeb"
+msgstr "حطيب"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_mh_haw
+msgid "Hawf"
+msgstr "حوف"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_hd_haw
+msgid "Hawrah"
+msgstr "حورة"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_sd_hay
+msgid "Haydan"
+msgstr "حيدان"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ta_hay
+msgid "Hayfan"
+msgstr "حيفان"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_hj_hay
+msgid "Hayran"
+msgstr "حيران"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_hu_hay
+msgid "Hays"
+msgstr "حيس"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ib_hud
+msgid "Hazm Al Udayn"
+msgstr "حزم العدين"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_so_hid
+msgid "Hidaybu"
+msgstr "حديبو"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ib_hub
+msgid "Hubaysh"
+msgstr "حبيش"
+
+#. module: state_district_zone
+#: model:res.city,name:state_district_zone.ye_city_hdb
+msgid "Hudaibou"
+msgstr "حديبو"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_mt_huf
+msgid "Hufash"
+msgstr "حفاش"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ba_hum
+msgid "Humaiqan"
+msgstr "حميقان"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_hd_hur
+msgid "Huraidhah"
+msgstr "حريضة"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_mh_hus
+msgid "Huswain"
+msgstr "حصوين"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_am_hut
+msgid "Huth"
+msgstr "حوث"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ib_qaf
+msgid "IAl Qafr"
+msgstr "القفر"
+
+#. module: state_district_zone
+#: model:ir.model.fields,field_description:state_district_zone.field_res_city__id
+#: model:ir.model.fields,field_description:state_district_zone.field_res_district__id
+#: model:ir.model.fields,field_description:state_district_zone.field_res_zone__id
+msgid "ID"
+msgstr "المعرف"
+
+#. module: state_district_zone
+#: model:res.city,name:state_district_zone.ye_city_ibb
+#: model:res.country.state,name:state_district_zone.ye_ib
+#: model:res.district,name:state_district_zone.ye_ib_ibb
+msgid "Ibb"
+msgstr "إب"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_am_iya
+msgid "Iyal Surayh"
+msgstr "عيال سريح"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_dr_shr
+msgid "Jabal Ash sharq"
+msgstr "جبل الشرق"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ta_hab
+msgid "Jabal Habashy"
+msgstr "جبل حبشي"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_am_jab
+msgid "Jabal Iyal Yazid"
+msgstr "جبل عيال يزيد"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_mb_mur
+msgid "Jabal Murad"
+msgstr "جبل مراد"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_hu_ras
+msgid "Jabal Ra's"
+msgstr "جبل رأس"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_de_jah
+msgid "Jahaf"
+msgstr "جحاف"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_dr_jah
+msgid "Jahran"
+msgstr "جهران"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_sh_jar
+msgid "Jardan"
+msgstr "جردان"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ab_jay
+msgid "Jayshan"
+msgstr "جيشان"
+
+#. module: state_district_zone
+#: model:res.city,name:state_district_zone.ye_city_jib
+#: model:res.district,name:state_district_zone.ye_ib_jib
+msgid "Jiblah"
+msgstr "جبلة"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_sa_jih
+msgid "Jihanah"
+msgstr "جحانة"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_de_jub
+msgid "Juban"
+msgstr "جبن"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_hu_kam
+msgid "Kamaran"
+msgstr "كمران"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ja_khb
+msgid "Khabb wa ash Sha'af"
+msgstr "خب والشعف"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_am_khr
+msgid "Khamir"
+msgstr "خمر"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ab_kha
+msgid "Khanfir"
+msgstr "خنفر"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ja_mar
+msgid "Kharab Al Marashi"
+msgstr "خراب المراشي"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_am_khf
+msgid "Kharif"
+msgstr "خارف"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_hj_khy
+msgid "Khayran Al Muharraq"
+msgstr "خيران المحرق"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ad_kho
+msgid "Khormaksar"
+msgstr "خور مكسر"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_sa_khw
+msgid "Khwlan"
+msgstr "خولان"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_sd_kit
+msgid "Kitaf wa Al Boqe'e"
+msgstr "كتاف والبقع"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_hj_kud
+msgid "Ku'aydinah"
+msgstr "كعيدنة"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_hj_afr
+msgid "Kuhlan Affar"
+msgstr "كهلان عفار"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_hj_ksh
+msgid "Kushar"
+msgstr "كشر"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ra_kus
+msgid "Kusmah"
+msgstr "كسمة"
+
+#. module: state_district_zone
+#: model:res.country.state,name:state_district_zone.ye_la
+msgid "Lahij"
+msgstr "لحج"
+
+#. module: state_district_zone
+#: model:ir.model.fields,field_description:state_district_zone.field_res_city____last_update
+#: model:ir.model.fields,field_description:state_district_zone.field_res_district____last_update
+#: model:ir.model.fields,field_description:state_district_zone.field_res_zone____last_update
+msgid "Last Modified on"
+msgstr "آخر تعديل في"
+
+#. module: state_district_zone
+#: model:ir.model.fields,field_description:state_district_zone.field_res_city__write_uid
+#: model:ir.model.fields,field_description:state_district_zone.field_res_district__write_uid
+#: model:ir.model.fields,field_description:state_district_zone.field_res_zone__write_uid
+msgid "Last Updated by"
+msgstr "آخر تحديث بواسطة"
+
+#. module: state_district_zone
+#: model:ir.model.fields,field_description:state_district_zone.field_res_city__write_date
+#: model:ir.model.fields,field_description:state_district_zone.field_res_district__write_date
+#: model:ir.model.fields,field_description:state_district_zone.field_res_zone__write_date
+msgid "Last Updated on"
+msgstr "آخر تحديث في"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ab_law
+msgid "Lawdar"
+msgstr "لودر"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_aa_maa
+msgid "Ma'ain"
+msgstr "معين"
+
+#. module: state_district_zone
+#: model:res.city,name:state_district_zone.ye_city_mrb
+#: model:res.country.state,name:state_district_zone.ye_mb
+msgid "Ma'rib"
+msgstr "مأرب"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_hj_mab
+msgid "Mabyan"
+msgstr "مبين"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_dr_mag
+msgid "Maghirib Anss"
+msgstr "مغرب عنس"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_mb_mah
+msgid "Mahliyah"
+msgstr "ماهلية"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_sd_maj
+msgid "Majz"
+msgstr "مجز"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_mb_maj
+msgid "Majzar"
+msgstr "مجزر"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_mh_man
+msgid "Man'ar"
+msgstr "منعر"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_sa_man
+msgid "Manakhah"
+msgstr "مناخة"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ta_maq
+msgid "Maqbanah"
+msgstr "مقبنة"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_mb_mar
+msgid "Marib"
+msgstr "مأرب"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_mb_cit
+msgid "Marib City"
+msgstr "مدينة مأرب"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ta_msh
+msgid "Mashra'a Wa Hadnan"
+msgstr "مشرعة وحدنان"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_am_mas
+msgid "Maswar"
+msgstr "مسور"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ba_mas
+msgid "Maswarah"
+msgstr "مسورة"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ta_mwh
+msgid "Mawiyah"
+msgstr "ماوية"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ta_mwz
+msgid "Mawza"
+msgstr "موزع"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_sh_may
+msgid "Mayfa'a"
+msgstr "ميفعة"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_dr_may
+msgid "Mayfa'at Anss"
+msgstr "ميفعة عنس"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ra_maz
+msgid "Mazhar"
+msgstr "مزهر"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_mb_med
+msgid "Medghal"
+msgstr "مدغل"
+
+#. module: state_district_zone
+#: model:res.city,name:state_district_zone.ye_city_mid
+msgid "Meedi"
+msgstr "ميدي"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_sh_uly
+msgid "Merkhah Al Ulya"
+msgstr "مرخة العليا"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_sh_suf
+msgid "Merkhah As Sufla"
+msgstr "مرخة السفلى"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_hj_mid
+msgid "Midi"
+msgstr "ميدي"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_sd_mon
+msgid "Monabbih"
+msgstr "منبه"
+
+#. module: state_district_zone
+#: model:res.city,name:state_district_zone.ye_city_mod
+msgid "Moudiah"
+msgstr "مودية"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ib_mud
+msgid "Mudhaykhirah"
+msgstr "مذيخرة"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ab_mud
+msgid "Mudiyah"
+msgstr "مودية"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_hd_muk
+msgid "Mukalla"
+msgstr "المكلا"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_hd_cit
+msgid "Mukalla City"
+msgstr "مدينة المكلا"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ba_muk
+msgid "Mukayras"
+msgstr "مكيراس"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_hj_mst
+msgid "Mustaba"
+msgstr "مستباء"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ba_nam
+msgid "Na'man"
+msgstr "نعمان"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_hj_naj
+msgid "Najrah"
+msgstr "نجرة"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ba_nat
+msgid "Nati'"
+msgstr "ناطع"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_sa_nih
+msgid "Nihm"
+msgstr "نهم"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_sh_nis
+msgid "Nisab"
+msgstr "نصاب"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_aa_old
+msgid "Old City"
+msgstr "صنعاء القديمة"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_de_qat
+msgid "Qa'atabah"
+msgstr "قعطبة"
+
+#. module: state_district_zone
+#: model:res.city,name:state_district_zone.ye_city_qat
+msgid "Qa'taba"
+msgstr "قعطبة"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_hj_qfl
+msgid "Qafl Shamer"
+msgstr "قفل شمر"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_am_qaf
+msgid "Qaflat Athir"
+msgstr "قفلة عذر"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_hj_qar
+msgid "Qarah"
+msgstr "قارة"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_sd_qat
+msgid "Qatabir"
+msgstr "قطابر"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_mh_qis
+msgid "Qishn"
+msgstr "قشن"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_so_qul
+msgid "Qulensya Wa Abd Al Kuri"
+msgstr "قلنسية وعبد الكوري"
+
+#. module: state_district_zone
+#: model:res.city,name:state_district_zone.ye_city_rad
+msgid "Rada"
+msgstr "رداع"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ba_rad
+msgid "Rada'a"
+msgstr "رداع"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_la_rad
+msgid "Radfan"
+msgstr "ردفان"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ba_awa
+msgid "Radman Al Awad"
+msgstr "ردمان"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_mb_rag
+msgid "Raghwan"
+msgstr "رغوان"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_mb_rah
+msgid "Rahabah"
+msgstr "رحبة"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ja_raj
+msgid "Rajuzah"
+msgstr "رجوزة"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ab_ras
+msgid "Rasad"
+msgstr "رصد"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_am_ray
+msgid "Raydah"
+msgstr "ريدة"
+
+#. module: state_district_zone
+#: model:res.country.state,name:state_district_zone.ye_ra
+msgid "Raymah"
+msgstr "ريمة"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_sd_raz
+msgid "Razih"
+msgstr "رازح"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_sh_rud
+msgid "Rudum"
+msgstr "رضوم"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_hd_rum
+msgid "Rumah"
+msgstr "رمح"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_sd_sad
+msgid "Sa'adah"
+msgstr "صعدة"
+
+#. module: state_district_zone
+#: model:res.city,name:state_district_zone.ye_city_sad
+#: model:res.country.state,name:state_district_zone.ye_sd
+msgid "Sa'dah"
+msgstr "صعدة"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_sa_saf
+msgid "Sa'fan"
+msgstr "صعفان"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ta_sbr
+msgid "Sabir Al Mawadim"
+msgstr "صبر الموادم"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_hd_sah
+msgid "Sah"
+msgstr "ساه"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_sd_sah
+msgid "Sahar"
+msgstr "حار"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ta_slh
+msgid "Salh"
+msgstr "صالة"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ta_sma
+msgid "Sama"
+msgstr "سامع"
+
+#. module: state_district_zone
+#: model:res.city,name:state_district_zone.ye_city_san
+#: model:res.country.state,name:state_district_zone.ye_sa
+msgid "Sana'a"
+msgstr "صنعاء"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_sa_sah
+msgid "Sanhan"
+msgstr "سنحان"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_sd_saq
+msgid "Saqayn"
+msgstr "ساقين"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ab_sar
+msgid "Sarar"
+msgstr "صرار"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_mh_say
+msgid "Sayhut"
+msgstr "سيحوت"
+
+#. module: state_district_zone
+#: model:res.city,name:state_district_zone.ye_city_say
+msgid "Sayoon"
+msgstr "سيئون"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_hd_say
+msgid "Sayun"
+msgstr "سيئون"
+
+#. module: state_district_zone
+#: model:res.country.state,name:state_district_zone.ye_sh
+msgid "Shabwah"
+msgstr "شبوة"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_sd_shd
+msgid "Shada'a"
+msgstr "شداء"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_mh_sha
+msgid "Shahan"
+msgstr "شحن"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_am_sha
+msgid "Shaharah"
+msgstr "شهارة"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ta_shr
+msgid "Shara'b Ar Rawnah"
+msgstr "عب الرونة"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ta_shs
+msgid "Shara'b As Salam"
+msgstr "شرعب السلام"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_hj_shr
+msgid "Sharas"
+msgstr "شرس"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_hd_shb
+msgid "Shibam"
+msgstr "شبام"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_mt_shi
+msgid "Shibam Kawkaban"
+msgstr "شبام كوكبان"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_aa_shu
+msgid "Shu'aub"
+msgstr "شعوب"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ab_sib
+msgid "Sibah"
+msgstr "سباح"
+
+#. module: state_district_zone
+#: model:res.city,name:state_district_zone.ye_city_sir
+#: model:res.district,name:state_district_zone.ye_mb_sir
+msgid "Sirwah"
+msgstr "صرواح"
+
+#. module: state_district_zone
+#: model:res.country.state,name:state_district_zone.ye_so
+msgid "Socotra"
+msgstr "سوقطرة"
+
+#. module: state_district_zone
+#: model:ir.model.fields,field_description:state_district_zone.field_res_city__state_id
+#: model:ir.model.fields,field_description:state_district_zone.field_res_district__state_id
+#: model:ir.model.fields,field_description:state_district_zone.field_res_zone__state_id
+#: model:ir.model.fields,field_description:state_district_zone.field_state_district_mixin__state_id
+#: model_terms:ir.ui.view,arch_db:state_district_zone.res_partner_view_form_private
+#: model_terms:ir.ui.view,arch_db:state_district_zone.view_city_form
+#: model_terms:ir.ui.view,arch_db:state_district_zone.view_district_form
+#: model_terms:ir.ui.view,arch_db:state_district_zone.view_district_tree
+#: model_terms:ir.ui.view,arch_db:state_district_zone.view_partner_address_form
+#: model_terms:ir.ui.view,arch_db:state_district_zone.view_partner_form
+#: model_terms:ir.ui.view,arch_db:state_district_zone.view_zone_form
+msgid "State"
+msgstr "المحافظة"
+
+#. module: state_district_zone
+#: model:ir.model,name:state_district_zone.model_res_city
+msgid "State City/Town"
+msgstr "محافظة المدينة"
+
+#. module: state_district_zone
+#: model:ir.model,name:state_district_zone.model_res_district
+msgid "State District"
+msgstr "محافظة المقاطعة"
+
+#. module: state_district_zone
+#: model:ir.model,name:state_district_zone.model_state_district_mixin
+msgid "State District Mixin"
+msgstr "دامج الولايات والمقاطات"
+
+#. module: state_district_zone
+#: model:ir.model.fields,field_description:state_district_zone.field_res_country_state__name
+msgid "State Name"
+msgstr "اسم الولاية"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_am_suw
+msgid "Suwayr"
+msgstr "صوير"
+
+#. module: state_district_zone
+#: model:res.city,name:state_district_zone.ye_city_taz
+#: model:res.country.state,name:state_district_zone.ye_ta
+msgid "Taiz"
+msgstr "تعز"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_hd_tar
+msgid "Tarim"
+msgstr "تريم"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_hd_thm
+msgid "Thamud"
+msgstr "ثمود"
+
+#. module: state_district_zone
+#: code:addons/state_district_zone/models/res_substate.py:0
+#: model:ir.model.constraint,message:state_district_zone.constraint_res_city_city_uniq
+#, python-format
+msgid "The city name must be unique within a state!"
+msgstr "اسم المدينة يجب أن يكون فريدا ضمن المحافظة !"
+
+#. module: state_district_zone
+#: code:addons/state_district_zone/models/res_substate.py:0
+#: model:ir.model.constraint,message:state_district_zone.constraint_res_district_district_uniq
+#, python-format
+msgid "The district name must be unique within a state!"
+msgstr "اسم المديرية يجب أن يكون فريدا ضمن المحافظة !"
+
+#. module: state_district_zone
+#: model:ir.model.fields,help:state_district_zone.field_res_country__name
+msgid "The full name of the country."
+msgstr "اسم الدولة بالكامل."
+
+#. module: state_district_zone
+#: code:addons/state_district_zone/models/res_substate.py:0
+#: model:ir.model.constraint,message:state_district_zone.constraint_res_zone_zone_uniq
+#, python-format
+msgid "The zone name must be unique within district!"
+msgstr "اسم العزلة يجب أن يكون فريدا ضمن المديرية !"
+
+#. module: state_district_zone
+#: model:res.city,name:state_district_zone.ye_city_thi
+msgid "Thi Sifal"
+msgstr "ذي سفال"
+
+#. module: state_district_zone
+#: model:res.city,name:state_district_zone.ye_city_thl
+msgid "Thila"
+msgstr "ثلا"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_am_thu
+msgid "Thula"
+msgstr "ثلاء"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_la_tub
+msgid "Tuban"
+msgstr "تبن"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_la_bah
+msgid "Tur Al Bahah"
+msgstr "طور الباحة"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_sh_usy
+msgid "Usaylan"
+msgstr "عسيلان"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_dr_utm
+msgid "Utmah"
+msgstr "عتمة"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_hj_wad
+msgid "Wadhrah"
+msgstr "وضرة"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ba_rab
+msgid "Wald Rabi'"
+msgstr "ولد ربيع"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_hj_was
+msgid "Washhah"
+msgstr "وشحة"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_dr_ali
+msgid "Wusab Al Ali"
+msgstr "صاب الاعلى"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_dr_saf
+msgid "Wusab As Safil"
+msgstr "صاب الاسفل"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_hd_yab
+msgid "Yabuth"
+msgstr "يبعث"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_la_yaf
+msgid "Yafa'a"
+msgstr "يافع"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_la_yah
+msgid "Yahr"
+msgstr "يهر"
+
+#. module: state_district_zone
+#: model:res.city,name:state_district_zone.ye_city_yar
+msgid "Yareem"
+msgstr "يريم"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ib_yar
+msgid "Yarim"
+msgstr "يريم"
+
+#. module: state_district_zone
+#: model_terms:ir.ui.view,arch_db:state_district_zone.res_partner_view_form_private
+#: model_terms:ir.ui.view,arch_db:state_district_zone.view_partner_address_form
+#: model_terms:ir.ui.view,arch_db:state_district_zone.view_partner_form
+msgid "ZIP"
+msgstr "الرمز البريدي"
+
+#. module: state_district_zone
+#: model:res.city,name:state_district_zone.ye_city_zab
+msgid "Zabeed"
+msgstr "زبيد"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_hu_zab
+msgid "Zabid"
+msgstr "زبيد"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_hd_zam
+msgid "Zamakh wa Manwakh"
+msgstr "زمخ ومنوخ"
+
+#. module: state_district_zone
+#: model:res.district,name:state_district_zone.ye_ab_zin
+msgid "Zinjibar"
+msgstr "زنجبار"
+
+#. module: state_district_zone
+#: model:ir.model.fields,field_description:state_district_zone.field_res_partner__zone
+#: model:ir.model.fields,field_description:state_district_zone.field_res_users__zone
+#: model:ir.model.fields,field_description:state_district_zone.field_state_district_mixin__zone
+#: model_terms:ir.ui.view,arch_db:state_district_zone.res_partner_view_form_private
+#: model_terms:ir.ui.view,arch_db:state_district_zone.view_partner_address_form
+#: model_terms:ir.ui.view,arch_db:state_district_zone.view_partner_form
+#: model_terms:ir.ui.view,arch_db:state_district_zone.view_zone_form
+msgid "Zone"
+msgstr "العزلة"
+
+#. module: state_district_zone
+#: model:ir.model.fields,field_description:state_district_zone.field_res_zone__name
+msgid "Zone Name"
+msgstr "اسم العزلة"
+
+#. module: state_district_zone
+#: model:ir.actions.act_window,name:state_district_zone.action_country_state_district_zone
+#: model:ir.model.fields,field_description:state_district_zone.field_res_country__zones
+#: model:ir.model.fields,field_description:state_district_zone.field_res_country_state__zones
+#: model:ir.model.fields,field_description:state_district_zone.field_res_district__zones
+#: model:ir.ui.menu,name:state_district_zone.menu_common_district
+#: model_terms:ir.ui.view,arch_db:state_district_zone.view_zone_tree
+msgid "Zones"
+msgstr "العزل"
+
+#. module: state_district_zone
+#: model:res.city,name:state_district_zone.ye_city_zun
+msgid "Zunjbar"
+msgstr "زنجبار"

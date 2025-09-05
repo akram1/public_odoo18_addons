@@ -1,0 +1,84 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* partner_name_parts
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-03 06:56+0000\n"
+"PO-Revision-Date: 2022-11-03 09:57+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Generator: Poedit 3.1.1\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#. module: partner_name_parts
+#: model:ir.model,name:partner_name_parts.model_res_partner
+msgid "Contact"
+msgstr "جهة الاتصال"
+
+#. module: partner_name_parts
+#: model_terms:ir.ui.view,arch_db:partner_name_parts.view_partner_address_form
+#: model_terms:ir.ui.view,arch_db:partner_name_parts.view_partner_form
+#: model_terms:ir.ui.view,arch_db:partner_name_parts.view_partner_simple_form
+#: model_terms:ir.ui.view,arch_db:partner_name_parts.view_partner_simple_formm
+#: model_terms:ir.ui.view,arch_db:partner_name_parts.view_users_form
+msgid "First Name"
+msgstr "الاسم الاول"
+
+#. module: partner_name_parts
+#: model:ir.model.fields,field_description:partner_name_parts.field_res_partner__first_name
+#: model:ir.model.fields,field_description:partner_name_parts.field_res_users__first_name
+msgid "First name"
+msgstr "الاسم الاول"
+
+#. module: partner_name_parts
+#: model_terms:ir.ui.view,arch_db:partner_name_parts.view_partner_address_form
+#: model_terms:ir.ui.view,arch_db:partner_name_parts.view_partner_form
+#: model_terms:ir.ui.view,arch_db:partner_name_parts.view_partner_simple_form
+#: model_terms:ir.ui.view,arch_db:partner_name_parts.view_partner_simple_formm
+#: model_terms:ir.ui.view,arch_db:partner_name_parts.view_users_form
+msgid "Last Name"
+msgstr "اللقب"
+
+#. module: partner_name_parts
+#: model:ir.model.fields,field_description:partner_name_parts.field_res_partner__last_name
+#: model:ir.model.fields,field_description:partner_name_parts.field_res_users__last_name
+msgid "Last name"
+msgstr "اللقب"
+
+#. module: partner_name_parts
+#: model_terms:ir.ui.view,arch_db:partner_name_parts.view_partner_address_form
+#: model_terms:ir.ui.view,arch_db:partner_name_parts.view_partner_form
+#: model_terms:ir.ui.view,arch_db:partner_name_parts.view_partner_simple_form
+#: model_terms:ir.ui.view,arch_db:partner_name_parts.view_partner_simple_formm
+#: model_terms:ir.ui.view,arch_db:partner_name_parts.view_users_form
+msgid "Middle Name"
+msgstr "الاسم الوسط"
+
+#. module: partner_name_parts
+#: model:ir.model.fields,field_description:partner_name_parts.field_res_partner__middle_name
+#: model:ir.model.fields,field_description:partner_name_parts.field_res_users__middle_name
+msgid "Middle name"
+msgstr "الاسم الوسط"
+
+#. module: partner_name_parts
+#: model:ir.model.fields,field_description:partner_name_parts.field_res_partner__name
+#: model:ir.model.fields,field_description:partner_name_parts.field_res_users__name
+#: model_terms:ir.ui.view,arch_db:partner_name_parts.view_partner_address_form
+#: model_terms:ir.ui.view,arch_db:partner_name_parts.view_partner_form
+#: model_terms:ir.ui.view,arch_db:partner_name_parts.view_partner_simple_form
+#: model_terms:ir.ui.view,arch_db:partner_name_parts.view_partner_simple_formm
+msgid "Name"
+msgstr "الاسم"
+
+#. module: partner_name_parts
+#: model:ir.model,name:partner_name_parts.model_res_users
+msgid "Users"
+msgstr "المستخدمون"

@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<odoo>
+    <record model="ir.module.category" id="module_category_tags">
+        <field name="name">Tags</field>
+        <field name="sequence">120</field>
+    </record>
+
+    <record model="res.groups" id="group_tags_user">
+        <field name="name">Tag User</field>
+        <field name="category_id" ref="module_category_tags"/>
+        <field name="implied_ids" eval="[(4, ref('base.group_user'))]"/>
+        <field name="comment">
+            Users in this group have access to menu Tags. They can only create or view tags.
+        </field>
+    </record>
+    <record model="res.groups" id="group_tags_manager">
+        <field name="name">Tag Manager</field>
+        <field name="implied_ids" eval="[(4, ref('group_tags_user'))]"/>
+        <field name="category_id" ref="module_category_tags"/>
+        <field name="users" eval="[(4, ref('base.user_root')), (4, ref('base.user_admin'))]"/>
+        <field name="comment">
+            Users in this group can manage tags.
+        </field>
+    </record>
+    <record model="res.groups" id="group_tags_state_manager">
+        <field name="name">State Manager</field>
+        <field name="implied_ids" eval="[(4, ref('group_tags_manager'))]"/>
+        <field name="category_id" ref="module_category_tags"/>
+        <field name="comment">
+            Users in this group can manage state tags.
+        </field>
+    </record>
+
+<!-- Global Record Rules  -->
+    <record id="rule_tags_state_manager" model="ir.rule">
+        <field name="name">State Managers can see all tags</field>
+        <field name="model_id" ref="model_tag_tag"/>
+        <field name="groups" eval="[(4, ref('group_tags_state_manager'))]"/>
+        <field name="domain_force">[(1, '=', 1)]</field>
+    </record>
+
+    <record id="rule_tags_manager_non_state" model="ir.rule">
+        <field name="name">Rule for non-state tags on managers</field>
+        <field name="model_id" ref="model_tag_tag"/>
+        <field name="groups" eval="[(4, ref('group_tags_manager'))]"/>
+        <field name="domain_force">[('cat_type','!=', 'state')]</field>
+    </record>
+
+    <record id="rule_tags_user_non_state" model="ir.rule">
+        <field name="name">Rule for non-state tags on users</field>
+        <field name="model_id" ref="model_tag_tag"/>
+        <field name="groups" eval="[(4, ref('group_tags_user'))]"/>
+        <field name="domain_force">[('cat_type','!=', 'state')]</field>
+        <field name="perm_unlink" eval="False"/>
+        <field name="perm_write" eval="False"/>
+    </record>
+
+    <record id="rule_tags_state" model="ir.rule">
+        <field name="name">Rule for state tags on users and managers</field>
+        <field name="model_id" ref="model_tag_tag"/>
+        <field name="groups" eval="[(4, ref('group_tags_user')), (4, ref('group_tags_manager'))]"/>
+        <field name="domain_force">[('cat_type', '=', 'state')]</field>
+        <field name="perm_unlink" eval="False"/>
+        <field name="perm_create" eval="False"/>
+        <field name="perm_write" eval="False"/>
+    </record>
+
+</odoo>
+
