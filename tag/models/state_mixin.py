@@ -18,38 +18,45 @@ class StateMixin(models.AbstractModel):
 
     @api.model
     def getStateTag(self):
-        states = self.env['tag.tag'].search([('model_id.model', '=',  self._name),
-                                             ('cat_type', '=', 'state')])
+        states = self.env['tag.tag'].search([
+            ('model_name', '=',  self._name), ('cat_type', '=', 'state')])
         return [(state.code, state.name) for state in states]
 
     @api.model
     def getDefaultState(self):
-         return self.env['tag.category'].search([('model_id.model', '=', self._name),
-                                        ('cat_type', '=', 'state')]).default_tag.code or None
+         return self.env['tag.category'].search([
+             ('model_uname', '=', self._name),
+             ('cat_type', '=', 'state')]).default_tag.code or None
 
     def getDefaultType(self):
-         return self.env['tag.category'].search([('model_id.model', '=', self._name),
-                                            ('cat_type', '=', 'type')]).default_tag or None
+         return self.env['tag.category'].search([
+             ('model_uname', '=', self._name),
+             ('cat_type', '=', 'type')]).default_tag or None
 
-    state = fields.Selection(selection='getStateTag', string='Status', ondelete="restricted",
-                             default=lambda self: self.getDefaultState(), required=True)
+    state = fields.Selection(selection='getStateTag', string='Status',
+                             ondelete="restrict", required=True,
+                             default=lambda self: self.getDefaultState())
     fld_state = fields.Many2one('tag.tag', string='State Tag', readonly=False,
-                 compute='_compute_state', store=True,
-                 domain=lambda self: "[('model_id.model', '=', '%s'), "
-                                     "('cat_type', '=', 'state')]" % self._name)
-    fld_reason = fields.Many2one('tag.tag', string='Action Reason', ondelete="restricted",
-                 domain=lambda self: "[('model_id.model', '=', '%s'), "
-                                    "('cat_type', '=', 'reason')]" % self._name)
-    fld_type = fields.Many2one('tag.tag', string='Type', default=lambda self: self.getDefaultType,
-                               ondelete="restricted",
-                               domain=lambda self: "[('model_id.model', '=', '%s'), "
-                                                 "('cat_type', '=', 'type')]" % self._name)
+                compute='_compute_state', store=True,
+                domain=lambda self: "[('model_name', '=', '%s'), "
+                                "('cat_type', '=', 'state')]" % self._name)
+    fld_reason = fields.Many2one('tag.tag', string='Action Reason',
+                ondelete="restrict",
+                domain=lambda self: "[('model_name', '=', '%s'), "
+                                "('cat_type', '=', 'reason')]" % self._name)
+    fld_type = fields.Many2one('tag.tag', string='Type',
+                default=lambda self: self.getDefaultType,
+                ondelete="restrict",
+                domain=lambda self: "[('model_name', '=', '%s'), "
+                                "('cat_type', '=', 'type')]" % self._name)
 
     @api.depends('state', 'fld_type')
     def _compute_state(self):
         for rec in self:
-            state = self.env['tag.tag'].search([('model_id.model', '=',  self._name),
-                      ('code', '=', rec.state), ('cat_type', '=', 'state')], limit=1)
+            state = self.env['tag.tag'].search([
+                    ('model_name', '=', self._name),
+                    ('code', '=', rec.state), ('cat_type', '=', 'state')],
+                    limit=1)
             if state:
                 rec.fld_state = state
             else:

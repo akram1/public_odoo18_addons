@@ -43,20 +43,17 @@ class Tag(models.Model):
     cat_type = fields.Selection(related='fld_cat.cat_type', store=True,
                                 readonly=True)
     cat_code = fields.Char(related='fld_cat.code', string="Category Code",
-                           store=True,
-                           readonly=True)
+                           store=True, readonly=True)
     model_id = fields.Many2one(related='fld_cat.model_id', string="Model",
-                               store=True,
-                               readonly=True)
+                               store=True, readonly=True)
     parent_cat = fields.Many2one(related='fld_cat.parent_cat', store=True,
                                  readonly=True)
-    model_name = fields.Char(related='fld_cat.model_id.model', store=True,
-                             string="Model Name", readonly=True)
+    model_name = fields.Char(related='fld_cat.model_id.model')
     category_name = fields.Char(related='fld_cat.name', string="Category Name",
                                 readonly=True)
     req_category = fields.Many2one(
                     'tag.category', string='Required Category',
-                    domain="[('model_id', '=', model_id),"
+                    domain="[('model_id', '=', model_id.id),"
                            " ('id', '!=', fld_cat), ('cat_type', '=', 'tag')]",
                     help='This means you have to choose one tag of this '
                          'category if this tag is selected.'
@@ -129,7 +126,7 @@ class Tag(models.Model):
                      'this feature.')
     other_field = fields.Many2one(
                 'ir.model.fields', string='Other Field',
-                domain="[('model_id', '=', model_id), "
+                domain="[('model_id', '=', model_id.id), "
                         "('ttype', 'in', ['date', 'datetime'])]",
                 help='Choose a field of date or datetime to use it in Auto '
                      'Process.\nInstall Tag State Pro to activate this '
@@ -137,7 +134,7 @@ class Tag(models.Model):
     move_to_state = fields.Many2one(
                 'tag.tag', string='Move to State',
                 domain="[('id', '!=', id), ('cat_type', '=', 'state'), "
-                       "('model_id', '=', model_id)]",
+                       "('model_id', '=', model_id.id)]",
                 help='Choose the state to move to when doing auto process.'
                      '\nInstall Tag State Pro to activate this feature.')
 
@@ -182,8 +179,8 @@ class Tag(models.Model):
     def _compute_objects_count(self):
         for tag in self:
             field = CAT_TYPES[tag.cat_type]
-            if field in self.env[tag.model_id.model]._fields:
-                tag.objects_count = self.env[tag.model_id.model].\
+            if field in self.env[tag.model_name]._fields:
+                tag.objects_count = self.env[tag.model_name].\
                             sudo().search_count([(field, '=', tag.id)])
             else:
                 tag.objects_count = 0
@@ -219,7 +216,7 @@ class Tag(models.Model):
                                       " all states in a logical sequence."))
 
                 if self.env['tag.tag'].search([
-                        ('model_id.model', '=',  model_name),
+                        ('model_name', '=',  model_name),
                         ('id', '!=', tag['id']),
                         ('sequence', '=', seq)], limit=1):
                     raise UserError(_("Sequence is duplicate of another state."
@@ -243,8 +240,7 @@ class Tag(models.Model):
         # update the help attribute of state_field type_field and stage_field
         # help attribute
         for rec in recs:
-            self.check_tag_code(rec, rec.name, rec.sequence,
-                                rec.model_id.model)
+            self.check_tag_code(rec, rec.name, rec.sequence, rec.model_name)
             if 'description' in vals and rec.fld_cat.id not in categories \
                and rec.cat_type == 'state':
                 categories.append(rec.fld_cat.id)

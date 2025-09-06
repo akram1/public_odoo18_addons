@@ -16,11 +16,11 @@ class TypeMixin(models.AbstractModel):
     _description = "Type Mixin"
 
     def getDefaultType(self):
-         return self.env['tag.category'].search([('model_id.model', '=', self._name),
+         return self.env['tag.category'].search([('model_name', '=', self._name),
                                             ('cat_type', '=', 'type')]).default_tag or None
 
     fld_type = fields.Many2one('tag.tag', string='Type', default=lambda self: self.getDefaultType,
-                               ondelete="restricted",
-                               domain=lambda self: "[('model_id.model', '=', '%s'), "
+                               ondelete="restrict",
+                               domain=lambda self: "[('model_name', '=', '%s'), "
                                                  "('cat_type', '=', 'type')]" % self._name)
 

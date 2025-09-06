@@ -49,6 +49,7 @@ class TagCategory(models.Model):
                                      "Install Tag Change Log to activate this feature.")
     model_id = fields.Many2one("ir.model", string="Model", ondelete='cascade', required=True,
                                help="Specify model for which this tag is available.")
+    model_uname = fields.Char(related='model_id.model')
     model_name = fields.Char(related='model_id.name')
     tags_count = fields.Integer(compute="_compute_tags_count", store=True, readonly=True,
                                 help="How many tags related to this category")
@@ -60,7 +61,7 @@ class TagCategory(models.Model):
     @api.depends('name', 'model_name')
     def _compute_complete_name(self):
         for category in self:
-            if category.model_id.name:
+            if category.model_name:
                 category.complete_name = f"{category.model_name} / {category.name}"
             else:
                 category.complete_name = f" / {category.name}"
@@ -130,7 +131,7 @@ class TagCategory(models.Model):
             if vals['cat_type'] != self.cat_type:
                 raise ValidationError(_("Cannot change Catagory Type after creation on "
                                         f"Category: {self.name}"))
-        if 'model_id' in vals and vals['model_id'] != self.model_id:
+        if 'model_id' in vals and vals['model_id'] != self.model_id.id:
             raise ValidationError(_("Cannot change Catagory Model after creation on "
                                     f"Category: {self.name}"))
         if self.cat_type == 'state':

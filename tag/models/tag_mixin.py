@@ -35,16 +35,16 @@ class TagMixin(models.AbstractModel):
             rec.search_no_tags = False
 
     fld_tags = fields.Many2many('tag.tag', string="Tags",
-                                domain=lambda self: [('model_id.model', '=', self._name),
-                                                     ('cat_type', '=', 'tag')])
+                        domain=lambda self: [('model_name', '=', self._name),
+                                             ('cat_type', '=', 'tag')])
     # Search capabilities
-    search_tags = fields.Many2one('tag.tag', string='Tag',
-                                  compute='_compute_search_tag',
-                                  search='_search_tags', store=False, readonly=True,
-                                  domain=lambda self: [('model_id.model', '=', self._name)],
-                                  help="Find all records that contain this tag")
-    search_no_tags = fields.Many2one('tag.tag', string='No tag',
-                                     compute='_compute_search_tag',
-                                     search='_search_no_tags', store=False, readonly=True,
-                                     domain=lambda self: [('model_id.model', '=', self._name)],
-                                     help="Find all records that have no this tag")
+    search_tags = fields.Many2one(
+                    'tag.tag', string='Tag', compute='_compute_search_tag',
+                    search='_search_tags', store=False, readonly=True,
+                    domain=lambda self: [('model_name', '=', self._name)],
+                    help="Find all records that contain this tag")
+    search_no_tags = fields.Many2one(
+                    'tag.tag', string='No tag', compute='_compute_search_tag',
+                    search='_search_no_tags', store=False, readonly=True,
+                    domain=lambda self: [('model_name', '=', self._name)],
+                    help="Find all records that have no this tag")
