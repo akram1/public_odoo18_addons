@@ -1,5 +1,5 @@
 $body-font-size: 1.0rem;
-$body-font: NotoNaskhArabic;
+$body-font: NotoNaskhArabicUI;
 
 body {
     font-family: $body-font !important;
@@ -59,8 +59,9 @@ button.btn.btn-secondary.o_arrow_button.o_arrow_button_current.o_last {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.o-app-menu-item__name, .o_main_navbar .o_nav_entry {
-    font-size: $body-font-size + 0.05rem;
+.o-app-menu-item__name, .o_main_navbar .o_nav_entry,
+.o_main_navbar .dropdown-toggle:not(.o-dropdown-toggle-custo), .o_home_menu .o_app .o_caption {
+    font-size: $body-font-size;
 }
 
 .form-control, .o_form_view, a.fw-bold.text-truncate, .o_form_view .o_form_label {
@@ -81,4 +82,8 @@ button.btn.btn-secondary.o_arrow_button.o_arrow_button_current.o_last {
 .o-form-buttonbox .oe_stat_button > span .o_stat_text,
 .o-form-buttonbox .oe_stat_button .o_field_statinfo .o_stat_text {
     font-size: $body-font-size - 0.07rem !important;
+}
+
+span.o_stat_value, span.o_stat_info.o_stat_value {
+    font-size: $body-font-size - 0.2rem !important;
 }
