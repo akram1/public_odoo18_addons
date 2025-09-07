@@ -53,7 +53,7 @@ class Tag(models.Model):
                                 readonly=True)
     req_category = fields.Many2one(
                     'tag.category', string='Required Category',
-                    domain="[('model_id', '=', model_id.id),"
+                    domain="[('model_id', '=', model_id),"
                            " ('id', '!=', fld_cat), ('cat_type', '=', 'tag')]",
                     help='This means you have to choose one tag of this '
                          'category if this tag is selected.'
@@ -126,7 +126,7 @@ class Tag(models.Model):
                      'this feature.')
     other_field = fields.Many2one(
                 'ir.model.fields', string='Other Field',
-                domain="[('model_id', '=', model_id.id), "
+                domain="[('model_id', '=', model_id), "
                         "('ttype', 'in', ['date', 'datetime'])]",
                 help='Choose a field of date or datetime to use it in Auto '
                      'Process.\nInstall Tag State Pro to activate this '
@@ -134,7 +134,7 @@ class Tag(models.Model):
     move_to_state = fields.Many2one(
                 'tag.tag', string='Move to State',
                 domain="[('id', '!=', id), ('cat_type', '=', 'state'), "
-                       "('model_id', '=', model_id.id)]",
+                       "('model_id', '=', model_id)]",
                 help='Choose the state to move to when doing auto process.'
                      '\nInstall Tag State Pro to activate this feature.')
 
